@@ -1,9 +1,15 @@
 
 export default {
   mode: 'universal',
-  /*
-  ** Headers of the page
-  */
+  router: {
+    extendRoutes(routes, resolve) {
+      routes.push({
+        name: 'custom',
+        path: '*',
+        component: resolve(__dirname, 'layouts/error.vue')
+      })
+    },
+  },
   head: {
     title: process.env.npm_package_name || '',
     meta: [
@@ -15,46 +21,53 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  /*
-  ** Customize the progress-bar color
-  */
   loading: { color: '#fff' },
-  /*
-  ** Global CSS
-  */
   css: [
+    '~assets/scss/main.scss',
   ],
-  /*
-  ** Plugins to load before mounting the App
-  */
+   pageTransition: {
+    name: 'page',
+    mode: 'out-in'
+  },
   plugins: [
   ],
-  /*
-  ** Nuxt.js dev-modules
-  */
   buildModules: [
   ],
-  /*
-  ** Nuxt.js modules
-  */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
   ],
-  /*
-  ** Axios module configuration
-  ** See https://axios.nuxtjs.org/options
-  */
+
   axios: {
+    // See https://github.com/nuxt-community/axios-module#options
   },
-  /*
-  ** Build configuration
-  */
+  generate: {
+    fallback: true,
+  },
   build: {
-    /*
-    ** You can extend webpack config here
-    */
-    extend (config, ctx) {
+    babel: {
+      presets({ isServer }) {
+        const targets = isServer ? { node: 'current' } : { ie: 11 }
+        return [
+          [require.resolve('@nuxt/babel-preset-app'), { targets }]
+        ]
+      }
+    },
+    postcss: {
+      plugins: {
+      },
+      preset: {
+        autoprefixer: {
+          grid: true,
+          flex: true
+        }
+      }
+    },
+    extend(config, ctx) {
+      /* config.module.rules.push({
+        test: /\.scss$/,
+        use: ["sass-loader", "postcss-loader"]
+      }); */
     }
   }
 }

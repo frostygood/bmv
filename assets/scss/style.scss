@@ -1,0 +1,79 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  padding-top: 60px;
+  &.block {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+}
+.wrapper {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  padding: 0 $sc_extralarge_margin;
+  max-width: $sc_extralarge_container;
+  width: 100%;
+  font-size: 0;
+  box-sizing: border-box;
+  @media (max-width: $sc_large_point) {
+    padding-left: $sc_large_margin;
+    padding-right: $sc_large_margin;
+      max-width: $sc_large_container;
+  }
+  @media (max-width: $sc_medium_point) {
+    padding-left: $sc_medium_margin;
+    padding-right: $sc_medium_margin;
+      max-width: $sc_medium_container;
+  }
+  @media (max-width: $sc_small_point) {
+      padding-left: $sc_small_margin;
+      padding-right: $sc_small_margin;
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 0;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .3s;
+}
+.fade-enter, .fade-leave-to  {
+  opacity: 0;
+}
+.left-in-enter-active, .left-in-leave-active {
+  transition: .5s;
+}
+.left-in-enter, .left-in-leave-to  {
+  transform: translateX(-100%)
+}
+
+// Page transition
+.page-enter-active, .page-leave-active {
+transition: opacity .3s;
+}
+.page-enter, .page-leave-active {
+opacity: 0;
+}
+
+.fade-tabs-enter-active, .top-slide-leave-active {
+  transition: opacity .6s;
+  opacity:1;
+}
+.fade-tabs-enter, .top-slide-leave-to  {
+  transition: opacity .6s;
+  opacity:0
+}
