@@ -37,6 +37,10 @@ body {
       padding-left: $sc_small_margin;
       padding-right: $sc_small_margin;
   }
+  @media (max-width: $min_point) {
+    padding-left: $min_margin;
+    padding-right: $min_margin;
+}
 }
 
 .overlay {
