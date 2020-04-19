@@ -4,6 +4,7 @@
 			<span class="close" @click="$store.commit('closeAllModals')">×</span>
 			<slot/>
 		</div>
+		<div class="overlay" @click="$store.commit('closeAllModals')"></div>
 	</div>
 </template>
 
@@ -30,11 +31,11 @@ export default {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	z-index: 5;
+	z-index: 4;
 }
 .modal {
 	z-index: 10;
-	width: 465px;
+	//width: 465px;
 	min-height: auto;
 	padding: 30px;
 	margin-left: 10px;
@@ -53,10 +54,10 @@ export default {
 }
 .close {
 	font-weight: 300;
-	font-size: 29px;
+	font-size: 70px;
 	color: #424242;
 	text-shadow: 0 1px 0 #424242;
-	opacity: 0.7;
+	opacity: 0.5;
 	cursor: pointer;
 	position: absolute;
 	top: 5px;
@@ -64,9 +65,20 @@ export default {
 	@include transition(0.1s);
 	line-height: 1;
 	&:hover, &:focus, &:active {
-		opacity: 0.5;
+		opacity: 1;
 		@include transition(0.1s);
 	}
 }
+.overlay {
+    display: block;
+    width: 100%;
+    min-width: 100vw;
+    height: 100%;
+    min-height: 100vh;
+    background: rgba(0,0,0,.88);
+    position: fixed;
+    z-index: 5;
+    cursor: pointer;
+  }
 </style>
 

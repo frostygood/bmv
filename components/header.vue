@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <nav class="wrapper">
-      <svg class="toogle" width="17" height="12" viewBox="0 0 16.67 11.67" shape-rendering="optimizeSpeed">
+      <svg @click="mobile = true" class="toogle" width="17" height="12" viewBox="0 0 16.67 11.67" shape-rendering="optimizeSpeed">
         <path d="M16.67,1.67V0H0V1.67Zm0,3.33V6.67H0V5Zm0,5v1.67H0V10Z"></path>
       </svg>
       <ul>
@@ -16,9 +16,15 @@
               <path d="M16.67,1.67V0H0V1.67Zm0,3.33V6.67H0V5Zm0,5v1.67H0V10Z"></path>
             </svg>
             Услуги</a>
+          <ul class="sub-menu">
+            <li><a href="">Промышленная вентиляция</a></li>
+            <li><a href="">Кондиционирование</a></li>
+            <li><a href="">Видеонаблюдение</a></li>
+            <li><a href="">Автоматика</a></li>
+          </ul>
         </li>
         <li class="li-menu">
-          <a href="" class='link-menu'>Компания</a>
+          <a href="" class='link-menu'>Наши объекты</a>
         </li>
         <li class="li-menu">
           <a href="" class='link-menu'>Статьи</a>
@@ -31,12 +37,29 @@
           <a href="mailto:manager@bmvcompany.ru" class='link-menu'>manager@bmvcompany.ru</a>
         </li>
         <li class='phone'>
-          <a href="" class='link-menu'>
+          <a href="#" class='link-menu' @click.prevent="$store.commit('openModal', 'contactUs')">
             <img src="/img/tel.svg" alt="">
           </a>
         </li>
       </ul>
     </nav>
+    <div class="mob-menu" :class="{'open': mobile}">
+      <img @click="mobile = false" src="/img/close.png" alt="close">
+      <ul>
+        <li><a @click="mobile = false" href="tel:+7(4712)34-24-33">+7(4712)34-24-33</a></li>
+        <li><a @click="mobile = false" href="">Услуги</a>
+          <!--<ul class="in-menu">
+            <li><a href="">Промышленная вентиляция</a></li>
+            <li><a href="">Кондиционирование</a></li>
+            <li><a href="">Видеонаблюдение</a></li>
+            <li><a href="">Автоматика</a></li>
+          </ul>-->
+        </li>
+        <li><a @click="mobile = false" href="">Наши объекты</a></li>
+        <li><a @click="mobile = false" href="">Статьи</a></li>
+        <li><a @click="mobile = false" href="">Контакты</a></li>
+      </ul>
+    </div>
   </div>
 </template>
 
@@ -44,6 +67,7 @@
 export default {
     data: function() {
         return {
+          mobile: false,
         }
     },
 }
@@ -66,6 +90,7 @@ export default {
     box-sizing: border-box;
     @media (max-width: $min_point){
       height: 60px;
+      position: fixed;
     }
     &:after {
       content: '';
@@ -78,6 +103,55 @@ export default {
     }
     &.fixed {
       position: fixed;
+    }
+  }
+  .mob-menu {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: -100%;
+    z-index: 2;
+    background: rgba(45, 65, 109, 0.88);
+    opacity: 0;
+    transition: .3s;
+    &.open {
+      opacity: 1;
+      left: 0;
+    }
+    >img {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      height: 40px;
+      filter: invert(1) drop-shadow(2px 4px 6px black);
+      cursor: pointer;
+    }
+    >ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+      padding-top: 70px;
+      box-sizing: border-box;
+      padding-bottom: 50px;
+      .in-menu {
+        max-width: 150px;
+        li {
+          list-style: disc;
+          color: white;
+          margin-bottom: 10px;
+        }
+      }
+      li {
+        a {
+          color: white;
+          text-decoration: none;
+          font-size: $base_font-size*1.4;
+          text-align: center;
+        }  
+      }
     }
   }
   nav {
@@ -169,9 +243,48 @@ export default {
         }
       }
       .drop-menu {
-        fill: #4d515c;
+        position: relative;
         @media (max-width: $sc_small_point){
           display: none;
+        }
+        &:hover .sub-menu {
+          max-height: 300px;
+          padding: 10px;
+          padding-top: 15px;
+          opacity: 1;
+          border: 1px solid black;
+          li {
+            font-size: $base_font-size;
+          }
+        }
+        .sub-menu {
+          position: absolute;
+          top: 15px;
+          left: 0;
+          background: white;
+          border: 0px solid black;
+          border-radius: 5px;
+          display: flex;
+          flex-direction: column;
+          width: 250%;
+          align-items: flex-start;
+          padding: 0;
+          z-index: 2;
+          overflow: hidden;
+          max-height: 0;
+          box-sizing: border-box;
+          transition: .3s;
+          li {
+            font-size: 0;
+            margin-bottom: 10px;
+            transition: .2s;
+            a {
+              text-decoration: none;
+              &:hover{
+                text-decoration: none;
+              }
+            }
+          }
         }
       }
       .drop-menu > a > svg {
