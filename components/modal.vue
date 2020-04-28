@@ -60,10 +60,10 @@ export default {
 	opacity: 0.5;
 	cursor: pointer;
 	position: absolute;
-	top: 5px;
-	right: 15px;
+	top: 20px;
+    right: 10px;
+    line-height: 0;
 	@include transition(0.1s);
-	line-height: 1;
 	&:hover, &:focus, &:active {
 		opacity: 1;
 		@include transition(0.1s);

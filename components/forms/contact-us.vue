@@ -21,6 +21,7 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+@import "~/assets/scss/_variables.scss";
 h2 {
 	font-size: 50px;
     line-height: 1em;
@@ -41,6 +42,13 @@ input {
     border-bottom: 2px solid #b5b6be;
 	transition: .2s;
 	color: #4D515C;
+	margin-right: 30px;
+	max-width: 500px;
+	width: 100%;
+	@media (max-width: $min_point){
+		max-width: 100%;
+		font-size: 30px;
+	}
 	&:hover {
 		outline: none;
 		border-bottom: 2px solid #4D515C;

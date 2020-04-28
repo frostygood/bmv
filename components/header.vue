@@ -26,9 +26,9 @@
         <li class="li-menu">
           <a href="" class='link-menu'>Наши объекты</a>
         </li>
-        <li class="li-menu">
+        <!--<li class="li-menu">
           <a href="" class='link-menu'>Статьи</a>
-        </li>
+        </li>-->
         <li class="li-menu">
           <a href="" class='link-menu'>Контакты</a>
         </li>
@@ -56,7 +56,7 @@
           </ul>-->
         </li>
         <li><a @click="mobile = false" href="">Наши объекты</a></li>
-        <li><a @click="mobile = false" href="">Статьи</a></li>
+        <!--<li><a @click="mobile = false" href="">Статьи</a></li>-->
         <li><a @click="mobile = false" href="">Контакты</a></li>
       </ul>
     </div>
@@ -131,7 +131,7 @@ export default {
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: space-between;
+      //justify-content: space-between;
       height: 100%;
       padding-top: 70px;
       box-sizing: border-box;
@@ -145,6 +145,7 @@ export default {
         }
       }
       li {
+        margin-bottom: 20px;
         a {
           color: white;
           text-decoration: none;
