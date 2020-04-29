@@ -17,7 +17,7 @@
             </svg>
             Услуги</a>
           <ul class="sub-menu">
-            <li><a href="">Промышленная вентиляция</a></li>
+            <li><nuxt-link to="/services/ventilation">Промышленная вентиляция</nuxt-link></li>
             <li><a href="">Кондиционирование</a></li>
             <li><a href="">Видеонаблюдение</a></li>
             <li><a href="">Автоматика</a></li>
@@ -47,7 +47,7 @@
       <img @click="mobile = false" src="/img/close.png" alt="close">
       <ul>
         <li><a @click="mobile = false" href="tel:+7(4712)34-24-33">+7(4712)34-24-33</a></li>
-        <li><a @click="mobile = false" href="">Услуги</a>
+        <li><nuxt-link to="/services" @click.native="mobile = false">Услуги</nuxt-link>
           <!--<ul class="in-menu">
             <li><a href="">Промышленная вентиляция</a></li>
             <li><a href="">Кондиционирование</a></li>
