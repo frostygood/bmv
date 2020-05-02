@@ -30,7 +30,7 @@
           <a href="" class='link-menu'>Статьи</a>
         </li>
         <li class="li-menu">
-          <a href="" class='link-menu'>Контакты</a>
+          <nuxt-link to="/contacts" class='link-menu' @click.native="mobile = false">Контакты</nuxt-link>
         </li>
         <li class='tel'>
           <a href="tel:+7(4712)34-24-33" class='link-menu'>+7(4712)34-24-33</a>
@@ -58,6 +58,7 @@
         <li><a @click="mobile = false" href="">Наши объекты</a></li>
         <li><a @click="mobile = false" href="">Статьи</a></li>
         <li><a @click="mobile = false" href="">Контакты</a></li>
+        <li><nuxt-link to="/contacts" @click.native="mobile = false">Контакты</nuxt-link></li>
       </ul>
     </div>
   </div>
