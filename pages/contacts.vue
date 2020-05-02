@@ -4,12 +4,11 @@
     <div class="right">
       <h2 class="h1">Офис</h2>
       <h3 class="h3">Россия, Курск, 1-я Щигровская улица, 52</h3>
-      <p class="p">Телефон: <a href="tel:+7(4742) 72-92-82">+7(4742) 72-92-82</a><br>
-      E-mail: <a href="emailto:info@klimat-lipetsk.ru">info@klimat-lipetsk.ru</a><br>
+      <p class="p">Телефон: <a href="tel:+7(4712)34-24-33">+7(4712)34-24-33</a><br>
+      E-mail: <a href="emailto:manager@bmvcompany.ru">manager@bmvcompany.ru</a><br>
       Понедельник — пятница, c 9:00 до 18:00</p>
     </div>
     <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A4dec71f8d2895eae8f9a4d4d22da0cdc4b3e2a5fed88ef68526fd6eb075035ff&amp;source=constructor" frameborder="0"></iframe>
-    
   </div>
 </template>
 
