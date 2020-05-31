@@ -1,4 +1,3 @@
-
 export default {
   mode: 'universal',
   router: {
@@ -36,13 +35,19 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    '@nuxt/content'
   ],
 
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
   },
   generate: {
-    fallback: true,
+    async routes () {
+      const { $content } = require('@nuxt/content')
+      const files = await $content('objects').sortBy('title').fetch()
+      console.log(files);
+      return files.map(file => file.path === '/index' ? '/' : file.path)
+    }
   },
   build: {
     babel: {

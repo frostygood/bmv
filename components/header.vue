@@ -24,7 +24,7 @@
           </ul>
         </li>
         <li class="li-menu">
-          <a href="" class='link-menu'>Наши объекты</a>
+          <nuxt-link to="/objects" class='link-menu'>Наши объекты</nuxt-link>
         </li>
         <li class="li-menu">
           <a href="" class='link-menu'>Статьи</a>
@@ -55,7 +55,7 @@
             <li><a href="">Автоматика</a></li>
           </ul>-->
         </li>
-        <li><a @click="mobile = false" href="">Наши объекты</a></li>
+        <li><nuxt-link to="/objects" @click.native="mobile = false">Наши объекты</nuxt-link></li>
         <li><a @click="mobile = false" href="">Статьи</a></li>
         <li><a @click="mobile = false" href="">Контакты</a></li>
         <li><nuxt-link to="/contacts" @click.native="mobile = false">Контакты</nuxt-link></li>
