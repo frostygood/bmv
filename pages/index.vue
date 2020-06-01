@@ -34,12 +34,36 @@
         <p>Поставщиков с нами работает</p>
       </div>
     </div>
+    <div class="floor3">
+      <h2 class="h1">Реализованные объекты</h2>
+      <div class="cards">
+        <card v-for="(item,n) in articles" :key="n" :img="item.imgUrl" :link="item.path" :name="item.title"></card>
+      </div>
+      <p class="p">
+        <nuxt-link to="/objects">Посмотреть ещё</nuxt-link>
+      </p>
+    </div>
   </div>
 </template>
 
 <script>
+import card from '~/components/blocks/object.vue'
 export default {
-
+  async asyncData ({ $content, params, error }) {
+    let articles
+    try {
+      articles = await $content('objects').limit(3).fetch();
+      //console.log(articles);
+    } catch (e) {
+      error({ message: 'Article not found' })
+    }
+    return {
+      articles,
+    }
+  },
+  components: {
+    card
+	},
 }
 </script>
 
@@ -145,6 +169,16 @@ export default {
         font-size: 14px;
       }
     }
+  }
+}
+.floor3 {
+  margin-bottom: 50px;
+  .h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .p {
+    text-align: center;
   }
 }
 </style>

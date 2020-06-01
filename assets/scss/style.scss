@@ -46,6 +46,14 @@ body {
   padding-top: 50px;
   padding-bottom: 100px;
 }
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .card {
+    max-width: 31%;
+  }
+}
 .h1 {
   font-size: 38px;
   font-weight: 700;
