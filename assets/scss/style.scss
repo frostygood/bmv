@@ -50,8 +50,16 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
   .card {
     max-width: 31%;
+    margin-bottom: 10px;
+    @media (max-width: $sc_medium_point) {
+      max-width: 49%;
+    }
+    @media (max-width: ($min_point - 150)) {
+      max-width: 100%;
+    }
   }
 }
 .h1 {
