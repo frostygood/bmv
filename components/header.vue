@@ -11,7 +11,7 @@
           </a>
         </li>
         <li class="drop-menu">
-          <a href="" class='link-menu'>
+          <a @click.prevent href="" class='link-menu'>
             <svg width="17" height="12" viewBox="0 0 16.67 11.67" shape-rendering="optimizeSpeed">
               <path d="M16.67,1.67V0H0V1.67Zm0,3.33V6.67H0V5Zm0,5v1.67H0V10Z"></path>
             </svg>

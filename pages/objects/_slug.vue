@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <h1>Объекты</h1>
-    <div>
+    <div class="block-content">
         <nuxt-content :document="article" />
     </div>
   </div>
@@ -31,8 +31,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.nuxt-content {
-  margin-bottom: 30px;
   h1 {
     font-size: 32px;
     font-weight: bold;
@@ -52,5 +50,4 @@ export default {
     display: block;
     margin-bottom: 15px;
   }
-}
 </style>
