@@ -31,23 +31,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  h1 {
-    font-size: 32px;
-    font-weight: bold;
-    line-height: 1.25;
-    padding-top: 30px;
-  }
-  p {
-    font-size: 16px;
-    font-weight: normal;
-    line-height: 1.5;
-    color: #000;
-    max-width: 800px;
-  }
-  img {
-    max-width: 100%;
-    max-height: 400px;
-    display: block;
-    margin-bottom: 15px;
-  }
+  
 </style>
