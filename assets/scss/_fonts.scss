@@ -236,3 +236,68 @@
        url('../../static/_vuepromo_fonts/Roboto_Condensed/RobotoCondensed-BoldItalic.ttf') format('truetype'); /* Safari, Android, iOS */
 }
 
+/* Montserrat Light */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('../../static/_vuepromo_fonts/Montserrat/Montserrat-Light.eot'); /* IE9 Compat Modes */
+    src: local('Montserrat'),
+    url('../../static/_vuepromo_fonts/Montserrat/Montserrat-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../../static/_vuepromo_fonts/Montserrat/Montserrat-Light.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../../static/_vuepromo_fonts/Montserrat/Montserrat-Light.woff') format('woff'), /* Modern Browsers */
+    url('../../static/_vuepromo_fonts/Montserrat/Montserrat-Light.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+/* Montserrat Medium */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('../../static/_vuepromo_fonts/Montserrat/Montserrat-Medium.eot'); /* IE9 Compat Modes */
+    src: local('Montserrat'),
+    url('../../static/_vuepromo_fonts/Montserrat/Montserrat-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../../static/_vuepromo_fonts/Montserrat/Montserrat-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../../static/_vuepromo_fonts/Montserrat/Montserrat-Medium.woff') format('woff'), /* Modern Browsers */
+    url('../../static/_vuepromo_fonts/Montserrat/Montserrat-Medium.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+/* Montserrat Semibold */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('../../static/_vuepromo_fonts/Montserrat/Montserrat-SemiBold.eot'); /* IE9 Compat Modes */
+    src: local('Montserrat'),
+    url('../../static/_vuepromo_fonts/Montserrat/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../../static/_vuepromo_fonts/Montserrat/Montserrat-SemiBold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../../static/_vuepromo_fonts/Montserrat/Montserrat-SemiBold.woff') format('woff'), /* Modern Browsers */
+    url('../../static/_vuepromo_fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+/* Montserrat Bold */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../../static/_vuepromo_fonts/Montserrat/Montserrat-Bold.eot'); /* IE9 Compat Modes */
+    src: local('Montserrat'),
+    url('../../static/_vuepromo_fonts/Montserrat/Montserrat-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../../static/_vuepromo_fonts/Montserrat/Montserrat-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../../static/_vuepromo_fonts/Montserrat/Montserrat-Bold.woff') format('woff'), /* Modern Browsers */
+    url('../../static/_vuepromo_fonts/Montserrat/Montserrat-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+/* Montserrat Black */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url('../../static/_vuepromo_fonts/Montserrat/Montserrat-Black.eot'); /* IE9 Compat Modes */
+    src: local('Montserrat'),
+    url('../../static/_vuepromo_fonts/Montserrat/Montserrat-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../../static/_vuepromo_fonts/Montserrat/Montserrat-Black.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../../static/_vuepromo_fonts/Montserrat/Montserrat-Black.woff') format('woff'), /* Modern Browsers */
+    url('../../static/_vuepromo_fonts/Montserrat/Montserrat-Black.ttf') format('truetype'); /* Safari, Android, iOS */
+}

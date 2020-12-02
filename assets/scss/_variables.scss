@@ -1,7 +1,8 @@
 // COLORS
-$color_primary_light: #1d19b7;
-$color_primary_dark: #1d19b7;
 $color_primary: #27357e;
+$color_primary_dark: #1d19b7;
+$color_primary_light: #4757a9;
+$color_primary_hover: #4d57a5;
 $color_link: #1d19b7;
 
 $color_secondary: black;
@@ -14,8 +15,8 @@ $color_third_light: white;
 
 $color_white: white;
 $color_grey_lite: #f5f5f5;
-$color_grey_light: #f2f2f2;
-$color_grey: #757575;
+$color_grey_light: #e8e8e8;
+$color_grey: #585858;
 $color_black: black;
 
 $color_red: #fb3048;
@@ -26,26 +27,28 @@ $color_orange: #ff8f00;
 $color_yellow: #ffa700;
 $color_teal: #00bb99;
 
+$font-size-s: 14px;
 $base_font-size: 16px;
 
-//points by ilya
-$min_point: 560px; /* 272-719 */
-$min_margin: 16px;
-
-$sc_small_point: 767px; /* 272-719 */
-$sc_small_margin: 24px;
 
 $sc_medium_point: 1024px;
-$sc_medium_container: 960px; /* 696 */
-$sc_medium_margin: 36px;
+$sc_medium_container: 732px; /* 696 */
 
-$sc_large_point: 1365px;
-$sc_large_container: 1200px; /* 936 */
-$sc_large_margin: 44.5px;
+$large_point: 1365px;
+$large_container: 1100px; /* 936 */
 
-$sc_extralarge_point: 1366px;
-$sc_extralarge_container: 1366px; /* 1224 */
-$sc_extralarge_margin: 71px;
+
+/* 1150+ */
+$sc20_big_box: 1110px;
+
+/* 768-1150 */
+$sc20_middle_point: 1149px;
+$sc20_middle_box: 732px;
+
+/* less 767 */
+$sc20_small_point: 767px;
+$sc20_small_box: 100%;
+$sc20_small_pd: 20px;
 
 
 //mixins

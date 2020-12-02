@@ -32,7 +32,7 @@ iframe {
     width: 400px;
     height: 300px;
   }
-  @media (max-width: $sc_small_point){
+  @media (max-width: $sc20_small_point){
     width: 100%;
     height: 250px;
   }
@@ -43,7 +43,7 @@ iframe {
   @media (max-width: $sc_medium_point){
     width: calc(100% - 450px);
   }
-  @media (max-width: $sc_small_point){
+  @media (max-width: $sc20_small_point){
     float: none;
     display: block;
     padding-bottom: 30px;
@@ -51,7 +51,7 @@ iframe {
   }
 }
 h2.h1 {
-  @media (max-width: $sc_small_point){
+  @media (max-width: $sc20_small_point){
     display: none;
   }
 }

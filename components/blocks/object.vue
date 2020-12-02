@@ -1,7 +1,9 @@
 <template>
 	<div class="card">
-		<img :src="img" :alt="link">
-		<nuxt-link class="link-card" :to="link">{{name}}</nuxt-link>
+		<div class="img-wrap">
+			<img :src="img" :alt="link">
+		</div>
+		<nuxt-link class="card__link" :to="link">{{name}}</nuxt-link>
 	</div>
 </template>
 
@@ -35,20 +37,47 @@ export default {
 @import "./assets/scss/_variables.scss";
 .card {
 	width: 100%;
-    border-radius: 5px;
-    background: $color_grey_light;
-    padding: 15px;
-    box-sizing: border-box;
+	padding: 0 16px;
+	text-align: center;
+	box-sizing: border-box;
+
+	@media (max-width: $sc20_small_point) {
+		display: flex;
+	}
+
+	.img-wrap {
+		position: relative;
+		&:after {
+			content: "";
+			border: 1px solid rgba(255,255,255,0.3);
+			position: absolute;
+			left: 10px;
+			top: 10px;
+			right: 10px;
+			bottom: 10px;
+		}
+	}
+
 	img {
 		width: 100%;
 		display: block;
-		margin-bottom: 20px;
+		margin-bottom: 32px;
+		border-radius: 2px;
+
+		@media (max-width: $sc20_small_point) {
+			width: 125px;
+			margin-right: 32px;
+		}
 	}
-	.link-card {
+	.card__link {
 		font-size: 16px;
-		color: #222;
+		color: $color_grey;
+		font-weight: 300;
+		text-decoration: none;
+
 		&:hover {
 			text-decoration: underline;
+			color: $color_primary;
 		}
 	}
 }

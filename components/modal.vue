@@ -48,7 +48,7 @@ export default {
 		0 40px 77px 0 rgba(0, 0, 0, 0.22);
 	box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2),
 		0 40px 77px 0 rgba(0, 0, 0, 0.22);
-	@media (max-width: $sc_small_point) {
+	@media (max-width: $sc20_small_point) {
 		max-width: 465px;
 	}
 }
