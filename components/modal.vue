@@ -1,7 +1,7 @@
 <template>
 	<div class="box">
 		<div class="modal">
-			<span class="close" @click="$store.commit('closeAllModals')">×</span>
+			<span class="close" @click="$store.commit('closeAllModals')"></span>
 			<slot/>
 		</div>
 		<div class="overlay" @click="$store.commit('closeAllModals')"></div>
@@ -35,15 +35,15 @@ export default {
 }
 .modal {
 	z-index: 10;
-	//width: 465px;
 	min-height: auto;
-	padding: 30px;
+	padding: 56px 30px 30px 30px;
 	margin-left: 10px;
 	margin-right: 10px;
 	border-radius: 2px;
 	background: #fff;
 	box-sizing: border-box;
 	position: relative;
+	background: $color_primary;
 	-webkit-box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2),
 		0 40px 77px 0 rgba(0, 0, 0, 0.22);
 	box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2),
@@ -53,21 +53,15 @@ export default {
 	}
 }
 .close {
-	font-weight: 300;
-	font-size: 70px;
-	color: #424242;
-	text-shadow: 0 1px 0 #424242;
-	opacity: 0.5;
+	display: inline-block;
 	cursor: pointer;
 	position: absolute;
-	top: 30px;
-    right: 20px;
-    line-height: 0;
-	@include transition(0.1s);
-	&:hover, &:focus, &:active {
-		opacity: 1;
-		@include transition(0.1s);
-	}
+	top: 24px;
+	right: 24px;
+	width: 25px;
+	height: 25px;
+	background: url(/img/close.svg) no-repeat;
+	background-size: cover;
 }
 .overlay {
     display: block;

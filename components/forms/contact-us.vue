@@ -36,6 +36,10 @@ export default {
 	@media (max-width: $sc20_small_point) {
 		align-items: center;
 	}
+
+	.h4 {
+		margin-right: 20px;
+	}
 }
 form {
 	display: flex;
