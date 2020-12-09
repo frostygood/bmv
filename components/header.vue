@@ -1,5 +1,5 @@
 <template>
-	<div class="header">
+	<div class="header" :class="{'content': $route.path != '/'}">
 		<nav class="wrapper header__menu-wrap">
 			<div class="header__logo">
 				<a href="/" title="На главную">
@@ -22,9 +22,15 @@
 							<li>
 								<nuxt-link to="/services/ventilation">Промышленная вентиляция</nuxt-link>
 							</li>
-							<li><a href="">Кондиционирование</a></li>
-							<li><a href="">Видеонаблюдение</a></li>
-							<li><a href="">Автоматика</a></li>
+							<li>
+								<nuxt-link to="/services/cold">Кондиционирование</nuxt-link>
+							</li>
+							<li>
+								<nuxt-link to="/services/video">Видеонаблюдение</nuxt-link>
+							</li>
+							<li>
+								<nuxt-link to="/services/automation">Автоматика</nuxt-link>
+							</li>
 						</ul>
 					</li>
 					<li class="header__menu-item">
@@ -72,10 +78,18 @@
 				<li>
 					<nuxt-link to="/services" @click.native="mobile = false">Услуги</nuxt-link>
 					<ul class="header__submenu_mobile">
-					  <li><a href="">Промышленная вентиляция</a></li>
-					  <li><a href="">Кондиционирование</a></li>
-					  <li><a href="">Видеонаблюдение</a></li>
-					  <li><a href="">Автоматика</a></li>
+						<li>
+							<nuxt-link @click.native="mobile = false" to="/services/ventilation">Промышленная вентиляция</nuxt-link>
+						</li>
+						<li>
+							<nuxt-link  @click.native="mobile = false" to="/services/cold">Кондиционирование</nuxt-link>
+						</li>
+						<li>
+							<nuxt-link @click.native="mobile = false" to="/services/video">Видеонаблюдение</nuxt-link>
+						</li>
+						<li>
+							<nuxt-link @click.native="mobile = false" to="/services/automation">Автоматика</nuxt-link>
+						</li>
 					</ul>
 				</li>
 				<li>

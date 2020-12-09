@@ -1,8 +1,12 @@
 <template>
   <div class="wrapper page-content">
-    <h1 class="h1">Объекты</h1>
+    <h1 class="h1 mb32">Объекты</h1>
     <div class="cards">
-       <card v-for="(item,n) in articles" :key="n" :img="item.imgUrl" :link="item.path" :name="item.title"></card>
+      <card v-for="(item,n) in articles" :key="n" 
+        :img="item.imgUrl" 
+        :link="item.path"
+        :name="item.title"
+        class="mb32"></card>
     </div>
   </div>
 </template>

@@ -36,7 +36,7 @@ export default {
 .modal {
 	z-index: 10;
 	min-height: auto;
-	padding: 56px 30px 30px 30px;
+	padding: 56px 30px 50px 30px;
 	margin-left: 10px;
 	margin-right: 10px;
 	border-radius: 2px;

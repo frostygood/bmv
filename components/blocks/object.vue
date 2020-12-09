@@ -1,10 +1,16 @@
 <template>
-	<div class="card">
+	<!-- <div class="card">
 		<div class="img-wrap">
 			<img :src="img" :alt="link">
 		</div>
 		<nuxt-link class="card__link" :to="link">{{name}}</nuxt-link>
-	</div>
+	</div> -->
+	<nuxt-link class='card' :to="link">
+		<div class="img-wrap">
+			<img :src="img" :alt="link">
+		</div>
+		<p class="card__link" :to="link">{{name}}</p>
+	</nuxt-link>
 </template>
 
 <script>
@@ -55,6 +61,7 @@ export default {
 			top: 10px;
 			right: 10px;
 			bottom: 10px;
+			transition: .3s;
 		}
 	}
 
@@ -74,8 +81,20 @@ export default {
 		color: $color_grey;
 		font-weight: 300;
 		text-decoration: none;
-
-		&:hover {
+		&:visited {
+			text-decoration: none;
+		}
+	}
+	&:hover {
+		.img-wrap {
+			&:after {
+				left: 3px;
+				top: 3px;
+				right: 3px;
+				bottom: 3px;
+			}
+		}
+		.card__link {
 			text-decoration: underline;
 			color: $color_primary;
 		}

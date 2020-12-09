@@ -19,6 +19,10 @@
 		height: 62px;
 		padding: 11px 0;
 		background: #ffffff;
+		&.content {
+			position: static;
+			border-bottom: 1px solid $color_primary;
+		}
 	}
 
 	&.fixed {
@@ -41,6 +45,19 @@
 		@media (max-width: $sc20_small_point) {
 			display: none;
 		}
+	}
+}
+.content {
+	position: static;
+	background: $color_primary;
+	@media (max-width: $sc20_small_point) {
+		background: white;
+	}
+	&::before {
+		background: #eeeeee;
+	}
+	.header__info {
+		justify-content: space-around;
 	}
 }
 .header__menu-wrap {
@@ -254,6 +271,10 @@
 	transition: .3s;
 	padding: 68px 20px 54px 20px;
 	box-sizing: border-box;
+	display: none;
+	@media (max-width: $sc20_small_point) {
+		display: block;
+	}
 
 	&.open {
 		opacity: 1;

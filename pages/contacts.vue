@@ -1,14 +1,21 @@
 <template>
   <div class="wrapper">
-    <h1 class="h1">Контакты</h1>
+    <h1 class="h1 mb32">Контакты</h1>
     <div class="right">
-      <h2 class="h1">Офис</h2>
-      <h3 class="h3">Россия, Курск, 1-я Щигровская улица, 52 оф.44</h3>
+      <h2 class="h1 mb16">Офис</h2>
+      <h3 class="h3 mb16">Россия, Курск, 1-я Щигровская улица, 52 оф.44</h3>
       <p class="p">Телефон: <a href="tel:+7(4712)34-24-33">+7(4712)34-24-33</a><br>
       E-mail: <a href="emailto:manager@bmvcompany.ru">manager@bmvcompany.ru</a><br>
       Понедельник — пятница, c 9:00 до 18:00</p>
     </div>
     <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A4dec71f8d2895eae8f9a4d4d22da0cdc4b3e2a5fed88ef68526fd6eb075035ff&amp;source=constructor" frameborder="0"></iframe>
+<br><br><br><br><br><br>
+        <div class="right">
+      <h2 class="h1 mb16">Производственная база</h2>
+      <h3 class="h3 mb16">Россия, Курск, улица Малых, 44АК1</h3>
+      <p class="p">Понедельник — пятница, c 9:00 до 18:00</p>
+    </div>
+    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab4a5f14bb66292d7e3e377c832ed889507efcd11c7f83e12658b724b619951e7&amp;source=constructor" frameborder="0"></iframe>
   </div>
 </template>
 
@@ -23,7 +30,7 @@ export default {
 .wrapper {
   margin-bottom: auto;
   padding-top: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 iframe {
   width: 500px;

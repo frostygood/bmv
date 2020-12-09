@@ -7,10 +7,18 @@
 						<div class="footer__list">
 							<div class="footer__title">услуги</div>
 							<ul>
-								<li><a href="#">Промышленная вентиляция</a></li>
-								<li><a href="#">Кондиционирование</a></li>
-								<li><a href="#">Видеонаблюдение</a></li>
-								<li><a href="#">Автоматика</a></li>
+								<li>
+									<nuxt-link to="/services/ventilation">Промышленная вентиляция</nuxt-link>
+								</li>
+								<li>
+									<nuxt-link to="/services/cold">Кондиционирование</nuxt-link>
+								</li>
+								<li>
+									<nuxt-link to="/services/video">Видеонаблюдение</nuxt-link>
+								</li>
+								<li>
+									<nuxt-link to="/services/automation">Автоматика</nuxt-link>
+								</li>
 							</ul>
 						</div>
 						<div class="footer__copy_mobile">BMV Engineering &copy; {{ new Date().getFullYear() }}</div>
