@@ -21,7 +21,27 @@
 
 <script>
 export default {
-
+head () {
+    return {
+      title: "",
+      description: "",
+			meta: [
+				{ hid: 'description', name: 'description', content: "" },
+				// Open Graph
+				{ hid: 'og:title', property: 'og:title', content: "" },
+				{ hid: 'og:description', property: 'og:description', content: "" },
+				{ hid: 'og:image', property: 'og:image', content: ""},
+				// Twitter Card
+				{ hid: 'twitter:title', name: 'twitter:title', content: "" },
+				{ hid: 'twitter:description', name: 'twitter:description', content: "" },
+				{ hid: 'twitter:image', name: 'twitter:image', content: "" },
+				// Google+. Schema.org
+				{ itemprop: 'title', content: "" },
+				{ itemprop: 'description', content: ""},
+				{ itemprop: 'image', content: ""},
+			]
+    }
+  }
 }
 </script>
 

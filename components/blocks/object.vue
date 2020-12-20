@@ -1,15 +1,10 @@
 <template>
-	<!-- <div class="card">
-		<div class="img-wrap">
-			<img :src="img" :alt="link">
-		</div>
-		<nuxt-link class="card__link" :to="link">{{name}}</nuxt-link>
-	</div> -->
 	<nuxt-link class='card' :to="link">
 		<div class="img-wrap">
 			<img :src="img" :alt="link">
 		</div>
 		<p class="card__link" :to="link">{{name}}</p>
+		<p class="card__desc" :to="link">{{desc}}</p>
 	</nuxt-link>
 </template>
 
@@ -26,6 +21,10 @@ export default {
 			type: String
 		},
 		name: {
+			default: '',
+			type: String
+		},
+		desc: {
 			default: '',
 			type: String
 		}
@@ -46,9 +45,12 @@ export default {
 	padding: 0 16px;
 	text-align: center;
 	box-sizing: border-box;
-
+	text-decoration: none;
+	margin-bottom: 40px;
 	@media (max-width: $sc20_small_point) {
 		display: flex;
+		flex-wrap: wrap;
+    	text-align: left;
 	}
 
 	.img-wrap {
@@ -68,7 +70,7 @@ export default {
 	img {
 		width: 100%;
 		display: block;
-		margin-bottom: 32px;
+		margin-bottom: 16px;
 		border-radius: 2px;
 
 		@media (max-width: $sc20_small_point) {
@@ -78,6 +80,16 @@ export default {
 	}
 	.card__link {
 		font-size: 16px;
+		color: $color_grey;
+		font-weight: 600;
+		text-decoration: none;
+		margin-bottom: 8px;
+		&:visited {
+			text-decoration: none;
+		}
+	}
+	.card__desc {
+		font-size: 14px;
 		color: $color_grey;
 		font-weight: 300;
 		text-decoration: none;

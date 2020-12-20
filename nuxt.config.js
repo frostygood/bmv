@@ -45,7 +45,7 @@ export default {
     async routes () {
       const { $content } = require('@nuxt/content')
       const files = await $content('objects').sortBy('title').fetch()
-      console.log(files);
+      //console.log(files);
       return files.map(file => file.path === '/index' ? '/' : file.path)
     }
   },

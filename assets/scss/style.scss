@@ -260,13 +260,26 @@ a {
 		line-height: 1.5;
 		color: #000;
 		max-width: 800px;
+		margin-bottom: 20px;
 	}
 
 	img {
-		max-width: 100%;
+		width: 100%;
+		max-width: 300px;
 		max-height: 400px;
 		display: block;
-		margin-bottom: 15px;
+		margin-bottom: 28px;
+		display: inline-block;
+		vertical-align: top;
+	}
+	
+	ul {
+		margin-bottom: 32px;
+		li {
+			margin-left: 20px;
+			list-style: disc;
+			margin-bottom: 16px;
+		}
 	}
 }
 
