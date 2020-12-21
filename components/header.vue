@@ -37,7 +37,7 @@
 						<nuxt-link to="/objects" class="header__link">Наши объекты</nuxt-link>
 					</li>
 					<li class="header__menu-item">
-						<a href="" class="header__link">Статьи</a>
+						<nuxt-link to="/articles" class="header__link">Статьи</nuxt-link>
 					</li>
 					<li class="header__menu-item">
 						<nuxt-link to="/contacts" class="header__link" @click.native="mobile = false">Контакты</nuxt-link>
@@ -95,8 +95,12 @@
 				<li>
 					<nuxt-link to="/objects" @click.native="mobile = false">Наши объекты</nuxt-link>
 				</li>
-				<li><a @click="mobile = false" href="">Статьи</a></li>
-				<li><nuxt-link to="/contacts" @click.native="mobile = false">Контакты</nuxt-link></li>
+				<li>
+					<nuxt-link to="/articles" @click.native="mobile = false">Статьи</nuxt-link>
+				</li>
+				<li>
+					<nuxt-link to="/contacts" @click.native="mobile = false">Контакты</nuxt-link>
+				</li>
 			</ul>
 			<div class="header__right-info">
 				<div class="header__contacts">

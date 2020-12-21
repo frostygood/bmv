@@ -44,8 +44,9 @@ export default {
   generate: {
     async routes () {
       const { $content } = require('@nuxt/content')
-      const files = await $content('objects').sortBy('title').fetch()
-      //console.log(files);
+      const objects = await $content('objects').sortBy('title').fetch()
+      const articles = await $content('articles').sortBy('title').fetch()
+      const files = objects.concat(articles)
       return files.map(file => file.path === '/index' ? '/' : file.path)
     }
   },

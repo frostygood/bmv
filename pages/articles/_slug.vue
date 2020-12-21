@@ -1,11 +1,11 @@
 <template>
   <div class="wrapper">
-    <p><nuxt-link to='/objects'>К списку объектов</nuxt-link></p>
+    <p><nuxt-link to='/articles'>К списку статей</nuxt-link></p>
     <h1>{{article.title}}</h1>
     <img class="title-img" :src="article.imgUrl" :alt="article.title">
     <div class="block-content">
         <nuxt-content :document="article" />
-        <p><nuxt-link to='/objects'>К списку объектов</nuxt-link></p>
+        <p><nuxt-link to='/articles'>К списку статей</nuxt-link></p>
     </div>
   </div>
 </template>
@@ -15,7 +15,7 @@ export default {
     async asyncData ({ $content, params, error }) {
       let article
       try {
-        article = await $content('objects', params.slug).fetch()
+        article = await $content('articles', params.slug).fetch()
       } catch (e) {
         error({ message: 'Article not found' })
       }

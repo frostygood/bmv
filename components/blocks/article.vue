@@ -4,7 +4,7 @@
 			<img :src="img" :alt="link">
 		</div>
 		<p class="card__link" :to="link">{{name}}</p>
-		<p class="card__desc" :to="link">{{desc}}</p>
+		<!-- <p class="card__desc" :to="link">{{desc}}</p> -->
 	</nuxt-link>
 </template>
 
@@ -64,6 +64,9 @@ export default {
 			right: 10px;
 			bottom: 10px;
 			transition: .3s;
+		}
+		@media (max-width: $sc20_small_point) {
+			display: none;
 		}
 	}
 
