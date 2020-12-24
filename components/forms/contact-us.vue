@@ -1,23 +1,55 @@
 <template>
 	<div class="contacts__form">
 		<h4 class="h4 text-uppercase">Заказать звонок</h4>
-		<form action="">
-			<input type="email" placeholder="+7 999 999-99-99">
-			<a href="#" class="button transparent-white">Отправить</a>
+		<form action="" ref="whitePaperForm">
+			<input 
+				type="tel" 
+				:class="{'error': email && !validPhone}" 
+				placeholder="+7 999 999-99-99" 
+				v-model.trim.lazy="email">
+			<button @click.prevent="send()" class="button transparent-white">Отправить</button>
 		</form>
 	</div>
 </template>
 
 <script>
+import Axios from 'axios'
 export default {
 	data() {
-		return {}
+		return {
+			access: false,
+			email: ''
+		}
+	},
+	computed: {
+		validPhone() {
+			return /^[0-9()+-]*$/i.test(this.email);
+		}
+	},
+	mounted() {
+		setTimeout(() => this.access = true, 3000);
 	},
 	methods: {
-
-	},
-	computed: {},
-
+		send() {
+			if (this.access && /^[0-9()+-]*$/i.test(this.email)) {
+				let form = this.$refs.whitePaperForm;
+				let oData = new FormData(form);
+				oData.append("url", window.location.href);
+				oData.append("email", this.email);
+				Axios({
+					method: "post",
+					url: "/subscribe.php",
+					data: oData
+				}).then(response => {
+					alert("Мы получили Ваш запрос и свяжемся в ближайшее время!")
+					this.email = '';
+					return console.log(response);
+				}).catch(error => {
+					return console.log(["Error", error.response]);
+				});
+			}
+		}
+	}
 };
 </script>
 <style lang="scss" scoped>
@@ -73,7 +105,12 @@ input {
 	color: $color_grey;
 	margin-right: 26px;
 	width: 378px;
-
+	&:focus {
+		outline: none;
+	}
+	&.error {
+		border: 1px solid red;
+	}
 	@media (max-width: $sc20_small_point) {
 		width: 100%;
 		margin-right: 0;
