@@ -166,6 +166,8 @@
 import card from '~/components/blocks/object.vue'
 import formContact from '~/components/forms/contact-us.vue'
 import principlesText from '~/components/blocks/principles-text.vue'
+import config from '~/json/config.json'
+
 
 export default {
 	async asyncData({$content, params, error}) {
@@ -181,9 +183,9 @@ export default {
 		}
 	},
 	head () {
-    return {
-      title: "",
-      description: "",
+		return {
+			title: "",
+			description: "",
 			meta: [
 				{ hid: 'description', name: 'description', content: "" },
 				// Open Graph
@@ -198,9 +200,12 @@ export default {
 				{ itemprop: 'title', content: "" },
 				{ itemprop: 'description', content: ""},
 				{ itemprop: 'image', content: ""},
+			],
+			link: [
+				{ rel: "canonical", href: config.url }
 			]
-    }
-  },
+		}
+  	},
 	components: {
 		card,
 		formContact,

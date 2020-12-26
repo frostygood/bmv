@@ -13,6 +13,7 @@
 </template>
 
 <script>
+import config from '~/json/config.json'
 import card from '~/components/blocks/article.vue'
 export default {
   async asyncData ({ $content, params, error }) {
@@ -48,6 +49,9 @@ export default {
 				{ itemprop: 'title', content: "" },
 				{ itemprop: 'description', content: ""},
 				{ itemprop: 'image', content: ""},
+			],
+			link: [
+				{ rel: "canonical", href: config.url + '/' + this.$route.path }
 			]
     }
   }

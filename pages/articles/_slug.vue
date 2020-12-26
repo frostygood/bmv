@@ -11,6 +11,7 @@
 </template>
 
 <script>
+import config from '~/json/config.json'
 export default {
     async asyncData ({ $content, params, error }) {
       let article
@@ -41,6 +42,9 @@ export default {
 				{ itemprop: 'title', content: this.article.title },
 				{ itemprop: 'description', content: this.article.description },
 				{ itemprop: 'image', content: this.article.imgUrl},
+			],
+			link: [
+				{ rel: "canonical", href: config.url + '/' + this.article.path }
 			]
     }
   }

@@ -78,6 +78,7 @@
 
 <script>
 import formContact from '~/components/forms/contact-us.vue'
+import config from '~/json/config.json'
 export default {
 components: {
 		formContact
@@ -100,6 +101,9 @@ components: {
 				{ itemprop: 'title', content: "" },
 				{ itemprop: 'description', content: ""},
 				{ itemprop: 'image', content: ""},
+			],
+			link: [
+				{ rel: "canonical", href: config.url + '/' + this.$route.name }
 			]
     }
   }

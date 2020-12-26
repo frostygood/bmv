@@ -14,6 +14,7 @@
 
 <script>
 import card from '~/components/blocks/object.vue'
+import config from '~/json/config.json'
 export default {
   async asyncData ({ $content, params, error }) {
     let articles
@@ -48,6 +49,9 @@ export default {
 				{ itemprop: 'title', content: "" },
 				{ itemprop: 'description', content: ""},
 				{ itemprop: 'image', content: ""},
+			],
+			link: [
+				{ rel: "canonical", href: config.url + '/' + this.$route.name }
 			]
     }
   }
