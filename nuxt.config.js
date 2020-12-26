@@ -9,7 +9,7 @@ const generateRoutes = async () => {
 }
 
 export default {
-  ssr: false,
+  ssr: true,
   target: 'static',
   router: {
     extendRoutes(routes, resolve) {
