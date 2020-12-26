@@ -183,26 +183,28 @@ export default {
 		}
 	},
 	head () {
+		let title = 'Компания BMV Engineering БМВ Курск';
+		let description = 'Более 20 лет занимаемся вентиляцией, автоматикой и кондиционированием';
+		let img = '/img/footer-logo.png'
 		return {
-			title: "",
-			description: "",
+			title: title,
 			meta: [
-				{ hid: 'description', name: 'description', content: "" },
+				{ hid: 'description', name: 'description', content: description },
 				// Open Graph
-				{ hid: 'og:title', property: 'og:title', content: "" },
-				{ hid: 'og:description', property: 'og:description', content: "" },
-				{ hid: 'og:image', property: 'og:image', content: ""},
+				{ hid: 'og:title', property: 'og:title', content: title },
+				{ hid: 'og:description', property: 'og:description', content: description },
+				{ hid: 'og:image', property: 'og:image', content: img},
 				// Twitter Card
-				{ hid: 'twitter:title', name: 'twitter:title', content: "" },
-				{ hid: 'twitter:description', name: 'twitter:description', content: "" },
-				{ hid: 'twitter:image', name: 'twitter:image', content: "" },
+				{ hid: 'twitter:title', name: 'twitter:title', content: title },
+				{ hid: 'twitter:description', name: 'twitter:description', content: description },
+				{ hid: 'twitter:image', name: 'twitter:image', content: img },
 				// Google+. Schema.org
-				{ itemprop: 'title', content: "" },
-				{ itemprop: 'description', content: ""},
-				{ itemprop: 'image', content: ""},
+				{ itemprop: 'title', content: title },
+				{ itemprop: 'description', content: description},
+				{ itemprop: 'image', content: img},
 			],
 			link: [
-				{ rel: "canonical", href: config.url }
+				{ rel: "canonical", href: config.url + '/' + this.$route.name }
 			]
 		}
   	},
