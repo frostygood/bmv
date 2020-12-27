@@ -48,8 +48,12 @@ export default {
     '@nuxtjs/robots',
     '@nuxtjs/yandex-metrika'
   ],
+  content: {
+    liveEdit: false,
+    fullTextSearchFields: ['title']
+  },  
   yandexMetrika: {
-    id: '70839070',
+    id: config.metrica,
     webvisor: true,
     clickmap:true,
     useCDN:true,
@@ -70,11 +74,11 @@ export default {
 		}
   ],
   sitemap: {
-    defaults: {
-      changefreq: 'daily',
-      priority: 1,
-      lastmod: new Date()
-    },
+    // defaults: {
+    //   changefreq: 'daily',
+    //   priority: 1,
+    //   lastmod: new Date()
+    // },
     path: '/sitemap.xml',
     hostname: config.url,
     gzip: true,
@@ -86,7 +90,6 @@ export default {
     routes: generateRoutes
   },
   axios: {
-    // See https://github.com/nuxt-community/axios-module#options
   },
   generate: {
     routes: generateRoutes

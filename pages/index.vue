@@ -171,9 +171,12 @@ import config from '~/json/config.json'
 
 export default {
 	async asyncData({$content, params, error}) {
-		let articles
+		let articles;
 		try {
-			articles = await $content('objects').limit(3).fetch();
+			let obj1 = await $content('objects').search('CENTRAL PARK').limit(1).fetch();
+			let obj2 = await $content('objects').search('КУРСКАЯ ГОРОДСКАЯ КЛИНИЧЕСКАЯ БОЛЬНИЦА СКОРОЙ МЕДИЦИНСКОЙ ПОМОЩИ').limit(1).fetch();
+			let obj3 = await $content('objects').search('ООО “ГРИБНАЯ РАДУГА”').limit(1).fetch();
+			articles = obj1.concat(obj2, obj3)
 			//console.log(articles);
 		} catch (e) {
 			error({message: 'Article not found'})

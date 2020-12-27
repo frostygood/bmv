@@ -208,17 +208,17 @@
 	margin-bottom: 52px;
 }
 .objects__cards {
-	margin-bottom: 78px;
+	//margin-bottom: 78px;
 
 	@media (max-width: $sc20_middle_point) {
-		margin-bottom: 48px;
+		//margin-bottom: 48px;
 
 		.card:nth-child(3n) {
 			display: none;
 		}
 	}
 	@media (max-width: $sc20_small_point) {
-		margin-bottom: 0;
+		//margin-bottom: 0;
 
 		.card:nth-child(3n) {
 			display: flex;

@@ -1,10 +1,8 @@
 <template>
 	<nuxt-link class='card' :to="link">
-		<div class="img-wrap">
-			<img :src="img" :alt="link">
-		</div>
+		<div class="img-wrap" :style='url'></div>
 		<p class="card__link" :to="link">{{name}}</p>
-		<p class="card__desc" :to="link">{{desc}}</p>
+		<p v-if="desc" class="card__desc" :to="link">{{desc}}</p>
 	</nuxt-link>
 </template>
 
@@ -32,7 +30,9 @@ export default {
 	components: {
 	},
 	data() {
-		return {};
+		return {
+			url: 'background-image: url("' + this.img + '");'
+		};
 	},
 };
 </script>
@@ -55,6 +55,11 @@ export default {
 
 	.img-wrap {
 		position: relative;
+		width: 350px;
+		height: 260px;
+		background-size: cover;
+		margin-bottom: 16px;
+		overflow: hidden;
 		&:after {
 			content: "";
 			border: 1px solid rgba(255,255,255,0.3);
@@ -65,16 +70,9 @@ export default {
 			bottom: 10px;
 			transition: .3s;
 		}
-	}
-
-	img {
-		width: 100%;
-		display: block;
-		margin-bottom: 16px;
-		border-radius: 2px;
-
 		@media (max-width: $sc20_small_point) {
 			width: 125px;
+			height: 125px;
 			margin-right: 32px;
 		}
 	}
@@ -93,11 +91,22 @@ export default {
 		color: $color_grey;
 		font-weight: 300;
 		text-decoration: none;
+
+		overflow: hidden;
+		line-clamp: 5;
+		box-orient: vertical;
+		text-overflow: ellipsis;
+		display: -moz-box;
+		-moz-box-orient: vertical;
+		display: -webkit-box;
+		-webkit-line-clamp: 5;
+		-webkit-box-orient: vertical;
+		height: 80px;
 		&:visited {
 			text-decoration: none;
 		}
 		@media (max-width: $sc20_small_point) {
-			padding-bottom: 20px;
+			//padding-bottom: 20px;
 			border-bottom: 1px solid grey;
 		}
 	}
