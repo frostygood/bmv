@@ -2,8 +2,23 @@
   <div class="wrapper page-content">
     <div class="text">
       <h1 class="h1 mb32">Кондиционирование в Курске</h1>
-
-      
+	  <p class="p mb16">Сотрудники компании «BMV Engineering» профессионально спроектируют и смонтируют 
+		  системы кондиционирования воздуха на любом объекте, от бытовых помещений до промышленных 
+		  предприятий. Работаем в Курской области и за её пределами. В Воронежской, Липецкой, 
+		  Белгородской, Рязанской, Тульской, Тамбовской и многих других. На рынке более 20 лет. 
+		  Вот только некоторые компании, с которыми сотрудничали за это время:</p>
+      <ul class="mb32">
+        <li><p class="p">Управление капитального строительства Курской области.</p></li>
+        <li><p class="p">Комитет здравоохранения Курской области. Сеть торговых комплексов «СтройГигант»;</p></li>
+        <li><p class="p">ООО «Курскэнерго»;</p></li>
+        <li><p class="p">ОАО «Курское областное ипотечное агентство»;</p></li>
+        <li><p class="p">Сеть кафе «Жар-Пицца»;</p></li>
+		<li><p class="p">Сеть торговых комплексов «СтройГигант»;</p></li>
+        <li><p class="p">Страховая компания «АСКО»;</p></li>
+        <li><p class="p">Единая дежурно-диспетчерская служба города Курска;</p></li>
+        <li><p class="p">ООО «Грибная радуга»;</p></li>
+        <li><p class="p">Здание Администрации г. Курчатова.</p></li>
+      </ul>
     </div>
     <div class="floor-contacts mb32" style="padding: 40px;">
       <div class="wrapper">
@@ -11,38 +26,84 @@
       </div>
     </div>
     <div class="text">
- 
+		<h2 class="h3 mb16">КАК ВСЁ ПРОХОДИТ?</h2>
+		<h3 class="h2 mb8">Этап 1. Подготовка</h3>
+		<p class="p mb16">Собираем и анализируем информацию, чтобы составить грамотное техническое задание. 
+			От этого зависит успех дела. Так, нам важно найти теплопритоки, в том числе скрытые от людей, 
+			оборудования и ограждающих конструкций. Если упустить хотя бы один теплоприток, не получится 
+			создать нужный микроклимат. Важны и факторы, что влияют на чистоту и влажность воздуха. 
+			Неверно подобранные условия приведут к быстрому износу оборудования и не достижению 
+			требуемого микроклимата.</p>
+		<p class="p mb16">Все эти сложности и тонкости берём на себя. Наши специалисты учтут все особенности 
+			вашего предприятия, а также оценят, можно ли использовать на нём вторичные ресурсы. 
+			Это позволит сэкономить, снизив эксплуатационные расходы, улучшит работу систем 
+			кондиционирования.</p>
+		<h3 class="h2 mb8">Этап 2. Детализация</h3>
+		<p class="p mb8">После составления и согласования технического задания приступаем к выбору 
+			системы кондиционирования. В нашем арсенале самые действенные, современные и 
+			проверенные решения:</p>
+		<ul class="mb32">
+			<li><p class="p">Мультисплит-системы;</p></li>
+			<li><p class="p">Прецизионные кондиционеры;</p></li>
+			<li><p class="p">Мультизональные системы;</p></li>
+			<li><p class="p">Системы на базе чиллер-фанкойлов;</p></li>
+			<li><p class="p">Руфтопы.</p></li>
+		</ul>
+		<p class="p mb16">Выбор зависит от площади объекта, вашего бюджета, требований к точности 
+			заданной температуры, нюансов монтажа, простоты обслуживания, совмещения систем 
+			кондиционирования с вентиляционным блоком и других факторов. Зная и учитывая их, 
+			всегда предлагаем минимум два варианта решения и оцениваем стоимость каждого. 
+			Если хотите использовать энергосберегающие технологии, подскажем, насколько это 
+			экономично, рассчитаем срок окупаемости.</p>
+		<h3 class="h2 mb8">Этап 3. Реализация проекта</h3>
+		<p class="p mb16">Гарантируем выполнение работы с учётом ваших требований. Для этого наши 
+			сотрудники всё время будут на связи. Сделаем быстро и качественно. Для этого наша 
+			компания регулярно расширяет парк инструментов и оборудования. Инженеры «BMV Engineering» 
+			контролируют выполнение, постоянно находясь на предприятии.</p>
+		<h3 class="h2 mb8">Этап 4. Пусконаладка и сдача в эксплуатацию</h3>
+		<p class="p mb16">На этом этапе собранную и смонтированную систему запускаем и делаем стабильной, 
+			устраняем неполадки. Готовим необходимые документы. Консультируем ваш персонал, как 
+			правильно работать с новым оборудованием.</p>
+		<h3 class="h2 mb8">КУДА ОБРАЩАТЬСЯ?</h3>
+		<p class="p mb16">Пишите на почту manager@bmvcompany.ru. 
+			Звоните по телефону +7(4712)34-24-33. Наши сотрудники проконсультируют бесплатно.</p>
     </div>
   </div>
 </template>
 
 <script>
 import formContact from '~/components/forms/contact-us.vue'
+import config from '~/json/config.json'
 export default {
 components: {
 		formContact
   },
-  head () {
-    return {
-      title: "",
-      description: "",
-			meta: [
-				{ hid: 'description', name: 'description', content: "" },
-				// Open Graph
-				{ hid: 'og:title', property: 'og:title', content: "" },
-				{ hid: 'og:description', property: 'og:description', content: "" },
-				{ hid: 'og:image', property: 'og:image', content: ""},
-				// Twitter Card
-				{ hid: 'twitter:title', name: 'twitter:title', content: "" },
-				{ hid: 'twitter:description', name: 'twitter:description', content: "" },
-				{ hid: 'twitter:image', name: 'twitter:image', content: "" },
-				// Google+. Schema.org
-				{ itemprop: 'title', content: "" },
-				{ itemprop: 'description', content: ""},
-				{ itemprop: 'image', content: ""},
+	head () {
+		let title = 'Кондиционирование в Курске';
+		let description = '«BMV Engineering» профессионально спроектируют и смонтируют системы кондиционирования воздуха на любом объекте, от бытовых помещений до промышленных предприятий.';
+		let img = '/img/footer-logo.png'
+		return {
+			title: title,
+				meta: [
+					{ hid: 'description', name: 'description', content: description },
+					// Open Graph
+					{ hid: 'og:title', property: 'og:title', content: title },
+					{ hid: 'og:description', property: 'og:description', content: description },
+					{ hid: 'og:image', property: 'og:image', content: img},
+					// Twitter Card
+					{ hid: 'twitter:title', name: 'twitter:title', content: title },
+					{ hid: 'twitter:description', name: 'twitter:description', content: description },
+					{ hid: 'twitter:image', name: 'twitter:image', content: img },
+					// Google+. Schema.org
+					{ itemprop: 'title', content: title },
+					{ itemprop: 'description', content: description},
+					{ itemprop: 'image', content: img},
+				],
+			link: [
+				{ rel: "canonical", href: config.url + '/' + this.$route.name }
 			]
-    }
-  }
+		}
+  	},
 }
 </script>
 

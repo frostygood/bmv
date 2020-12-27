@@ -1,5 +1,16 @@
+import config from './json/config.json'
+console.log(config)
+  
+const generateRoutes = async () => {
+  const { $content } = require('@nuxt/content')
+  let objects = await $content('objects').sortBy('title').fetch()
+  let articles = await $content('articles').sortBy('title').fetch()
+  return objects.concat(articles).map(file => file.path === '/index' ? '/' : file.path)
+}
+
 export default {
-  mode: 'universal',
+  ssr: true,
+  target: 'static',
   router: {
     extendRoutes(routes, resolve) {
       routes.push({
@@ -10,11 +21,9 @@ export default {
     },
   },
   head: {
-    title: process.env.npm_package_name || '',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -33,22 +42,54 @@ export default {
   buildModules: [
   ],
   modules: [
-    // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxtjs/sitemap',
+    '@nuxtjs/robots',
+    '@nuxtjs/yandex-metrika'
   ],
-
+  yandexMetrika: {
+    id: '70839070',
+    webvisor: true,
+    clickmap:true,
+    useCDN:true,
+    trackLinks:true,
+    accurateTrackBounce:true,
+  },
+  robots: [
+    {
+			UserAgent: '*',
+			Disallow: ''
+    },
+    {
+      UserAgent: '*',
+      Allow: '/'
+    },
+		{
+			Sitemap: config.url + '/sitemap.xml'
+		}
+  ],
+  sitemap: {
+    defaults: {
+      changefreq: 'daily',
+      priority: 1,
+      lastmod: new Date()
+    },
+    path: '/sitemap.xml',
+    hostname: config.url,
+    gzip: true,
+    generate: true,
+    exclude: [
+      '/secret',
+      '/admin/**'
+    ],
+    routes: generateRoutes
+  },
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
   },
   generate: {
-    async routes () {
-      const { $content } = require('@nuxt/content')
-      const objects = await $content('objects').sortBy('title').fetch()
-      const articles = await $content('articles').sortBy('title').fetch()
-      const files = objects.concat(articles)
-      return files.map(file => file.path === '/index' ? '/' : file.path)
-    }
+    routes: generateRoutes
   },
   build: {
     babel: {
