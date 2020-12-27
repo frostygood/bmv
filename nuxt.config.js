@@ -45,8 +45,17 @@ export default {
     '@nuxtjs/axios',
     '@nuxt/content',
     '@nuxtjs/sitemap',
-    '@nuxtjs/robots'
+    '@nuxtjs/robots',
+    '@nuxtjs/yandex-metrika'
   ],
+  yandexMetrika: {
+    id: '70839070',
+    webvisor: true,
+    clickmap:true,
+    useCDN:true,
+    trackLinks:true,
+    accurateTrackBounce:true,
+  },
   robots: [
     {
 			UserAgent: '*',
