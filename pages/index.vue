@@ -166,9 +166,7 @@
 import card from '~/components/blocks/object.vue'
 import formContact from '~/components/forms/contact-us.vue'
 import principlesText from '~/components/blocks/principles-text.vue'
-import config from '~/json/config.json'
-
-
+import conf from '~/json/config.json'
 export default {
 	async asyncData({$content, params, error}) {
 		let articles;
@@ -207,7 +205,7 @@ export default {
 				{ itemprop: 'image', content: img},
 			],
 			link: [
-				{ rel: "canonical", href: config.url + '/' + this.$route.name }
+				{ rel: "canonical", href: conf.url + '/' + this.$route.name }
 			]
 		}
   	},
@@ -219,6 +217,7 @@ export default {
 	data: function () {
 		return {
 			isOpened: false,
+			config: conf
 		}
 	},
 	methods: {

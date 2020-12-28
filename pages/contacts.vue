@@ -3,9 +3,9 @@
     <h1 class="h1 mb32">Контакты</h1>
     <div class="right">
       <h2 class="h1 mb16">Офис</h2>
-      <h3 class="h3 mb16">Россия, Курск, 1-я Щигровская улица, 52 оф.44</h3>
-      <p class="p">Телефон: <a href="tel:+7(4712)34-24-33">+7(4712)34-24-33</a><br>
-      E-mail: <a href="emailto:manager@bmvcompany.ru">manager@bmvcompany.ru</a><br>
+      <h3 class="h3 mb16">{{config.address}}</h3>
+      <p class="p">Телефон: <a :href="'tel:' + config.phone">{{config.phone}}</a><br>
+      E-mail: <a :href="'mailto:' + config.email">{{config.email}}</a><br>
       Понедельник — пятница, c 9:00 до 18:00</p>
     </div>
     <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A4dec71f8d2895eae8f9a4d4d22da0cdc4b3e2a5fed88ef68526fd6eb075035ff&amp;source=constructor" frameborder="0"></iframe>
@@ -20,11 +20,16 @@
 </template>
 
 <script>
-import config from '~/json/config.json'
+import conf from '~/json/config.json'
 export default {
+  data: function () {
+            return {  
+				      config: conf
+            }
+        },
 	head () {
 		let title = 'Контакты - БМВ Курск - BMV Engineering';
-		let description = '+7(4712)34-24-33 - Россия, Курск, 1-я Щигровская улица, 52 оф.44';
+		let description = this.config.phone + ' - ' + this.config.address;
 		let img = '/img/footer-logo.png'
 		return {
 			title: title,
@@ -44,7 +49,7 @@ export default {
 					{ itemprop: 'image', content: img},
 				],
 			link: [
-				{ rel: "canonical", href: config.url + '/' + this.$route.name }
+				{ rel: "canonical", href: conf.url + '/' + this.$route.name }
 			]
 		}
   	},

@@ -31,6 +31,15 @@
 							<li>
 								<nuxt-link to="/services/automation">Автоматика</nuxt-link>
 							</li>
+							<li>
+								<nuxt-link to="/services/heat">Тепловое оборудование</nuxt-link>
+							</li>
+							<li>
+								<nuxt-link to="/services/cool">Холодильное оборудование</nuxt-link>
+							</li>
+							<li>
+								<nuxt-link to="/services/security">Системы безопасности и связи</nuxt-link>
+							</li>
 						</ul>
 					</li>
 					<li class="header__menu-item">
@@ -45,8 +54,8 @@
 				</ul>
 				<div class="header__right-info">
 					<div class="header__contacts">
-						<a href="tel:+7(4712)34-24-33" class="header__phone">+7(4712)34-24-33</a>
-						<a href="mailto:manager@bmvcompany.ru" class="header__email">manager@bmvcompany.ru</a>
+						<a :href="'tel:' + config.phone" class="header__phone">{{config.phone}}</a>
+						<a :href="'mailto:' + config.email" class="header__email">{{config.email}}</a>
 					</div>
 					<div class="header__phone-icon">
 						<a href="#" @click.prevent="$store.commit('openModal', 'contactUs')">
@@ -90,6 +99,15 @@
 						<li>
 							<nuxt-link @click.native="mobile = false" to="/services/automation">Автоматика</nuxt-link>
 						</li>
+						<li>
+							<nuxt-link @click.native="mobile = false" to="/services/heat">Тепловое оборудование</nuxt-link>
+						</li>
+						<li>
+							<nuxt-link @click.native="mobile = false" to="/services/cool">Холодильное оборудование</nuxt-link>
+						</li>
+						<li>
+							<nuxt-link @click.native="mobile = false" to="/services/security">Системы безопасности и связи</nuxt-link>
+						</li>
 					</ul>
 				</li>
 				<li>
@@ -104,8 +122,8 @@
 			</ul>
 			<div class="header__right-info">
 				<div class="header__contacts">
-					<a @click="mobile = false" href="tel:+7(4712)34-24-33" class="header__phone">+7(4712)34-24-33</a>
-					<a href="mailto:manager@bmvcompany.ru" class="header__email">manager@bmvcompany.ru</a>
+					<a @click="mobile = false" :href="'tel:' + config.phone" class="header__phone">{{config.phone}}</a>
+					<a :href="'mailto:' + config.email" class="header__email">{{config.email}}</a>
 				</div>
 				<div class="header__phone-icon">
 					<a href="#" @click.prevent="$store.commit('openModal', 'contactUs')">
@@ -118,10 +136,12 @@
 </template>
 
 <script>
+import conf from '~/json/config.json'
 export default {
 	data: function () {
 		return {
 			mobile: false,
+			config: conf
 		}
 	},
 }

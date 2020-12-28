@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import config from '~/json/config.json'
+import conf from '~/json/config.json'
 export default {
     async asyncData ({ $content, params, error }) {
       let article
@@ -46,7 +46,7 @@ export default {
         { itemprop: 'image', content: img},
       ],
 			link: [
-				{ rel: "canonical", href: config.url + '/' + this.article.path }
+				{ rel: "canonical", href: conf.url + '/' + this.article.path }
 			]
 		}
   	},
@@ -59,6 +59,7 @@ export default {
   }
   .title-img {
     max-width: 600px;
+    width: 100%;
   }
   .block-content {
     margin-bottom: 120px;

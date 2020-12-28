@@ -65,16 +65,21 @@
 			устраняем неполадки. Готовим необходимые документы. Консультируем ваш персонал, как 
 			правильно работать с новым оборудованием.</p>
 		<h3 class="h2 mb8">КУДА ОБРАЩАТЬСЯ?</h3>
-		<p class="p mb16">Пишите на почту manager@bmvcompany.ru. 
-			Звоните по телефону +7(4712)34-24-33. Наши сотрудники проконсультируют бесплатно.</p>
+		<p class="p mb16">Пишите на почту {{config.email}}. 
+			Звоните по телефону {{config.phone}}. Наши сотрудники проконсультируют бесплатно.</p>
     </div>
   </div>
 </template>
 
 <script>
 import formContact from '~/components/forms/contact-us.vue'
-import config from '~/json/config.json'
+import conf from '~/json/config.json'
 export default {
+  data: function () {
+            return {  
+				config: conf
+            }
+        },
 components: {
 		formContact
   },
@@ -100,7 +105,7 @@ components: {
 					{ itemprop: 'image', content: img},
 				],
 			link: [
-				{ rel: "canonical", href: config.url + '/' + this.$route.name }
+				{ rel: "canonical", href: conf.url + '/' + this.$route.name }
 			]
 		}
   	},

@@ -14,13 +14,27 @@
       <li class="mb32">
         <nuxt-link to="/services/automation">Автоматика</nuxt-link>
       </li>
+	  <li class="mb32">
+		<nuxt-link to="/services/heat">Тепловое оборудование</nuxt-link>
+	</li>
+	<li class="mb32">
+		<nuxt-link to="/services/cool">Холодильное оборудование</nuxt-link>
+	</li>
+	<li class="mb32">
+		<nuxt-link to="/services/security">Системы безопасности и связи</nuxt-link>
+	</li>
     </ul>
   </div>
 </template>
 
 <script>
-import config from '~/json/config.json'
+import conf from '~/json/config.json'
 export default {
+  data: function () {
+            return {  
+				config: conf
+            }
+        },
 	head () {
 		let title = 'Услуги устройства инженерных сетей в Курске';
 		let description = '«BMV Engineering» профессионально спроектируют и смонтируют любые инженерных сетей на любом объекте, от бытовых помещений до промышленных предприятий.';
@@ -43,7 +57,7 @@ export default {
 					{ itemprop: 'image', content: img},
 				],
 			link: [
-				{ rel: "canonical", href: config.url }
+				{ rel: "canonical", href: conf.url }
 			]
 		}
   	},

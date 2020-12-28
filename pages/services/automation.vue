@@ -64,16 +64,21 @@
 			высококвалифицированные специалисты с многолетним опытом.</p>
 		<h3 class="h2 mb8">КУДА ОБРАЩАТЬСЯ?</h3>
 		<p class="p mb32">Мы ценим время и бюджет заказчика, а также руководствуемся принципом 
-			прозрачного ценообразования. Пишите на почту manager@bmvcompany.ru. 
-			Звоните по телефону +7(4712)34-24-33. Наши сотрудники бесплатно вас проконсультируют.</p>
+			прозрачного ценообразования. Пишите на почту {{config.email}}. 
+			Звоните по телефону {{config.phone}}. Наши сотрудники бесплатно вас проконсультируют.</p>
     </div>
   </div>
 </template>
 
 <script>
 import formContact from '~/components/forms/contact-us.vue'
-import config from '~/json/config.json'
+import conf from '~/json/config.json'
 export default {
+  data: function () {
+            return {  
+				config: conf
+            }
+        },
 components: {
 		formContact
   },
@@ -99,7 +104,7 @@ components: {
 					{ itemprop: 'image', content: img},
 				],
 			link: [
-				{ rel: "canonical", href: config.url + '/' + this.$route.name }
+				{ rel: "canonical", href: conf.url + '/' + this.$route.name }
 			]
 		}
   	},
