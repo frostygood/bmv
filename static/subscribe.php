@@ -4,7 +4,7 @@ $email =  htmlspecialchars( trim($_POST['email']) );
 $fromMail = 'info@bmven.ru';
 $fromName = 'Сайт BMV';
 
-if (strpos($_SERVER['HTTP_HOST'], 'bmven') !== false || strpos($_SERVER['HTTP_HOST'], 'localhost') !== false) {
+if (strpos($_SERVER['HTTP_HOST'], 'bmvcompany') !== false || strpos($_SERVER['HTTP_HOST'], 'bmven') !== false) {
     $emailsTo = [
         'frostygood@mail.ru'
     ];
