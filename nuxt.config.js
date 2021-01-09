@@ -38,6 +38,7 @@ export default {
     mode: 'out-in'
   },
   plugins: [
+    '~/plugins/meta'
   ],
   buildModules: [
   ],

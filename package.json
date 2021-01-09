@@ -11,6 +11,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "seo": "git+ssh://git@github.com:frostygood/seo-nuxt.git",
     "@nuxt/content": "latest",
     "@nuxtjs/axios": "latest",
     "@nuxtjs/google-gtag": "^1.0.4",

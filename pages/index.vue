@@ -175,7 +175,6 @@ export default {
 			let obj2 = await $content('objects').search('КУРСКАЯ ГОРОДСКАЯ КЛИНИЧЕСКАЯ БОЛЬНИЦА СКОРОЙ МЕДИЦИНСКОЙ ПОМОЩИ').limit(1).fetch();
 			let obj3 = await $content('objects').search('ООО “ГРИБНАЯ РАДУГА”').limit(1).fetch();
 			articles = obj1.concat(obj2, obj3)
-			//console.log(articles);
 		} catch (e) {
 			error({message: 'Article not found'})
 		}
@@ -184,30 +183,12 @@ export default {
 		}
 	},
 	head () {
-		let title = 'Компания BMV Engineering БМВ Курск';
-		let description = 'Более 20 лет занимаемся вентиляцией, автоматикой и кондиционированием';
-		let img = '/img/footer-logo.png'
-		return {
-			title: title,
-			meta: [
-				{ hid: 'description', name: 'description', content: description },
-				// Open Graph
-				{ hid: 'og:title', property: 'og:title', content: title },
-				{ hid: 'og:description', property: 'og:description', content: description },
-				{ hid: 'og:image', property: 'og:image', content: img},
-				// Twitter Card
-				{ hid: 'twitter:title', name: 'twitter:title', content: title },
-				{ hid: 'twitter:description', name: 'twitter:description', content: description },
-				{ hid: 'twitter:image', name: 'twitter:image', content: img },
-				// Google+. Schema.org
-				{ itemprop: 'title', content: title },
-				{ itemprop: 'description', content: description},
-				{ itemprop: 'image', content: img},
-			],
-			link: [
-				{ rel: "canonical", href: conf.url + '/' + this.$route.name }
-			]
-		}
+		return this.$meta_tags.getMeta(
+			'Компания BMV Engineering БМВ Курск', 
+			'Более 20 лет занимаемся вентиляцией, автоматикой и кондиционированием', 
+			'/img/footer-logo.png', 
+			conf.url
+		)
   	},
 	components: {
 		card,
