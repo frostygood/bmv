@@ -5,20 +5,20 @@
   "author": "Andrey Vinkovatov",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "npm update seo && nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "seo": "git+ssh://git@github.com:frostygood/seo-nuxt.git",
     "@nuxt/content": "latest",
     "@nuxtjs/axios": "latest",
     "@nuxtjs/google-gtag": "^1.0.4",
     "@nuxtjs/robots": "^2.4.2",
     "@nuxtjs/sitemap": "^2.4.0",
     "@nuxtjs/yandex-metrika": "^1.3.0",
-    "nuxt": "latest"
+    "nuxt": "latest",
+    "seo": "git+ssh://git@github.com/frostygood/seo-nuxt.git"
   },
   "devDependencies": {
     "node-sass": "^4.14.1",

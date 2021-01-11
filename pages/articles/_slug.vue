@@ -25,31 +25,13 @@ export default {
       }
   },
   head () {
-		let title = this.article.title;
-		let description = this.article.description;
-		let img = this.article.imgUrl;
-		return {
-			title: title,
-      meta: [
-        { hid: 'description', name: 'description', content: description },
-        // Open Graph
-        { hid: 'og:title', property: 'og:title', content: title },
-        { hid: 'og:description', property: 'og:description', content: description },
-        { hid: 'og:image', property: 'og:image', content: img},
-        // Twitter Card
-        { hid: 'twitter:title', name: 'twitter:title', content: title },
-        { hid: 'twitter:description', name: 'twitter:description', content: description },
-        { hid: 'twitter:image', name: 'twitter:image', content: img },
-        // Google+. Schema.org
-        { itemprop: 'title', content: title },
-        { itemprop: 'description', content: description},
-        { itemprop: 'image', content: img},
-      ],
-			link: [
-				{ rel: "canonical", href: conf.url + '/' + this.article.path }
-			]
-		}
-  	},
+    return this.$meta_tags.getMeta(
+			this.article.title, 
+			this.article.description, 
+			this.article.imgUrl, 
+			conf.url + this.$route.path
+		)
+  },
 }
 </script>
 
@@ -58,7 +40,8 @@ export default {
     padding-top: 60px;
   }
   .title-img {
-    max-width: 600px;
+    width: 600px;
+    max-width: 100%;
   }
   .block-content {
     margin-bottom: 120px;
