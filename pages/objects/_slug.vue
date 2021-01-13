@@ -13,16 +13,8 @@
 <script>
 import conf from '~/json/config.json'
 export default {
-    async asyncData ({ $content, params, error }) {
-      let article
-      try {
-        article = await $content('objects', params.slug).fetch()
-      } catch (e) {
-        error({ message: 'Article not found' })
-      }
-      return {
-        article,
-      }
+  async asyncData ({ $content, params, error, $get_article }) {
+    return {article: await $get_article.getArticle('objects', params.slug, { $content,error })}
   },
   head () {
     return this.$meta_tags.getMeta(

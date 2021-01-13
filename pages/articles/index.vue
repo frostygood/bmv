@@ -16,17 +16,8 @@
 import conf from '~/json/config.json'
 import card from '~/components/blocks/article.vue'
 export default {
-  async asyncData ({ $content, params, error }) {
-    let articles
-    try {
-      articles = await $content('articles').limit(100).fetch();
-      //console.log(articles);
-    } catch (e) {
-      error({ message: 'Article not found' })
-    }
-    return {
-      articles,
-    }
+  async asyncData ({ $content, error, $get_article }) {
+    return {articles: await $get_article.getAllArticles('articles', { $content, error })}
   },
   components: {
     card
