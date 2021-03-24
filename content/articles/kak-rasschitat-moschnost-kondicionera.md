@@ -3,7 +3,8 @@ title: Как рассчитать мощность кондиционера?
 description: Одной площади комнаты недостаточно. Для более менее точного результата нужно дополнительно знать высоту потолков, количество проживающих людей, стоящее на площади оборудование и инсоляцию. Формула выглядит так - Q = Q1 + Q2 + Q3.
 imgUrl: /content_img/article-kak_schitat_mochnost.jpg
 path: kursk-kak-rasschitat-moschnost-kondicionera
-date: 2020-01-10
+date: 2020-12-10
+update: 2021-01-10
 tags:
   - Fresh
 ---

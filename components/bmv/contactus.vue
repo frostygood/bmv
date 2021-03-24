@@ -1,4 +1,6 @@
 <template>
+<div :class="[{'floor-contacts': pageBlock}, {'mb32': pageBlock}]" style="padding: 40px;">
+<div :class="{'wrapper': pageBlock}">
 	<div class="contacts__form">
 		<h4 class="h4 text-uppercase">Заказать звонок</h4>
 		<form action="" ref="whitePaperForm">
@@ -10,11 +12,19 @@
 			<button @click.prevent="send()" class="button transparent-white">Отправить</button>
 		</form>
 	</div>
+</div>
+</div>
 </template>
 
 <script>
 import Axios from 'axios'
 export default {
+	props: {
+		pageBlock: {
+			type: Boolean,
+			default: false
+		}
+	},
 	data() {
 		return {
 			access: false,
@@ -53,19 +63,18 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-@import "~/assets/scss/_variables.scss";
 .contacts__form {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 
-	@media (max-width: $sc20_middle_point) {
+	@media (max-width: 1149px) {
 		flex-direction: column;
 		align-items: start;
 		max-width: 636px;
 		margin: 0 auto;
 	}
-	@media (max-width: $sc20_small_point) {
+	@media (max-width: 767px) {
 		align-items: center;
 	}
 
@@ -79,11 +88,11 @@ form {
 	justify-content: space-between;
 	flex-shrink: 0;
 
-	@media (max-width: $sc20_middle_point) {
+	@media (max-width: 1149px) {
 		margin-top: 10px;
 	}
 
-	@media (max-width: $sc20_small_point) {
+	@media (max-width: 767px) {
 		flex-direction: column;
 		width: 100%;
 
@@ -102,7 +111,7 @@ input {
     height: 60px;
 	border: none;
 	transition: .2s;
-	color: $color_grey;
+	color: grey;
 	margin-right: 26px;
 	width: 378px;
 	&:focus {
@@ -111,9 +120,14 @@ input {
 	&.error {
 		border: 1px solid red;
 	}
-	@media (max-width: $sc20_small_point) {
+	@media (max-width: 767px) {
 		width: 100%;
 		margin-right: 0;
 	}
+}
+.floor-contacts {
+	background: url("https://www.bmvcompany.ru/img/call-bg.png") top center repeat-x;
+	background-size: cover;
+	padding: 36px 0;
 }
 </style>

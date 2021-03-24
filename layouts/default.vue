@@ -8,7 +8,7 @@
 		<transition name="fade">
 			<modal v-show="$store.state.openModals.contactUs">
 				<slot>
-					<contact-us />
+					<contact-us style="padding: 0;"/>
 				</slot>
 			</modal>
 		</transition>
@@ -19,14 +19,12 @@
 import mainMenu from "~/components/header.vue";
 import bigFooter from "~/components/footer.vue";
 import modal from "~/components/modal.vue";
-import contactUs from "~/components/forms/contact-us.vue";
 
 export default {
   components: {
 		mainMenu,
 		bigFooter,
 		modal,
-		contactUs,
   },
   data() {
 		return {

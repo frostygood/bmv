@@ -86,7 +86,7 @@
 
 		<div class="floor-contacts">
 			<div class="wrapper">
-				<form-contact/>
+				<contact-us/>
 			</div>
 		</div>
 
@@ -164,7 +164,6 @@
 
 <script>
 import card from '~/components/blocks/object.vue'
-import formContact from '~/components/forms/contact-us.vue'
 import principlesText from '~/components/blocks/principles-text.vue'
 import conf from '~/json/config.json'
 export default {
@@ -192,7 +191,6 @@ export default {
   	},
 	components: {
 		card,
-		formContact,
 		principlesText
 	},
 	data: function () {

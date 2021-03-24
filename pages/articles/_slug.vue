@@ -4,7 +4,8 @@
     <h1>{{article.title}}</h1>
     <img class="title-img" :src="article.imgUrl" :alt="article.title">
     <div class="block-content">
-        <nuxt-content :document="article" />
+        <editor v-if="article.extension == '.json'" :texts="article.texts"/>
+        <nuxt-content v-else :document="article" />
         <p><nuxt-link to='/articles'>К списку статей</nuxt-link></p>
     </div>
   </div>

@@ -4,13 +4,17 @@ console.log(config)
 const generateRoutes = async () => {
   const { $content } = require('@nuxt/content')
   let objects = await $content('objects').sortBy('title').fetch()
+  let mapObjects = objects.map(file => file.path === '/index' ? '/' : file.path)
   let articles = await $content('articles').sortBy('title').fetch()
-  return objects.concat(articles).map(file => file.path === '/index' ? '/' : file.path)
+  let mapArticles = articles.map(file => file.path === '/index' ? '/' : file.path)
+  let services = await $content('ru', 'services').sortBy('title').fetch()
+  let mapServices = services.map(file => '/services/' + file.path_nuxt)
+  return mapObjects.concat(mapArticles, mapServices)
 }
 
 export default {
-  ssr: true,
-  target: 'static',
+  mode: 'universal',
+	components: true,
   router: {
     extendRoutes(routes, resolve) {
       routes.push({
@@ -33,7 +37,7 @@ export default {
   css: [
     '~assets/scss/main.scss',
   ],
-   pageTransition: {
+  pageTransition: {
     name: 'page',
     mode: 'out-in'
   },

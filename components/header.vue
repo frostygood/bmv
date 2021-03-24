@@ -19,26 +19,8 @@
 							</svg>
 							Услуги</a>
 						<ul class="header__sub-menu">
-							<li>
-								<nuxt-link to="/services/ventilation">Промышленная вентиляция</nuxt-link>
-							</li>
-							<li>
-								<nuxt-link to="/services/cold">Кондиционирование</nuxt-link>
-							</li>
-							<li>
-								<nuxt-link to="/services/video">Видеонаблюдение</nuxt-link>
-							</li>
-							<li>
-								<nuxt-link to="/services/automation">Автоматика</nuxt-link>
-							</li>
-							<li>
-								<nuxt-link to="/services/heat">Тепловое оборудование</nuxt-link>
-							</li>
-							<li>
-								<nuxt-link to="/services/cool">Холодильное оборудование</nuxt-link>
-							</li>
-							<li>
-								<nuxt-link to="/services/security">Системы безопасности и связи</nuxt-link>
+							<li v-for="(item, i) in page" :key='i'>
+								<nuxt-link :to="'/services/'+item.path_nuxt">{{item.title.replace("в Курске", "")}}</nuxt-link>
 							</li>
 						</ul>
 					</li>
@@ -87,26 +69,8 @@
 				<li>
 					<nuxt-link to="/services" @click.native="mobile = false">Услуги</nuxt-link>
 					<ul class="header__submenu_mobile">
-						<li>
-							<nuxt-link @click.native="mobile = false" to="/services/ventilation">Промышленная вентиляция</nuxt-link>
-						</li>
-						<li>
-							<nuxt-link  @click.native="mobile = false" to="/services/cold">Кондиционирование</nuxt-link>
-						</li>
-						<li>
-							<nuxt-link @click.native="mobile = false" to="/services/video">Видеонаблюдение</nuxt-link>
-						</li>
-						<li>
-							<nuxt-link @click.native="mobile = false" to="/services/automation">Автоматика</nuxt-link>
-						</li>
-						<li>
-							<nuxt-link @click.native="mobile = false" to="/services/heat">Тепловое оборудование</nuxt-link>
-						</li>
-						<li>
-							<nuxt-link @click.native="mobile = false" to="/services/cool">Холодильное оборудование</nuxt-link>
-						</li>
-						<li>
-							<nuxt-link @click.native="mobile = false" to="/services/security">Системы безопасности и связи</nuxt-link>
+						<li v-for="(item, i) in page" :key='i'>
+							<nuxt-link @click.native="mobile = false" :to="'/services/'+item.path_nuxt">{{item.title.replace("в Курске", "")}}</nuxt-link>
 						</li>
 					</ul>
 				</li>
@@ -138,11 +102,42 @@
 <script>
 import conf from '~/json/config.json'
 export default {
+	async asyncData({ $content }) {
+		let datapage = [];
+			await $content('ru', 'services').fetch().then(docs => {
+				docs.forEach(element => {
+					datapage.push(element)
+				});
+			})
+			.catch((err) => {
+				console.log('Error getting documents', err);
+			});
+
+		return {page: datapage};
+	},
+	created() {
+		this.getServices()
+	},
 	data: function () {
 		return {
 			mobile: false,
-			config: conf
+			config: conf,
+			page: []
 		}
 	},
+	methods: {
+		async getServices() {
+			let datapage = [];
+				await this.$content('ru', 'services').fetch().then(docs => {
+					docs.forEach(element => {
+						datapage.push(element)
+					});
+					this.page = datapage
+				})
+				.catch((err) => {
+					console.log('Error getting documents', err);
+				});
+		},
+	}
 }
 </script>
