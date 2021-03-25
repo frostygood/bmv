@@ -3,8 +3,8 @@
     <h1 class="h1 mb32">Статьи</h1>
     <div class="cards">
       <card v-for="(item,n) in articles" :key="n" 
-        :img="item.imgUrl" 
-        :link="item.path"
+        :img="item.img" 
+        :link="'/articles/' + item.path_nuxt"
         :name="item.title"
         :desc="item.description"
         class="mb32"></card>
@@ -16,8 +16,18 @@
 import conf from '~/json/config.json'
 import card from '~/components/blocks/article.vue'
 export default {
-  async asyncData ({ $content, error, $get_article }) {
-    return {articles: await $get_article.getAllArticles('articles', { $content, error })}
+  async asyncData ({ $content }) {
+    let datapage = [];
+			await $content('ru', 'articles').fetch().then(docs => {
+				docs.forEach(element => {
+					datapage.push(element)
+				});
+			})
+			.catch((err) => {
+				console.log('Error getting documents', err);
+			});
+
+		return {articles: datapage};
   },
   components: {
     card

@@ -1,5 +1,8 @@
 <template>
 	<div class="page-content" >
+		<div class="wrapper">
+			<h1 class="h1">{{page.title}}</h1>
+		</div>
 		<component 
 			v-for='(item,i) in page.page' :key='i'
 			:is='"bmv-" + item.name'

@@ -1,42 +1,57 @@
 <template>
-  <div class="wrapper">
+  <div class="wrapper page-content">
     <p><nuxt-link to='/articles'>К списку статей</nuxt-link></p>
-    <h1>{{article.title}}</h1>
-    <img class="title-img" :src="article.imgUrl" :alt="article.title">
-    <div class="block-content">
-        <editor v-if="article.extension == '.json'" :texts="article.texts"/>
-        <nuxt-content v-else :document="article" />
-        <p><nuxt-link to='/articles'>К списку статей</nuxt-link></p>
-    </div>
+    <h1>{{page.title}}</h1>
+    <img class="title-img" :src="page.img" :alt="page.title">
+    <component 
+			v-for='(item,i) in page.page' :key='i'
+			:is='"bmv-" + item.name'
+			v-bind="item.props"/>
+    <p><nuxt-link to='/articles'>К списку статей</nuxt-link></p>
   </div>
 </template>
 
 <script>
 import conf from '~/json/config.json'
 export default {
-  async asyncData ({ $content, params, error, $get_article }) {
-    return {article: await $get_article.getArticle('articles', params.slug, { $content,error })}
+  async asyncData ({ $content, params, error }) {
+    let page
+		await $content('ru', 'articles').fetch().then((docs) => {
+				let err = true
+				docs.forEach(element => {
+          console.log(element.path_nuxt)
+          console.log(params.slug)
+					if (element.path_nuxt == params.slug) {
+						err = false
+						page = element
+					}
+				});
+				if (err) return error({ statusCode: 404, message: 'LP not found'})
+			}).catch((err) => {
+				return error({ statusCode: 404, message: 'LP not found - ' + err})
+		})
+		return {
+			page: page,
+			url: params.slug
+		}
   },
-  head () {
-    return this.$meta_tags.getMeta(
-			this.article.title, 
-			this.article.description, 
-			this.article.imgUrl, 
+  head() {
+		return this.$meta_tags.getMeta(
+			this.page.title, 
+			this.page.description, 
+			this.page.img, 
 			conf.url + this.$route.path
 		)
-  },
+	},
 }
 </script>
 
 <style lang="scss" scoped>
-  .wrapper {
-    padding-top: 60px;
-  }
   .title-img {
     width: 600px;
     max-width: 100%;
   }
-  .block-content {
-    margin-bottom: 120px;
+  .page-content {
+    margin-bottom: 60px;
   }
 </style>

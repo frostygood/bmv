@@ -16,6 +16,7 @@ function escape (key, val) {
 
 
 getBuilder('ru', 'services')
+getBuilder('ru', 'articles')
 
 function getBuilder(lang, type) {
   fs.rmdir('content/'+lang+'/'+type, { recursive: true }, (err) => {
@@ -38,7 +39,6 @@ function getBuilder(lang, type) {
         console.log(doc.data())
         let path = 'content/'+lang+'/'+type+'/' + doc.id + '.json';
         let json = doc.data();
-        console.log(json)
         json.page.forEach((item, i) => {
           let bufArray = []
           for (let obj in item.props.boolean) bufArray.push({[obj]: item.props.boolean[obj]})
