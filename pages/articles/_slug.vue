@@ -1,13 +1,15 @@
 <template>
   <div class="wrapper page-content">
     <p><nuxt-link to='/articles'>К списку статей</nuxt-link></p>
-    <h1>{{page.title}}</h1>
-    <img class="title-img" :src="page.img" :alt="page.title">
+    
     <component 
 			v-for='(item,i) in page.page' :key='i'
 			:is='"bmv-" + item.name'
 			v-bind="item.props"/>
-    <p><nuxt-link to='/articles'>К списку статей</nuxt-link></p>
+    <p>
+		<nuxt-link to='/articles'>К списку статей</nuxt-link>
+	</p>
+	<img class="title-img" decoding="async" loading="lazy"  :src="page.img" :alt="page.title">
   </div>
 </template>
 
