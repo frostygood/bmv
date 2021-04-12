@@ -17,8 +17,7 @@
     "@nuxtjs/robots": "^2.5.0",
     "@nuxtjs/sitemap": "^2.4.0",
     "@nuxtjs/yandex-metrika": "^1.3.0",
-    "nuxt": "^2.15.3",
-    "seo": "git+ssh://git@github.com/frostygood/seo-nuxt.git"
+    "nuxt": "^2.15.3"
   },
   "devDependencies": {
     "cross-env": "^7.0.3",

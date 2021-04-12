@@ -14,10 +14,42 @@
 import conf from '~/json/config.json'
 export default {
   async asyncData ({ $content, params, error, $get_article }) {
-    return {article: await $get_article.getArticle('objects', params.slug, { $content,error })}
+    async function getArticle(name, slug) {
+        let article
+        try {
+          article = await $content(''+name, ''+slug).fetch()
+        } catch (e) {
+          error({ message: 'Article not found' })
+        }
+        return article
+    }
+    return {article: await getArticle('objects', params.slug)}
   },
   head () {
-    return this.$meta_tags.getMeta(
+    function getMeta (title, description, img, canonical) {
+			return {
+				title: title,
+					meta: [
+						{ hid: 'description', name: 'description', content: description },
+						// Open Graph
+						{ hid: 'og:title', property: 'og:title', content: title },
+						{ hid: 'og:description', property: 'og:description', content: description },
+						{ hid: 'og:image', property: 'og:image', content: img},
+						// Twitter Card
+						{ hid: 'twitter:title', name: 'twitter:title', content: title },
+						{ hid: 'twitter:description', name: 'twitter:description', content: description },
+						{ hid: 'twitter:image', name: 'twitter:image', content: img },
+						// Google+. Schema.org
+						{ itemprop: 'title', content: title },
+						{ itemprop: 'description', content: description},
+						{ itemprop: 'image', content: img},
+					],
+					link: [
+						{ rel: "canonical", href: canonical }
+				]
+			}
+		}
+		return getMeta(
 			this.article.title, 
 			this.article.description, 
 			this.article.imgUrl, 

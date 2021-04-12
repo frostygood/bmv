@@ -17,13 +17,45 @@ import card from '~/components/blocks/object.vue'
 import conf from '~/json/config.json'
 export default {
   async asyncData ({ $content, error, $get_article }) {
-    return {articles: await $get_article.getAllArticles('objects', { $content, error })}
+    async function getAllArticles(name) {
+        let articles
+        try {
+          articles = await $content(''+name).limit(100).fetch();
+        } catch (e) {
+          error({ message: 'Articles not found' })
+        }
+        return articles
+    }
+    return {articles: await getAllArticles('objects')}
   },
   components: {
     card
   },
 	head () {
-    return this.$meta_tags.getMeta(
+    function getMeta (title, description, img, canonical) {
+			return {
+				title: title,
+					meta: [
+						{ hid: 'description', name: 'description', content: description },
+						// Open Graph
+						{ hid: 'og:title', property: 'og:title', content: title },
+						{ hid: 'og:description', property: 'og:description', content: description },
+						{ hid: 'og:image', property: 'og:image', content: img},
+						// Twitter Card
+						{ hid: 'twitter:title', name: 'twitter:title', content: title },
+						{ hid: 'twitter:description', name: 'twitter:description', content: description },
+						{ hid: 'twitter:image', name: 'twitter:image', content: img },
+						// Google+. Schema.org
+						{ itemprop: 'title', content: title },
+						{ itemprop: 'description', content: description},
+						{ itemprop: 'image', content: img},
+					],
+					link: [
+						{ rel: "canonical", href: canonical }
+				]
+			}
+		}
+		return getMeta(
 			'Сданные объекты компанией BMV', 
 			'Кондиционер, чиллер, фанкойл, фэнкойл, холодильное оборудование, вентиляция, воздуховод,  тепловое оборудование, автоматика,  видеонаблюдение, General, Fujitsu, McQuay, Sanyo, Mitsubishi Heavy, Курск', 
 			'/img/footer-logo.png', 
