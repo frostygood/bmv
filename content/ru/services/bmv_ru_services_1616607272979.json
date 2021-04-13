@@ -4,27 +4,6 @@
     "img": "",
     "page": [
         {
-            "id": "title1616603622902",
-            "name": "title",
-            "props": [
-                {
-                    "title": "Тепловое оборудование в Курске"
-                }
-            ]
-        },
-        {
-            "id": "space1616603644378",
-            "name": "space",
-            "props": [
-                {
-                    "note": false
-                },
-                {
-                    "name_class": "small"
-                }
-            ]
-        },
-        {
             "id": "editor1616342394590",
             "name": "editor",
             "props": [

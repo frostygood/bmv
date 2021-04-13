@@ -5,7 +5,7 @@
   "author": "Andrey Vinkovatov",
   "private": true,
   "scripts": {
-    "dev": "npm update seo && nuxt",
+    "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate"

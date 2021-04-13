@@ -1,9 +1,9 @@
 <template>
-<div class="sc20-space" :class="[name_class]">
-	<img v-if="first_img" decoding="async" loading="lazy"  :src="first_img" :alt="first_alt">
-	<img v-if="second_img" decoding="async" loading="lazy"  :src="second_img" :alt="second_alt">
-	<img v-if="third_img" decoding="async" loading="lazy"  :src="third_img" :alt="third_alt">
-</div>
+	<div class="block_imgs">
+		<img v-if="first_img" decoding="async" loading="lazy"  :src="first_img" :alt="first_alt">
+		<img v-if="second_img" decoding="async" loading="lazy"  :src="second_img" :alt="second_alt">
+		<img v-if="third_img" decoding="async" loading="lazy"  :src="third_img" :alt="third_alt">
+	</div>
 </template>
 
 <script>
@@ -11,7 +11,7 @@
 		props: {
 			first_img: {
 				type: String,
-				default: ''
+				default: '/_vue_builder/bmv_ru_articles_1616684670521_1618069015780_article-kak_schitat_mochnost.jpeg'
 			},
 			first_alt: {
 				type: String,
@@ -19,7 +19,7 @@
 			},
 			second_img: {
 				type: String,
-				default: ''
+				default: '/_vue_builder/bmv_ru_articles_1616684670521_1618069015780_article-kak_schitat_mochnost.jpeg'
 			},
 			second_alt: {
 				type: String,
@@ -27,7 +27,7 @@
 			},
 			third_img: {
 				type: String,
-				default: ''
+				default: '/_vue_builder/bmv_ru_articles_1616684670521_1618069015780_article-kak_schitat_mochnost.jpeg'
 			},
 			third_alt: {
 				type: String,
@@ -38,5 +38,8 @@
 </script>
 
 <style lang="scss" scoped>
-
+.block_imgs img {
+	height: 230px;
+	display: inline-block;  
+}
 </style>

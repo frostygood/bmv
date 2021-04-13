@@ -16,8 +16,8 @@
 		},
 	};
 </script>
-<style lang="scss">
-	.editor {
+<style lang="scss" scoped>
+	/deep/ .editor {
 		max-width: 720px;
 		margin-right: auto;
 		h2 {

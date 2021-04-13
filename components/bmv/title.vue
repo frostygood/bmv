@@ -21,6 +21,6 @@
 
 <style lang="scss" scoped>
 .h1 {
-  	max-width: 720px;
+  	max-width: 900px;
 }
 </style>

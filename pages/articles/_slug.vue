@@ -1,7 +1,8 @@
 <template>
   <div class="wrapper page-content">
-    <p><nuxt-link to='/articles'>К списку статей</nuxt-link></p>
-    
+    <p>
+		<nuxt-link to='/articles'>К списку статей</nuxt-link>
+	</p>
     <component 
 			v-for='(item,i) in page.page' :key='i'
 			:is='"bmv-" + item.name'
@@ -9,7 +10,6 @@
     <p>
 		<nuxt-link to='/articles'>К списку статей</nuxt-link>
 	</p>
-	<img class="title-img" decoding="async" loading="lazy"  :src="page.img" :alt="page.title">
   </div>
 </template>
 
@@ -72,10 +72,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .title-img {
-    width: 600px;
-    max-width: 100%;
-  }
   .page-content {
     margin-bottom: 60px;
   }

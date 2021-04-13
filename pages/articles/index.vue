@@ -3,7 +3,7 @@
     <h1 class="h1 mb32">Статьи</h1>
     <div class="cards">
       <card v-for="(item,n) in articles" :key="n" 
-        :img="item.img" 
+        :img="'_vue_builder/' + item.img" 
         :link="'/articles/' + item.path_nuxt"
         :name="item.title"
         :desc="item.description"
@@ -57,7 +57,7 @@ export default {
 			}
 		}
 		return getMeta(
-			'Bmvcompany.ru/.ru - статьи о строительстве. Описания, полезные советы и рекомендации', 
+			'Блог Bmvcompany - статьи о строительстве. Полезные советы и рекомендации', 
 			'Статьи на сайте BMV. Вентиляция, кондиционирование, холодильное оборудование, автоматика и монтаж. Статьи, описания, полезные советы и рекомендации для строительства.', 
 			'/img/footer-logo.png', 
 			conf.url + '/' + this.$route.name
