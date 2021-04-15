@@ -4,6 +4,27 @@
     "img": "",
     "page": [
         {
+            "id": "title1618316077146",
+            "name": "title",
+            "props": [
+                {
+                    "title": "Промышленная вентиляция"
+                }
+            ]
+        },
+        {
+            "id": "space1618316102534",
+            "name": "space",
+            "props": [
+                {
+                    "note": false
+                },
+                {
+                    "name_class": "big"
+                }
+            ]
+        },
+        {
             "id": "editor1616342394590",
             "name": "editor",
             "props": [

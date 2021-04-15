@@ -4,6 +4,27 @@
     "img": "",
     "page": [
         {
+            "id": "title1618321618422",
+            "name": "title",
+            "props": [
+                {
+                    "title": "Холодильное оборудование"
+                }
+            ]
+        },
+        {
+            "id": "space1618321627384",
+            "name": "space",
+            "props": [
+                {
+                    "note": false
+                },
+                {
+                    "name_class": "big"
+                }
+            ]
+        },
+        {
             "id": "editor1616342394590",
             "name": "editor",
             "props": [

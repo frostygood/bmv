@@ -4,6 +4,27 @@
     "img": "",
     "page": [
         {
+            "id": "title1618321368072",
+            "name": "title",
+            "props": [
+                {
+                    "title": "Видеонаблюдение "
+                }
+            ]
+        },
+        {
+            "id": "space1618321390909",
+            "name": "space",
+            "props": [
+                {
+                    "note": false
+                },
+                {
+                    "name_class": "big"
+                }
+            ]
+        },
+        {
             "id": "editor1616342394590",
             "name": "editor",
             "props": [

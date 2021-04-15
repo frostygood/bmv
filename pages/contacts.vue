@@ -1,7 +1,6 @@
 <template>
   <div class="wrapper">
     <h1 class="h1 mb32">Контакты</h1>
-    <bmv-bigimg/>
     <div class="right">
       <h2 class="h1 mb16">Офис</h2>
       <h3 class="h3 mb16">{{config.address}}</h3>
