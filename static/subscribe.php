@@ -1,14 +1,15 @@
 <?php
 $url =  htmlspecialchars( trim($_POST['url']));
 $email =  htmlspecialchars( trim($_POST['email']) );
-$fromMail = 'info@bmven.ru';
+$fromMail = 'info@bmvcompany.ru';
 $fromName = 'Сайт BMV';
 
-if (strpos($_SERVER['HTTP_HOST'], 'bmvcompany') !== false || strpos($_SERVER['HTTP_HOST'], 'bmven') !== false) {
+if (strpos($_SERVER['HTTP_HOST'], 'bmvcompany') !== false) {
     $emailsTo = [
-        'frostygood@mail.ru'
+        'frostygood@mail.ru',
+        'bmven@yandex.ru'
     ];
-    $subject = 'Отклик с сайта BMVEN.ru !';
+    $subject = 'Отклик с сайта BMVCOMPANY.ru !';
     $subject = '=?utf-8?b?' . base64_encode($subject) . '?=';
     $headers = "Content-type: text/html; charset=\"utf-8\"\r\n";
     $headers .= "From: " . $fromName . " <" . $fromMail . "> \r\n";
@@ -20,6 +21,5 @@ if (strpos($_SERVER['HTTP_HOST'], 'bmvcompany') !== false || strpos($_SERVER['HT
     }
     echo 'ok';
 } else echo 'okey';
-
 
 

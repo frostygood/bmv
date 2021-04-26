@@ -4,6 +4,27 @@
     "img": "",
     "page": [
         {
+            "id": "title1618321672990",
+            "name": "title",
+            "props": [
+                {
+                    "title": "Системы безопасности и связи"
+                }
+            ]
+        },
+        {
+            "id": "space1618321694459",
+            "name": "space",
+            "props": [
+                {
+                    "note": false
+                },
+                {
+                    "name_class": "big"
+                }
+            ]
+        },
+        {
             "id": "editor1616342394590",
             "name": "editor",
             "props": [

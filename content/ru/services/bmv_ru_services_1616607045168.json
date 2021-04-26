@@ -4,6 +4,27 @@
     "img": "",
     "page": [
         {
+            "id": "title1618321479473",
+            "name": "title",
+            "props": [
+                {
+                    "title": "Автоматика"
+                }
+            ]
+        },
+        {
+            "id": "space1618321496736",
+            "name": "space",
+            "props": [
+                {
+                    "note": false
+                },
+                {
+                    "name_class": "big"
+                }
+            ]
+        },
+        {
             "id": "editor1616342394590",
             "name": "editor",
             "props": [

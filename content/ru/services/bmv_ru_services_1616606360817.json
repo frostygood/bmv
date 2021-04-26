@@ -4,6 +4,27 @@
     "img": "",
     "page": [
         {
+            "id": "title1618316247934",
+            "name": "title",
+            "props": [
+                {
+                    "title": "Кондиционирование"
+                }
+            ]
+        },
+        {
+            "id": "space1618316274407",
+            "name": "space",
+            "props": [
+                {
+                    "note": false
+                },
+                {
+                    "name_class": "big"
+                }
+            ]
+        },
+        {
             "id": "editor1616342394590",
             "name": "editor",
             "props": [

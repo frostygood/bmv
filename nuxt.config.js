@@ -3,10 +3,13 @@ console.log(config)
   
 const generateRoutes = async () => {
   const { $content } = require('@nuxt/content')
-  let objects = await $content('objects').sortBy('title').fetch()
-  let mapObjects = objects.map(file => file.path === '/index' ? '/' : file.path)
-  let articles = await $content('articles').sortBy('title').fetch()
-  let mapArticles = articles.map(file => file.path === '/index' ? '/' : file.path)
+  
+  let objects = await $content('ru', 'objects').sortBy('title').fetch()
+  let mapObjects = objects.map(file => '/objects/' + file.path_nuxt)
+  
+  let articles = await $content('ru', 'articles').sortBy('title').fetch()
+  let mapArticles = articles.map(file => '/articles/' + file.path_nuxt)
+
   let services = await $content('ru', 'services').sortBy('title').fetch()
   let mapServices = services.map(file => '/services/' + file.path_nuxt)
   return mapObjects.concat(mapArticles, mapServices)

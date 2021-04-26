@@ -4,6 +4,27 @@
     "img": "",
     "page": [
         {
+            "id": "title1618321532586",
+            "name": "title",
+            "props": [
+                {
+                    "title": "Тепловое оборудование"
+                }
+            ]
+        },
+        {
+            "id": "space1618321543646",
+            "name": "space",
+            "props": [
+                {
+                    "note": false
+                },
+                {
+                    "name_class": "big"
+                }
+            ]
+        },
+        {
             "id": "editor1616342394590",
             "name": "editor",
             "props": [

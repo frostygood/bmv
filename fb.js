@@ -17,6 +17,7 @@ function escape (key, val) {
 
 getBuilder('ru', 'services')
 getBuilder('ru', 'articles')
+getBuilder('ru', 'objects')
 
 function getBuilder(lang, type) {
   fs.rmdir('content/'+lang+'/'+type, { recursive: true }, (err) => {
@@ -34,9 +35,9 @@ function getBuilder(lang, type) {
   });
   db.collection('bmv').doc(''+lang).collection(''+type).get()
     .then((snapshot) => {
-      console.log(snapshot)
+      //console.log(snapshot)
       snapshot.forEach((doc) => {
-        console.log(doc.data())
+        //console.log(doc.data())
         let path = 'content/'+lang+'/'+type+'/' + doc.id + '.json';
         let json = doc.data();
         json.page.forEach((item, i) => {

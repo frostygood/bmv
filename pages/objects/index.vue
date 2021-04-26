@@ -3,8 +3,8 @@
     <h1 class="h1 mb32">Реализованные объекты</h1>
     <div class="cards">
       <card v-for="(item,n) in articles" :key="n" 
-        :img="item.imgUrl" 
-        :link="item.path"
+        :img="'/_vue_builder/' + item.img" 
+        :link="'/objects/' + item.path_nuxt"
         :name="item.title"
         :desc="item.description"
         class="mb32"></card>
@@ -16,17 +16,18 @@
 import card from '~/components/blocks/object.vue'
 import conf from '~/json/config.json'
 export default {
-  async asyncData ({ $content, error, $get_article }) {
-    async function getAllArticles(name) {
-        let articles
-        try {
-          articles = await $content(''+name).limit(100).fetch();
-        } catch (e) {
-          error({ message: 'Articles not found' })
-        }
-        return articles
-    }
-    return {articles: await getAllArticles('objects')}
+  async asyncData ({ $content }) {
+    let datapage = [];
+			await $content('ru', 'objects').fetch().then(docs => {
+				docs.forEach(element => {
+					datapage.push(element)
+				});
+			})
+			.catch((err) => {
+				console.log('Error getting documents', err);
+			});
+
+		return {articles: datapage};
   },
   components: {
     card

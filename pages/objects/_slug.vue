@@ -1,29 +1,37 @@
 <template>
-  <div class="wrapper">
+  <div class="wrapper block-content">
     <p><nuxt-link to='/objects'>К списку объектов</nuxt-link></p>
-    <h1>{{article.title}}</h1>
-    <img class="title-img" :src="article.imgUrl" :alt="article.title">
-    <div class="block-content">
-        <nuxt-content :document="article" />
-        <p><nuxt-link to='/objects'>К списку объектов</nuxt-link></p>
-    </div>
+    <component 
+			v-for='(item,i) in article.page' :key='i'
+			:is='"bmv-" + item.name'
+			v-bind="item.props"/>
+    <p><nuxt-link to='/objects'>К списку объектов</nuxt-link></p>
   </div>
 </template>
 
 <script>
 import conf from '~/json/config.json'
 export default {
-  async asyncData ({ $content, params, error, $get_article }) {
-    async function getArticle(name, slug) {
-        let article
-        try {
-          article = await $content(''+name, ''+slug).fetch()
-        } catch (e) {
-          error({ message: 'Article not found' })
-        }
-        return article
-    }
-    return {article: await getArticle('objects', params.slug)}
+  async asyncData ({ $content, params, error }) {
+    let page
+		await $content('ru', 'objects').fetch().then((docs) => {
+				let err = true
+				docs.forEach(element => {
+				console.log(element.path_nuxt)
+				console.log(params.slug)
+					if (element.path_nuxt == params.slug) {
+						err = false
+						page = element
+					}
+				});
+				if (err) return error({ statusCode: 404, message: 'LP not found'})
+			}).catch((err) => {
+				return error({ statusCode: 404, message: 'LP not found - ' + err})
+		})
+		return {
+			article: page,
+			url: params.slug
+		}
   },
   head () {
     function getMeta (title, description, img, canonical) {
@@ -62,10 +70,6 @@ export default {
 <style lang="scss" scoped>
   .wrapper {
     padding-top: 60px;
-  }
-  .title-img {
-    max-width: 600px;
-    width: 100%;
   }
   .block-content {
     margin-bottom: 120px;
