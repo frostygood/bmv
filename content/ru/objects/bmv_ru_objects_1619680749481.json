@@ -62,13 +62,13 @@
             "name": "imgsblock",
             "props": [
                 {
-                    "first_alt": ""
-                },
-                {
                     "second_alt": ""
                 },
                 {
                     "third_alt": ""
+                },
+                {
+                    "first_alt": ""
                 },
                 {
                     "second_img": "/_vue_builder/bmv_ru_objects_1619680749481_1619680980371_bsmp-kursk_2.jpg"
