@@ -1,0 +1,118 @@
+{
+    "description": "Проводимые нами работы - ремонт и пуско-наладочные работы чиллеров.",
+    "id": "bmv_ru_objects_1619772630467",
+    "img": "bmv_ru_objects_1619772630467_1619772728292_elista.jpg",
+    "page": [
+        {
+            "id": "title1618326385916",
+            "name": "title",
+            "props": [
+                {
+                    "title": "ЭЛИСТА"
+                }
+            ]
+        },
+        {
+            "id": "space1618326407520",
+            "name": "space",
+            "props": [
+                {
+                    "note": false
+                },
+                {
+                    "name_class": "small"
+                }
+            ]
+        },
+        {
+            "id": "bigimg1618326495390",
+            "name": "bigimg",
+            "props": [
+                {
+                    "alt": ""
+                },
+                {
+                    "img": "/_vue_builder/bmv_ru_objects_1619772630467_1619772709753_elista.jpg"
+                }
+            ]
+        },
+        {
+            "id": "editor1618326421393",
+            "name": "editor",
+            "props": [
+                {
+                    "texts": "<h3>Проводимые нами работы:</h3><ul><li><p>ремонт и пуско-наладочные работы чиллеров.</p></li></ul>"
+                }
+            ]
+        },
+        {
+            "id": "space1618326521821",
+            "name": "space",
+            "props": [
+                {
+                    "note": false
+                },
+                {
+                    "name_class": "small"
+                }
+            ]
+        },
+        {
+            "id": "imgsblock1619772755929",
+            "name": "imgsblock",
+            "props": [
+                {
+                    "first_alt": ""
+                },
+                {
+                    "second_alt": ""
+                },
+                {
+                    "third_alt": ""
+                },
+                {
+                    "third_img": "/_vue_builder/"
+                },
+                {
+                    "first_img": "/_vue_builder/bmv_ru_objects_1619772630467_1619772771704_elista_1.jpg"
+                },
+                {
+                    "second_img": "/_vue_builder/bmv_ru_objects_1619772630467_1619772783075_elista_2.jpg"
+                }
+            ]
+        },
+        {
+            "id": "space1618326683423",
+            "name": "space",
+            "props": [
+                {
+                    "note": false
+                },
+                {
+                    "name_class": "small"
+                }
+            ]
+        },
+        {
+            "id": "editor1618326704778",
+            "name": "editor",
+            "props": [
+                {
+                    "texts": "<h3>Работы проводились в 2009 году.</h3>"
+                }
+            ]
+        },
+        {
+            "id": "editor1618326467179",
+            "name": "editor",
+            "props": [
+                {
+                    "texts": "<p>- Cold</p>"
+                }
+            ]
+        }
+    ],
+    "path": "elista",
+    "path_nuxt": "elista",
+    "title": "ЭЛИСТА"
+}
