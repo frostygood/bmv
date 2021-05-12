@@ -62,10 +62,10 @@
             "name": "imgsblock",
             "props": [
                 {
-                    "first_alt": ""
+                    "third_alt": ""
                 },
                 {
-                    "third_alt": ""
+                    "first_alt": ""
                 },
                 {
                     "second_alt": ""

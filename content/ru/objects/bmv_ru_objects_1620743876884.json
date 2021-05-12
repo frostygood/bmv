@@ -62,22 +62,22 @@
             "name": "imgsblock",
             "props": [
                 {
-                    "first_alt": ""
+                    "third_alt": ""
                 },
                 {
                     "second_alt": ""
                 },
                 {
-                    "third_alt": ""
+                    "first_alt": ""
+                },
+                {
+                    "first_img": "/_vue_builder/bmv_ru_objects_1620743876884_1620744042480_ooo-kurskij-molochnyj-kombinat_1.jpg"
                 },
                 {
                     "third_img": "/_vue_builder/bmv_ru_objects_1620743876884_1620744057964_ooo-kurskij-molochnyj-kombinat_3.jpg"
                 },
                 {
                     "second_img": "/_vue_builder/bmv_ru_objects_1620743876884_1620744050184_ooo-kurskij-molochnyj-kombinat_2.jpg"
-                },
-                {
-                    "first_img": "/_vue_builder/bmv_ru_objects_1620743876884_1620744042480_ooo-kurskij-molochnyj-kombinat_1.jpg"
                 }
             ]
         },

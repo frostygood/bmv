@@ -62,22 +62,22 @@
             "name": "imgsblock",
             "props": [
                 {
+                    "first_alt": ""
+                },
+                {
                     "third_alt": ""
                 },
                 {
                     "second_alt": ""
                 },
                 {
-                    "first_alt": ""
-                },
-                {
-                    "third_img": "/_vue_builder/bmv_ru_objects_1620754713421_1620754800797_stroygigant_3.jpg"
+                    "first_img": "/_vue_builder/bmv_ru_objects_1620754713421_1620754778113_stroygigant_1.jpg"
                 },
                 {
                     "second_img": "/_vue_builder/bmv_ru_objects_1620754713421_1620754787781_stroygigant_2.jpg"
                 },
                 {
-                    "first_img": "/_vue_builder/bmv_ru_objects_1620754713421_1620754778113_stroygigant_1.jpg"
+                    "third_img": "/_vue_builder/bmv_ru_objects_1620754713421_1620754800797_stroygigant_3.jpg"
                 }
             ]
         },

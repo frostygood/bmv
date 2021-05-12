@@ -62,13 +62,13 @@
             "name": "imgsblock",
             "props": [
                 {
-                    "third_alt": ""
-                },
-                {
                     "first_alt": ""
                 },
                 {
                     "second_alt": ""
+                },
+                {
+                    "third_alt": ""
                 },
                 {
                     "second_img": "/_vue_builder/bmv_ru_objects_1619877297563_1619877426253_hotelkursk_2.jpg"

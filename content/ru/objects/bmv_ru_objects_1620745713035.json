@@ -62,22 +62,22 @@
             "name": "imgsblock",
             "props": [
                 {
+                    "third_alt": ""
+                },
+                {
                     "first_alt": ""
                 },
                 {
                     "second_alt": ""
                 },
                 {
-                    "third_alt": ""
-                },
-                {
-                    "third_img": "/_vue_builder/bmv_ru_objects_1620745713035_1620745859313_pharmstd_3.jpg"
+                    "first_img": "/_vue_builder/bmv_ru_objects_1620745713035_1620745836402_pharmstd_1.jpg"
                 },
                 {
                     "second_img": "/_vue_builder/bmv_ru_objects_1620745713035_1620745846615_pharmstd_2.jpg"
                 },
                 {
-                    "first_img": "/_vue_builder/bmv_ru_objects_1620745713035_1620745836402_pharmstd_1.jpg"
+                    "third_img": "/_vue_builder/bmv_ru_objects_1620745713035_1620745859313_pharmstd_3.jpg"
                 }
             ]
         },
