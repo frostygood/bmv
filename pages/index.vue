@@ -72,7 +72,7 @@
 					</div>
 				</div>
 				<div class="cards objects__cards">
-					<card v-for="(item,n) in articles" :key="n" :img="item.imgUrl" :link="item.path"
+					<card v-for="(item,n) in articles" :key="n" :img="'/_vue_builder/' + item.img" :link="'/objects/' + item.path_nuxt"
 						  :name="item.title"></card>
 				</div>
 				<div class="display-mobile">
@@ -170,9 +170,9 @@ export default {
 	async asyncData({$content, params, error}) {
 		let articles;
 		try {
-			let obj1 = await $content('objects').search('CENTRAL PARK').limit(1).fetch();
-			let obj2 = await $content('objects').search('КУРСКАЯ ГОРОДСКАЯ КЛИНИЧЕСКАЯ БОЛЬНИЦА СКОРОЙ МЕДИЦИНСКОЙ ПОМОЩИ').limit(1).fetch();
-			let obj3 = await $content('objects').search('ООО “ГРИБНАЯ РАДУГА”').limit(1).fetch();
+			let obj1 = await $content('ru', 'objects').search('ТЦ “CENTRAL PARK”').limit(1).fetch();
+			let obj2 = await $content('ru', 'objects').search('КОСМОДРОМ ВОСТОЧНЫЙ').limit(1).fetch();
+			let obj3 = await $content('ru', 'objects').search('ООО “ГРИБНАЯ РАДУГА”').limit(1).fetch();
 			articles = obj1.concat(obj2, obj3)
 		} catch (e) {
 			error({message: 'Article not found'})
