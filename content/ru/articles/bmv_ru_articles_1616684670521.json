@@ -13,6 +13,18 @@
             ]
         },
         {
+            "id": "space1619445236105",
+            "name": "space",
+            "props": [
+                {
+                    "note": false
+                },
+                {
+                    "name_class": "small"
+                }
+            ]
+        },
+        {
             "id": "bigimg1618310710624",
             "name": "bigimg",
             "props": [

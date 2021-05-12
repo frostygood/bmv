@@ -86,7 +86,7 @@
 
 		<div class="floor-contacts">
 			<div class="wrapper">
-				<contact-us/>
+				<contact-us :page-block="true"/>
 			</div>
 		</div>
 

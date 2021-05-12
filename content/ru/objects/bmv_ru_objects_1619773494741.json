@@ -1,0 +1,118 @@
+{
+    "description": "Проводимые нами работы - монтаж системы холодоснабжения.",
+    "id": "bmv_ru_objects_1619773494741",
+    "img": "bmv_ru_objects_1619773494741_1619773554836_europa-centralpark.jpg",
+    "page": [
+        {
+            "id": "title1618326385916",
+            "name": "title",
+            "props": [
+                {
+                    "title": "ТЦ “CENTRAL PARK”"
+                }
+            ]
+        },
+        {
+            "id": "space1618326407520",
+            "name": "space",
+            "props": [
+                {
+                    "note": false
+                },
+                {
+                    "name_class": "small"
+                }
+            ]
+        },
+        {
+            "id": "bigimg1618326495390",
+            "name": "bigimg",
+            "props": [
+                {
+                    "alt": ""
+                },
+                {
+                    "img": "/_vue_builder/bmv_ru_objects_1619773494741_1619773586573_europa-centralpark.jpg"
+                }
+            ]
+        },
+        {
+            "id": "editor1618326421393",
+            "name": "editor",
+            "props": [
+                {
+                    "texts": "<h3>Проводимые нами работы:</h3><ul><li><p>монтаж системы холодоснабжения.</p></li></ul>"
+                }
+            ]
+        },
+        {
+            "id": "space1618326521821",
+            "name": "space",
+            "props": [
+                {
+                    "note": false
+                },
+                {
+                    "name_class": "small"
+                }
+            ]
+        },
+        {
+            "id": "imgsblock1618326537543",
+            "name": "imgsblock",
+            "props": [
+                {
+                    "first_alt": ""
+                },
+                {
+                    "second_alt": ""
+                },
+                {
+                    "third_alt": ""
+                },
+                {
+                    "second_img": "/_vue_builder/bmv_ru_objects_1619773494741_1619773686658_europa-centralpark_2.jpg"
+                },
+                {
+                    "third_img": "/_vue_builder/bmv_ru_objects_1619773494741_1619773695521_europa-centralpark_3.jpg"
+                },
+                {
+                    "first_img": "/_vue_builder/bmv_ru_objects_1619773494741_1619773675534_europa-centralpark_1.jpg"
+                }
+            ]
+        },
+        {
+            "id": "space1618326683423",
+            "name": "space",
+            "props": [
+                {
+                    "note": false
+                },
+                {
+                    "name_class": "small"
+                }
+            ]
+        },
+        {
+            "id": "editor1618326704778",
+            "name": "editor",
+            "props": [
+                {
+                    "texts": "<p>Самым масштабным проектом компании «Промресурс» стал Central Park. Его открыли в декабре 2017 года.</p><p>Жемчужиной центра стал парк аттракционов Play Ventura. Это один из крупнейших в России комплексов развлечений площадью 20000 кв.м. В парке Play Ventura есть американские и водные горки, легендарный аттракцион «Дом с привидениями», арена для лазертага и много других развлечений для всей семьи.</p><p>Впервые в Курске в Central Park открылась эксплуатируемая кровля с панорамным видом на город, бассейном летом и катком зимой, с зелёными зонами отдыха, ресторанами и кафе. Здесь есть бесплатная смотровая площадка с биноклями и табличками, которые рассказывают об исторических зданиях Курска.</p><p>Central Park на RCSC Awards-2017 признан абсолютным победителем в престижной номинации «Проект на стадии реализации. Суперрегиональный ТЦ». Проект также получил престижную премию «100 лучших торговых и офисных центров России» и «Золотой кирпич» премии PROESTATE &amp; CRE FEDERAL AWARDS 2018 в номинации «Торговая недвижимость», в категории «Крупный ТЦ».</p><h3>Работы выполнялись в 2017, 2018 годах.</h3>"
+                }
+            ]
+        },
+        {
+            "id": "editor1618326467179",
+            "name": "editor",
+            "props": [
+                {
+                    "texts": "<p>tags:</p><p>- Cold</p>"
+                }
+            ]
+        }
+    ],
+    "path": "europa_centralpark",
+    "path_nuxt": "europa_centralpark",
+    "title": "ТЦ “CENTRAL PARK”"
+}
