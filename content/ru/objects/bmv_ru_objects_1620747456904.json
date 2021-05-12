@@ -62,22 +62,22 @@
             "name": "imgsblock",
             "props": [
                 {
-                    "third_alt": ""
-                },
-                {
                     "first_alt": ""
                 },
                 {
                     "second_alt": ""
                 },
                 {
+                    "third_alt": ""
+                },
+                {
                     "third_img": "/_vue_builder/bmv_ru_objects_1620747456904_1620747581534_shop-ccc_3.jpg"
                 },
                 {
-                    "first_img": "/_vue_builder/bmv_ru_objects_1620747456904_1620747563833_shop-ccc_1.jpg"
+                    "second_img": "/_vue_builder/bmv_ru_objects_1620747456904_1620747573863_shop-ccc_2.jpg"
                 },
                 {
-                    "second_img": "/_vue_builder/bmv_ru_objects_1620747456904_1620747573863_shop-ccc_2.jpg"
+                    "first_img": "/_vue_builder/bmv_ru_objects_1620747456904_1620747563833_shop-ccc_1.jpg"
                 }
             ]
         },

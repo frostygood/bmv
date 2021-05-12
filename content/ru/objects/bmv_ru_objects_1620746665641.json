@@ -62,22 +62,22 @@
             "name": "imgsblock",
             "props": [
                 {
-                    "second_alt": ""
+                    "third_alt": ""
                 },
                 {
                     "first_alt": ""
                 },
                 {
-                    "third_alt": ""
+                    "second_alt": ""
                 },
                 {
-                    "third_img": "/_vue_builder/bmv_ru_objects_1620746665641_1620746779368_rosselhoz_3.jpg"
+                    "second_img": "/_vue_builder/bmv_ru_objects_1620746665641_1620746763915_rosselhoz_2.jpg"
                 },
                 {
                     "first_img": "/_vue_builder/bmv_ru_objects_1620746665641_1620746753663_rosselhoz_1.jpg"
                 },
                 {
-                    "second_img": "/_vue_builder/bmv_ru_objects_1620746665641_1620746763915_rosselhoz_2.jpg"
+                    "third_img": "/_vue_builder/bmv_ru_objects_1620746665641_1620746779368_rosselhoz_3.jpg"
                 }
             ]
         },

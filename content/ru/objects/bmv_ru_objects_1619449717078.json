@@ -62,22 +62,22 @@
             "name": "imgsblock",
             "props": [
                 {
+                    "first_alt": ""
+                },
+                {
                     "second_alt": ""
                 },
                 {
                     "third_alt": ""
                 },
                 {
-                    "first_alt": ""
+                    "second_img": "/_vue_builder/bmv_ru_objects_1619449717078_1619449892030_asko-center_2.jpg"
                 },
                 {
                     "third_img": "/_vue_builder/"
                 },
                 {
                     "first_img": "/_vue_builder/bmv_ru_objects_1619449717078_1619449882059_asko-center_1.jpg"
-                },
-                {
-                    "second_img": "/_vue_builder/bmv_ru_objects_1619449717078_1619449892030_asko-center_2.jpg"
                 }
             ]
         },

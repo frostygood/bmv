@@ -62,19 +62,19 @@
             "name": "imgsblock",
             "props": [
                 {
-                    "third_alt": ""
-                },
-                {
                     "first_alt": ""
                 },
                 {
                     "second_alt": ""
                 },
                 {
-                    "second_img": "/_vue_builder/bmv_ru_objects_1620756508164_1620756587109_zharpizza_2.jpg"
+                    "third_alt": ""
                 },
                 {
                     "third_img": "/_vue_builder/bmv_ru_objects_1620756508164_1620756594783_zharpizza_3.jpg"
+                },
+                {
+                    "second_img": "/_vue_builder/bmv_ru_objects_1620756508164_1620756587109_zharpizza_2.jpg"
                 },
                 {
                     "first_img": "/_vue_builder/bmv_ru_objects_1620756508164_1620756575807_zharpizza_1.jpg"

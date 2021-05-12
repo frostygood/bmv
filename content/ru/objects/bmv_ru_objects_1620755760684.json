@@ -62,22 +62,22 @@
             "name": "imgsblock",
             "props": [
                 {
-                    "second_alt": ""
+                    "first_alt": ""
                 },
                 {
                     "third_alt": ""
                 },
                 {
-                    "first_alt": ""
-                },
-                {
-                    "third_img": "/_vue_builder/bmv_ru_objects_1620755760684_1620755843584_urozhay_3.jpg"
+                    "second_alt": ""
                 },
                 {
                     "second_img": "/_vue_builder/bmv_ru_objects_1620755760684_1620755834343_urozhay_2.jpg"
                 },
                 {
                     "first_img": "/_vue_builder/bmv_ru_objects_1620755760684_1620755824476_urozhay_1.jpg"
+                },
+                {
+                    "third_img": "/_vue_builder/bmv_ru_objects_1620755760684_1620755843584_urozhay_3.jpg"
                 }
             ]
         },

@@ -62,22 +62,22 @@
             "name": "imgsblock",
             "props": [
                 {
-                    "second_alt": ""
+                    "first_alt": ""
                 },
                 {
-                    "first_alt": ""
+                    "second_alt": ""
                 },
                 {
                     "third_alt": ""
                 },
                 {
-                    "second_img": "/_vue_builder/bmv_ru_objects_1620745965475_1620746040243_povorot_2.JPG"
+                    "first_img": "/_vue_builder/bmv_ru_objects_1620745965475_1620746030976_povorot_1.jpg"
                 },
                 {
                     "third_img": "/_vue_builder/bmv_ru_objects_1620745965475_1620746049070_povorot_3.jpg"
                 },
                 {
-                    "first_img": "/_vue_builder/bmv_ru_objects_1620745965475_1620746030976_povorot_1.jpg"
+                    "second_img": "/_vue_builder/bmv_ru_objects_1620745965475_1620746040243_povorot_2.JPG"
                 }
             ]
         },
