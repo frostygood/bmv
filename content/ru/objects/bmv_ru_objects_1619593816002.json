@@ -62,19 +62,19 @@
             "name": "imgsblock",
             "props": [
                 {
+                    "second_alt": ""
+                },
+                {
                     "first_alt": ""
                 },
                 {
                     "third_alt": ""
                 },
                 {
-                    "second_alt": ""
+                    "first_img": "/_vue_builder/bmv_ru_objects_1619593816002_1619593948453_boulanger_1.jpg"
                 },
                 {
                     "second_img": "/_vue_builder/bmv_ru_objects_1619593816002_1619593959132_boulanger_2.jpg"
-                },
-                {
-                    "first_img": "/_vue_builder/bmv_ru_objects_1619593816002_1619593948453_boulanger_1.jpg"
                 },
                 {
                     "third_img": "/_vue_builder/bmv_ru_objects_1619593816002_1619593969144_boulanger_3.jpg"

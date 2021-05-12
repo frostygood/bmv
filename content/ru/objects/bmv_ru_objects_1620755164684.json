@@ -1,0 +1,118 @@
+{
+    "description": "Проводимые нами работы - поставка и монтаж холодильных агрегатов, кондиционирование, вентиляция.",
+    "id": "bmv_ru_objects_1620755164684",
+    "img": "bmv_ru_objects_1620755164684_1620755430343_sudzha-arena.jpg",
+    "page": [
+        {
+            "id": "title1618326385916",
+            "name": "title",
+            "props": [
+                {
+                    "title": "ЛЕДОВАЯ АРЕНА В СУДЖЕ"
+                }
+            ]
+        },
+        {
+            "id": "space1618326407520",
+            "name": "space",
+            "props": [
+                {
+                    "note": false
+                },
+                {
+                    "name_class": "small"
+                }
+            ]
+        },
+        {
+            "id": "bigimg1618326495390",
+            "name": "bigimg",
+            "props": [
+                {
+                    "alt": ""
+                },
+                {
+                    "img": "/_vue_builder/bmv_ru_objects_1620755164684_1620755215338_sudzha-arena.jpg"
+                }
+            ]
+        },
+        {
+            "id": "editor1618326421393",
+            "name": "editor",
+            "props": [
+                {
+                    "texts": "<h3>Проводимые нами работы:</h3><ul><li><p>поставка и монтаж холодильных агрегатов;</p></li><li><p>кондиционирование;</p></li><li><p>вентиляция.</p></li></ul>"
+                }
+            ]
+        },
+        {
+            "id": "space1618326521821",
+            "name": "space",
+            "props": [
+                {
+                    "note": false
+                },
+                {
+                    "name_class": "small"
+                }
+            ]
+        },
+        {
+            "id": "imgsblock1618326537543",
+            "name": "imgsblock",
+            "props": [
+                {
+                    "third_alt": ""
+                },
+                {
+                    "first_alt": ""
+                },
+                {
+                    "second_alt": ""
+                },
+                {
+                    "third_img": "/_vue_builder/bmv_ru_objects_1620755164684_1620755365757_sudzha-arena_3.jpg"
+                },
+                {
+                    "first_img": "/_vue_builder/bmv_ru_objects_1620755164684_1620755344762_sudzha-arena_1.jpg"
+                },
+                {
+                    "second_img": "/_vue_builder/bmv_ru_objects_1620755164684_1620755354720_sudzha-arena_2.jpg"
+                }
+            ]
+        },
+        {
+            "id": "space1618326683423",
+            "name": "space",
+            "props": [
+                {
+                    "note": false
+                },
+                {
+                    "name_class": "small"
+                }
+            ]
+        },
+        {
+            "id": "editor1620755680180",
+            "name": "editor",
+            "props": [
+                {
+                    "texts": "<p>Ледовый каток - любимое место отдыха взрослых и детей. В морозные зимние дни и в жаркие летние можно насладиться активным видом спорта или просто отдохнуть, назначить романтическую встречу и покататься с детьми в крытых ледовых катках с искусственным ледовым покрытием. Здесь можно ощутить прелесть зимы даже в 40-градусную жару. Каток - веселье и радость для взрослых и детей. Крытый ледовый каток в Судже - островок зимы в любое время.</p><h3>Работы на объекте проводились в 2020 году.</h3>"
+                }
+            ]
+        },
+        {
+            "id": "editor1618326704778",
+            "name": "editor",
+            "props": [
+                {
+                    "texts": "<p>tags:</p><p>&nbsp;&nbsp;-&nbsp;Vent</p><p>&nbsp;&nbsp;-&nbsp;Fresh</p><p>&nbsp;&nbsp;-&nbsp;Cold</p>"
+                }
+            ]
+        }
+    ],
+    "path": "sudzha_arena",
+    "path_nuxt": "sudzha_arena",
+    "title": "ЛЕДОВАЯ АРЕНА В СУДЖЕ"
+}

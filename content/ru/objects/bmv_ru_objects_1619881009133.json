@@ -62,13 +62,13 @@
             "name": "imgsblock",
             "props": [
                 {
-                    "third_alt": ""
-                },
-                {
                     "first_alt": ""
                 },
                 {
                     "second_alt": ""
+                },
+                {
+                    "third_alt": ""
                 },
                 {
                     "third_img": "/_vue_builder/bmv_ru_objects_1619881009133_1619881210251_odmkursk_3.jpg"

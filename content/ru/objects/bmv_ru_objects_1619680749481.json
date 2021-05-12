@@ -62,22 +62,22 @@
             "name": "imgsblock",
             "props": [
                 {
-                    "third_alt": ""
+                    "first_alt": ""
                 },
                 {
                     "second_alt": ""
                 },
                 {
-                    "first_alt": ""
+                    "third_alt": ""
+                },
+                {
+                    "third_img": "/_vue_builder/bmv_ru_objects_1619680749481_1619681032934_bsmp-kursk_3.jpg"
                 },
                 {
                     "second_img": "/_vue_builder/bmv_ru_objects_1619680749481_1619680980371_bsmp-kursk_2.jpg"
                 },
                 {
                     "first_img": "/_vue_builder/bmv_ru_objects_1619680749481_1619680967684_bsmp-kursk_1.jpg"
-                },
-                {
-                    "third_img": "/_vue_builder/bmv_ru_objects_1619680749481_1619681032934_bsmp-kursk_3.jpg"
                 }
             ]
         },

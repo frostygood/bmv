@@ -1,0 +1,118 @@
+{
+    "description": "Проводимые нами работы - монтаж системы вентиляции и перекладку (выравнивание) трубопроводов холодоснабжения и дренажа, демонтажа/монтажа фанкойлов в «Помещение №72 в ТРЦ «Европа» по адресу: 305004, г. Курск ул. К.Маркса д.6.",
+    "id": "bmv_ru_objects_1620747456904",
+    "img": "bmv_ru_objects_1620747456904_1620747510280_shop-ccc.jpg",
+    "page": [
+        {
+            "id": "title1618326385916",
+            "name": "title",
+            "props": [
+                {
+                    "title": "МАГАЗИН ССС"
+                }
+            ]
+        },
+        {
+            "id": "space1618326407520",
+            "name": "space",
+            "props": [
+                {
+                    "note": false
+                },
+                {
+                    "name_class": "small"
+                }
+            ]
+        },
+        {
+            "id": "bigimg1618326495390",
+            "name": "bigimg",
+            "props": [
+                {
+                    "alt": ""
+                },
+                {
+                    "img": "/_vue_builder/bmv_ru_objects_1620747456904_1620747477312_shop-ccc.jpg"
+                }
+            ]
+        },
+        {
+            "id": "editor1618326421393",
+            "name": "editor",
+            "props": [
+                {
+                    "texts": "<h3>Проводимые нами работы:</h3><ul><li><p>монтаж системы вентиляции и перекладку (выравнивание) трубопроводов холодоснабжения и дренажа, демонтажа/монтажа фанкойлов в «Помещение №72 в ТРЦ «Европа» по адресу: 305004, г. Курск ул. К.Маркса д.6.</p></li></ul>"
+                }
+            ]
+        },
+        {
+            "id": "space1618326521821",
+            "name": "space",
+            "props": [
+                {
+                    "note": false
+                },
+                {
+                    "name_class": "small"
+                }
+            ]
+        },
+        {
+            "id": "imgsblock1618326537543",
+            "name": "imgsblock",
+            "props": [
+                {
+                    "second_alt": ""
+                },
+                {
+                    "third_alt": ""
+                },
+                {
+                    "first_alt": ""
+                },
+                {
+                    "second_img": "/_vue_builder/bmv_ru_objects_1620747456904_1620747573863_shop-ccc_2.jpg"
+                },
+                {
+                    "first_img": "/_vue_builder/bmv_ru_objects_1620747456904_1620747563833_shop-ccc_1.jpg"
+                },
+                {
+                    "third_img": "/_vue_builder/bmv_ru_objects_1620747456904_1620747581534_shop-ccc_3.jpg"
+                }
+            ]
+        },
+        {
+            "id": "space1618326683423",
+            "name": "space",
+            "props": [
+                {
+                    "note": false
+                },
+                {
+                    "name_class": "small"
+                }
+            ]
+        },
+        {
+            "id": "editor1618326704778",
+            "name": "editor",
+            "props": [
+                {
+                    "texts": "<p>ССС - модная обувь по доступной цене!</p><p>Одна из крупнейших обувных сетей из Европы!</p><p>Более 1200 магазинов в 25 странах.</p><p>ССС - женская, мужская, детская обувь, сумки и аксессуары по доступным ценам.</p><h3>Работы выполнялись в 2018 году</h3>"
+                }
+            ]
+        },
+        {
+            "id": "editor1618326467179",
+            "name": "editor",
+            "props": [
+                {
+                    "texts": "<p>tags:</p><p>&nbsp;&nbsp;-&nbsp;Vent</p><p>&nbsp;&nbsp;-&nbsp;Cold</p><p>&nbsp;&nbsp;-&nbsp;Сlimate</p>"
+                }
+            ]
+        }
+    ],
+    "path": "shop_ccc",
+    "path_nuxt": "shop_ccc",
+    "title": "МАГАЗИН ССС"
+}

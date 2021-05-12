@@ -62,22 +62,22 @@
             "name": "imgsblock",
             "props": [
                 {
-                    "third_alt": ""
-                },
-                {
                     "second_alt": ""
                 },
                 {
-                    "first_alt": ""
+                    "third_alt": ""
                 },
                 {
-                    "second_img": "/_vue_builder/bmv_ru_objects_1619878254246_1619878406853_konti_2.jpg"
+                    "first_alt": ""
                 },
                 {
                     "third_img": "/_vue_builder/bmv_ru_objects_1619878254246_1619878418399_konti_3.jpg"
                 },
                 {
                     "first_img": "/_vue_builder/bmv_ru_objects_1619878254246_1619878396160_konti_1.jpg"
+                },
+                {
+                    "second_img": "/_vue_builder/bmv_ru_objects_1619878254246_1619878406853_konti_2.jpg"
                 }
             ]
         },
