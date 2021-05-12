@@ -101,6 +101,6 @@
         }
     ],
     "path": "cnii_mo_rf",
-    "path_nuxt": "cnii_mo_rf",
-    "title": "18 ЦНИИ МО РФ"
+    "title": "18 ЦНИИ МО РФ",
+    "path_nuxt": "cnii_mo_rf"
 }

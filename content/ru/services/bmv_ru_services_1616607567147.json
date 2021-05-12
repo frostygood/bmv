@@ -89,6 +89,6 @@
         }
     ],
     "path": "security",
-    "path_nuxt": "security",
-    "title": "Системы безопасности и связи в Курске"
+    "title": "Системы безопасности и связи в Курске",
+    "path_nuxt": "security"
 }

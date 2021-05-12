@@ -62,22 +62,22 @@
             "name": "imgsblock",
             "props": [
                 {
-                    "third_alt": ""
-                },
-                {
                     "first_alt": ""
                 },
                 {
                     "second_alt": ""
                 },
                 {
-                    "third_img": "/_vue_builder/"
+                    "third_alt": ""
                 },
                 {
                     "first_img": "/_vue_builder/bmv_ru_objects_1619879055720_1619879228226_kurskokb_1.jpg"
                 },
                 {
                     "second_img": "/_vue_builder/bmv_ru_objects_1619879055720_1619879244966_kurskokb_2.jpg"
+                },
+                {
+                    "third_img": "/_vue_builder/"
                 }
             ]
         },
@@ -113,6 +113,6 @@
         }
     ],
     "path": "kurskokb",
-    "path_nuxt": "kurskokb",
-    "title": "КУРСКАЯ ОКБ"
+    "title": "КУРСКАЯ ОКБ",
+    "path_nuxt": "kurskokb"
 }

@@ -62,22 +62,22 @@
             "name": "imgsblock",
             "props": [
                 {
-                    "third_alt": ""
+                    "first_alt": ""
                 },
                 {
                     "second_alt": ""
                 },
                 {
-                    "first_alt": ""
+                    "third_alt": ""
                 },
                 {
-                    "third_img": "/_vue_builder/bmv_ru_objects_1619881009133_1619881210251_odmkursk_3.jpg"
+                    "first_img": "/_vue_builder/bmv_ru_objects_1619881009133_1619881184452_odmkursk_1.jpg"
                 },
                 {
                     "second_img": "/_vue_builder/bmv_ru_objects_1619881009133_1619881196999_odmkursk_2.jpg"
                 },
                 {
-                    "first_img": "/_vue_builder/bmv_ru_objects_1619881009133_1619881184452_odmkursk_1.jpg"
+                    "third_img": "/_vue_builder/bmv_ru_objects_1619881009133_1619881210251_odmkursk_3.jpg"
                 }
             ]
         },
@@ -113,6 +113,6 @@
         }
     ],
     "path": "odmkursk",
-    "path_nuxt": "odmkursk",
-    "title": "ДВОРЕЦ МОЛОДЕЖИ"
+    "title": "ДВОРЕЦ МОЛОДЕЖИ",
+    "path_nuxt": "odmkursk"
 }

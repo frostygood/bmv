@@ -89,6 +89,6 @@
         }
     ],
     "path": "ventilation",
-    "path_nuxt": "ventilation",
-    "title": "Промышленная вентиляция в Курске"
+    "title": "Промышленная вентиляция в Курске",
+    "path_nuxt": "ventilation"
 }

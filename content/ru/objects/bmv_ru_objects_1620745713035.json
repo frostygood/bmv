@@ -65,10 +65,10 @@
                     "first_alt": ""
                 },
                 {
-                    "third_alt": ""
+                    "second_alt": ""
                 },
                 {
-                    "second_alt": ""
+                    "third_alt": ""
                 },
                 {
                     "first_img": "/_vue_builder/bmv_ru_objects_1620745713035_1620745836402_pharmstd_1.jpg"
@@ -113,6 +113,6 @@
         }
     ],
     "path": "pharmstd",
-    "path_nuxt": "pharmstd",
-    "title": "ОАО «ФАРМСТАНДАРТ-ЛЕКСРЕДСТВА»"
+    "title": "ОАО «ФАРМСТАНДАРТ-ЛЕКСРЕДСТВА»",
+    "path_nuxt": "pharmstd"
 }

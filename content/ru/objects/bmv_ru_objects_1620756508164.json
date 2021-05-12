@@ -71,13 +71,13 @@
                     "third_alt": ""
                 },
                 {
-                    "third_img": "/_vue_builder/bmv_ru_objects_1620756508164_1620756594783_zharpizza_3.jpg"
+                    "first_img": "/_vue_builder/bmv_ru_objects_1620756508164_1620756575807_zharpizza_1.jpg"
                 },
                 {
                     "second_img": "/_vue_builder/bmv_ru_objects_1620756508164_1620756587109_zharpizza_2.jpg"
                 },
                 {
-                    "first_img": "/_vue_builder/bmv_ru_objects_1620756508164_1620756575807_zharpizza_1.jpg"
+                    "third_img": "/_vue_builder/bmv_ru_objects_1620756508164_1620756594783_zharpizza_3.jpg"
                 }
             ]
         },
@@ -113,6 +113,6 @@
         }
     ],
     "path": "zharpizza",
-    "path_nuxt": "zharpizza",
-    "title": "ЖАР-ПИЦЦА"
+    "title": "ЖАР-ПИЦЦА",
+    "path_nuxt": "zharpizza"
 }

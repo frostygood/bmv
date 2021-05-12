@@ -53,6 +53,6 @@
         }
     ],
     "path": "europa_ts",
-    "path_nuxt": "europa_ts",
-    "title": "ООО “ПРОМРЕСУРС” (магазины ЕВРОПА)"
+    "title": "ООО “ПРОМРЕСУРС” (магазины ЕВРОПА)",
+    "path_nuxt": "europa_ts"
 }

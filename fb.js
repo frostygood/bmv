@@ -39,7 +39,7 @@ function getBuilder(lang, type) {
       snapshot.forEach((doc) => {
         //console.log(doc.data())
         let path = 'content/'+lang+'/'+type+'/' + doc.id + '.json';
-        let json = doc.data();
+        let json = sortobject(doc.data());
         json.page.forEach((item, i) => {
           let bufArray = []
           for (let obj in item.props.boolean) bufArray.push({[obj]: item.props.boolean[obj]})
@@ -52,7 +52,7 @@ function getBuilder(lang, type) {
         })
         delete json["strings"]
         json['path_nuxt'] = json.path
-        json = JSON.stringify(sortobject(json), escape, 4);
+        json = JSON.stringify(json, escape, 4);
 
         fs.writeFile (path, json, function(err) {
           if (err) throw err;

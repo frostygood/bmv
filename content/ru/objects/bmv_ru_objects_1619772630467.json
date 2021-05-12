@@ -62,22 +62,22 @@
             "name": "imgsblock",
             "props": [
                 {
+                    "first_alt": ""
+                },
+                {
                     "second_alt": ""
                 },
                 {
                     "third_alt": ""
                 },
                 {
-                    "first_alt": ""
-                },
-                {
-                    "third_img": "/_vue_builder/"
-                },
-                {
                     "first_img": "/_vue_builder/bmv_ru_objects_1619772630467_1619772771704_elista_1.jpg"
                 },
                 {
                     "second_img": "/_vue_builder/bmv_ru_objects_1619772630467_1619772783075_elista_2.jpg"
+                },
+                {
+                    "third_img": "/_vue_builder/"
                 }
             ]
         },
@@ -113,6 +113,6 @@
         }
     ],
     "path": "elista",
-    "path_nuxt": "elista",
-    "title": "ЭЛИСТА"
+    "title": "ЭЛИСТА",
+    "path_nuxt": "elista"
 }

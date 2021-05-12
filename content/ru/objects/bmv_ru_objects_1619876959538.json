@@ -71,13 +71,13 @@
                     "third_alt": ""
                 },
                 {
+                    "first_img": "/_vue_builder/bmv_ru_objects_1619876959538_1619877080956_grinn-corp_1.jpg"
+                },
+                {
                     "second_img": "/_vue_builder/bmv_ru_objects_1619876959538_1619877092350_grinn-corp_2.jpg"
                 },
                 {
                     "third_img": "/_vue_builder/bmv_ru_objects_1619876959538_1619877103258_grinn-corp_3.jpg"
-                },
-                {
-                    "first_img": "/_vue_builder/bmv_ru_objects_1619876959538_1619877080956_grinn-corp_1.jpg"
                 }
             ]
         },
@@ -113,6 +113,6 @@
         }
     ],
     "path": "grinn_corp",
-    "path_nuxt": "grinn_corp",
-    "title": "ГРИНН"
+    "title": "ГРИНН",
+    "path_nuxt": "grinn_corp"
 }

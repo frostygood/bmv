@@ -62,22 +62,22 @@
             "name": "imgsblock",
             "props": [
                 {
-                    "third_alt": ""
+                    "first_alt": ""
                 },
                 {
                     "second_alt": ""
                 },
                 {
-                    "first_alt": ""
+                    "third_alt": ""
+                },
+                {
+                    "first_img": "/_vue_builder/bmv_ru_objects_1619774671009_1619774784058_fe46_1.jpg"
                 },
                 {
                     "second_img": "/_vue_builder/bmv_ru_objects_1619774671009_1619774794457_fe46_2.jpg"
                 },
                 {
                     "third_img": "/_vue_builder/"
-                },
-                {
-                    "first_img": "/_vue_builder/bmv_ru_objects_1619774671009_1619774784058_fe46_1.jpg"
                 }
             ]
         },
@@ -113,6 +113,6 @@
         }
     ],
     "path": "fe46",
-    "path_nuxt": "fe46",
-    "title": "ОБУ “СПОРТИВНАЯ ШКОЛА ПО ФЕХТОВАНИЮ”"
+    "title": "ОБУ “СПОРТИВНАЯ ШКОЛА ПО ФЕХТОВАНИЮ”",
+    "path_nuxt": "fe46"
 }

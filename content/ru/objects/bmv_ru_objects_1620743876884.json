@@ -71,13 +71,13 @@
                     "third_alt": ""
                 },
                 {
-                    "third_img": "/_vue_builder/bmv_ru_objects_1620743876884_1620744057964_ooo-kurskij-molochnyj-kombinat_3.jpg"
-                },
-                {
                     "first_img": "/_vue_builder/bmv_ru_objects_1620743876884_1620744042480_ooo-kurskij-molochnyj-kombinat_1.jpg"
                 },
                 {
                     "second_img": "/_vue_builder/bmv_ru_objects_1620743876884_1620744050184_ooo-kurskij-molochnyj-kombinat_2.jpg"
+                },
+                {
+                    "third_img": "/_vue_builder/bmv_ru_objects_1620743876884_1620744057964_ooo-kurskij-molochnyj-kombinat_3.jpg"
                 }
             ]
         },
@@ -113,6 +113,6 @@
         }
     ],
     "path": "ooo_kurskij_molochnyj_kombinat",
-    "path_nuxt": "ooo_kurskij_molochnyj_kombinat",
-    "title": " ООО ГК “МОЛОЧНАЯ АРТЕЛЬ”"
+    "title": " ООО ГК “МОЛОЧНАЯ АРТЕЛЬ”",
+    "path_nuxt": "ooo_kurskij_molochnyj_kombinat"
 }

@@ -62,22 +62,22 @@
             "name": "imgsblock",
             "props": [
                 {
+                    "first_alt": ""
+                },
+                {
                     "second_alt": ""
                 },
                 {
                     "third_alt": ""
                 },
                 {
-                    "first_alt": ""
-                },
-                {
                     "first_img": "/_vue_builder/bmv_ru_objects_1619773494741_1619773675534_europa-centralpark_1.jpg"
                 },
                 {
-                    "third_img": "/_vue_builder/bmv_ru_objects_1619773494741_1619773695521_europa-centralpark_3.jpg"
+                    "second_img": "/_vue_builder/bmv_ru_objects_1619773494741_1619773686658_europa-centralpark_2.jpg"
                 },
                 {
-                    "second_img": "/_vue_builder/bmv_ru_objects_1619773494741_1619773686658_europa-centralpark_2.jpg"
+                    "third_img": "/_vue_builder/bmv_ru_objects_1619773494741_1619773695521_europa-centralpark_3.jpg"
                 }
             ]
         },
@@ -113,6 +113,6 @@
         }
     ],
     "path": "europa_centralpark",
-    "path_nuxt": "europa_centralpark",
-    "title": "ТЦ “CENTRAL PARK”"
+    "title": "ТЦ “CENTRAL PARK”",
+    "path_nuxt": "europa_centralpark"
 }

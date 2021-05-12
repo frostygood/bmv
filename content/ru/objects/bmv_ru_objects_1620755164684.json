@@ -62,19 +62,19 @@
             "name": "imgsblock",
             "props": [
                 {
-                    "third_alt": ""
-                },
-                {
                     "first_alt": ""
                 },
                 {
                     "second_alt": ""
                 },
                 {
-                    "second_img": "/_vue_builder/bmv_ru_objects_1620755164684_1620755354720_sudzha-arena_2.jpg"
+                    "third_alt": ""
                 },
                 {
                     "first_img": "/_vue_builder/bmv_ru_objects_1620755164684_1620755344762_sudzha-arena_1.jpg"
+                },
+                {
+                    "second_img": "/_vue_builder/bmv_ru_objects_1620755164684_1620755354720_sudzha-arena_2.jpg"
                 },
                 {
                     "third_img": "/_vue_builder/bmv_ru_objects_1620755164684_1620755365757_sudzha-arena_3.jpg"
@@ -113,6 +113,6 @@
         }
     ],
     "path": "sudzha_arena",
-    "path_nuxt": "sudzha_arena",
-    "title": "ЛЕДОВАЯ АРЕНА В СУДЖЕ"
+    "title": "ЛЕДОВАЯ АРЕНА В СУДЖЕ",
+    "path_nuxt": "sudzha_arena"
 }

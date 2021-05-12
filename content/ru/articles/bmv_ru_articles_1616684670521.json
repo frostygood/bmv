@@ -113,6 +113,6 @@
         }
     ],
     "path": "kak_rasschitat_moschnost_kondicionera",
-    "path_nuxt": "kak_rasschitat_moschnost_kondicionera",
-    "title": "Как рассчитать мощность кондиционера?"
+    "title": "Как рассчитать мощность кондиционера?",
+    "path_nuxt": "kak_rasschitat_moschnost_kondicionera"
 }

@@ -62,19 +62,19 @@
             "name": "imgsblock",
             "props": [
                 {
-                    "third_alt": ""
-                },
-                {
                     "first_alt": ""
                 },
                 {
                     "second_alt": ""
                 },
                 {
-                    "second_img": "/_vue_builder/bmv_ru_objects_1620746665641_1620746763915_rosselhoz_2.jpg"
+                    "third_alt": ""
                 },
                 {
                     "first_img": "/_vue_builder/bmv_ru_objects_1620746665641_1620746753663_rosselhoz_1.jpg"
+                },
+                {
+                    "second_img": "/_vue_builder/bmv_ru_objects_1620746665641_1620746763915_rosselhoz_2.jpg"
                 },
                 {
                     "third_img": "/_vue_builder/bmv_ru_objects_1620746665641_1620746779368_rosselhoz_3.jpg"
@@ -113,6 +113,6 @@
         }
     ],
     "path": "rosselhoz",
-    "path_nuxt": "rosselhoz",
-    "title": "ФГБУ “ОРЛОВСКИЙ РЕФЕРЕНТНЫЙ ЦЕНТР “РОССЕЛЬХОЗНАДЗОРА”"
+    "title": "ФГБУ “ОРЛОВСКИЙ РЕФЕРЕНТНЫЙ ЦЕНТР “РОССЕЛЬХОЗНАДЗОРА”",
+    "path_nuxt": "rosselhoz"
 }

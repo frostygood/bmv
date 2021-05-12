@@ -101,6 +101,6 @@
         }
     ],
     "path": "medassist_k",
-    "path_nuxt": "medassist_k",
-    "title": "МЕДАССИСТ"
+    "title": "МЕДАССИСТ",
+    "path_nuxt": "medassist_k"
 }

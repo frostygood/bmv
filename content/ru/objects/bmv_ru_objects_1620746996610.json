@@ -65,6 +65,6 @@
         }
     ],
     "path": "severniy_rinok",
-    "path_nuxt": "severniy_rinok",
-    "title": "СЕВЕРНЫЙ РЫНОК"
+    "title": "СЕВЕРНЫЙ РЫНОК",
+    "path_nuxt": "severniy_rinok"
 }

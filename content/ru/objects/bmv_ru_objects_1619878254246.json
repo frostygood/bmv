@@ -113,6 +113,6 @@
         }
     ],
     "path": "konti",
-    "path_nuxt": "konti",
-    "title": "ЗАО «КОНТИ-РУС»"
+    "title": "ЗАО «КОНТИ-РУС»",
+    "path_nuxt": "konti"
 }

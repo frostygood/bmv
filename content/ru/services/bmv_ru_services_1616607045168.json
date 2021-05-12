@@ -89,6 +89,6 @@
         }
     ],
     "path": "automation",
-    "path_nuxt": "automation",
-    "title": "Автоматика в Курске"
+    "title": "Автоматика в Курске",
+    "path_nuxt": "automation"
 }

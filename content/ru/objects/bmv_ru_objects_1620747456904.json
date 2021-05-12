@@ -71,13 +71,13 @@
                     "third_alt": ""
                 },
                 {
-                    "third_img": "/_vue_builder/bmv_ru_objects_1620747456904_1620747581534_shop-ccc_3.jpg"
+                    "first_img": "/_vue_builder/bmv_ru_objects_1620747456904_1620747563833_shop-ccc_1.jpg"
                 },
                 {
                     "second_img": "/_vue_builder/bmv_ru_objects_1620747456904_1620747573863_shop-ccc_2.jpg"
                 },
                 {
-                    "first_img": "/_vue_builder/bmv_ru_objects_1620747456904_1620747563833_shop-ccc_1.jpg"
+                    "third_img": "/_vue_builder/bmv_ru_objects_1620747456904_1620747581534_shop-ccc_3.jpg"
                 }
             ]
         },
@@ -113,6 +113,6 @@
         }
     ],
     "path": "shop_ccc",
-    "path_nuxt": "shop_ccc",
-    "title": "МАГАЗИН ССС"
+    "title": "МАГАЗИН ССС",
+    "path_nuxt": "shop_ccc"
 }

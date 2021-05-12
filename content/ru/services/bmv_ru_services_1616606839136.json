@@ -89,6 +89,6 @@
         }
     ],
     "path": "video",
-    "path_nuxt": "video",
-    "title": "Видеонаблюдение в Курске:"
+    "title": "Видеонаблюдение в Курске:",
+    "path_nuxt": "video"
 }
