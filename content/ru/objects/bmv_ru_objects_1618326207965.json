@@ -110,9 +110,29 @@
                     "texts": "<p>tags:</p><p> - Vent</p><p> - Fresh</p><p> - Auto</p><p> - Cold</p>"
                 }
             ]
+        },
+        {
+            "id": "space1621263398252",
+            "name": "space",
+            "props": [
+                {
+                    "note": false
+                },
+                {
+                    "name_class": "last"
+                }
+            ],
+            "selects": {
+                "name_class": [
+                    "large",
+                    "big",
+                    "small",
+                    "last"
+                ]
+            }
         }
     ],
-    "path": "arena_kursk-1",
+    "path": "arena_kursk",
     "title": "АРЕНА КУРСК",
-    "path_nuxt": "arena_kursk-1"
+    "path_nuxt": "arena_kursk"
 }

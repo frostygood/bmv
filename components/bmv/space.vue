@@ -1,9 +1,3 @@
-<!--
-	Основные props:
-		title (String) - заголовок блока, можно с html-разметкой
-		text (String) - текст блока, можно с html-разметкой, если ничего не передавать, то отображаться не будет
-		wide (Boolean) - текст на 8 колонок, а не на 6
--->
 <template>
 <div class="sc20-space" :class="[name_class]">
 	<p v-if="note">
@@ -17,7 +11,9 @@
 		props: {
 			name_class: {
 				type: String,
-				default: 'large'
+				default: 'large',
+				type_admin: "selects",
+				selects: ["large", "big", "small", "last"]
 			},
 			note: {
 				type: Boolean,

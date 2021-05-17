@@ -47,6 +47,7 @@ function getBuilder(lang, type) {
           for (let obj in item.props.string) bufArray.push({[obj]: json.strings[item.props.string[obj]]})
           for (let obj in item.props.imgs) bufArray.push({[obj]: '/_vue_builder/' + item.props.imgs[obj]})
           for (let obj in item.props.links) bufArray.push({[obj]: item.props.links[obj]})
+          for (let obj in item.props.selects) bufArray.push({[obj]: item.props.selects[obj]})
           json.page[i].props = bufArray
           delete json.page[i].edit
         })
