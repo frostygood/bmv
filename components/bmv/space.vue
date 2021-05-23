@@ -1,8 +1,5 @@
 <template>
 <div class="sc20-space" :class="[name_class]">
-	<p v-if="note">
-		large - 144px, big - 80px, small - 40px, last - 240px
-	</p>
 </div>
 </template>
 
@@ -13,11 +10,9 @@
 				type: String,
 				default: 'large',
 				type_admin: "selects",
-				selects: ["large", "big", "small", "last"]
-			},
-			note: {
-				type: Boolean,
-				default: false
+				selects: ["large", "big", "small", "last"],
+				placeholder: "Высота отступа",
+				order: 1
 			}
 		},
 	};

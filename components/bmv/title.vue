@@ -13,7 +13,10 @@
 		props: {
 			title: {
 				type: String,
-				default: 'H1 заголовок'
+				default: 'H1 заголовок',
+				placeholder: "Главный заголовок страницы (не больше одного на страницу, в html разметке выглядит как H1)",
+				order: 1,
+				type_admin: "string",
 			}
 		},
 	};

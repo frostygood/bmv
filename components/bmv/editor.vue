@@ -9,6 +9,9 @@
 			texts: {
 				type: String,
 				default: "...",
+				placeholder: "Большой текст со стилизацией",
+				order: 1,
+				type_admin: "editor"
 			},
 		},
 		data: function () {

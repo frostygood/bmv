@@ -22,7 +22,10 @@ export default {
 	props: {
 		pageBlock: {
 			type: Boolean,
-			default: false
+			default: false,
+			placeholder: "вкл - темный фон, выкл - светлый фон",
+			order: 1,
+			type_admin: "boolean"
 		}
 	},
 	data() {
