@@ -1,0 +1,185 @@
+[
+    {
+        "name": "bigimg",
+        "edit": false,
+        "id": "id",
+        "placeholders": {
+            "img": "Загрузка основной картинки",
+            "alt": "Название и описание картинки для поисковиков"
+        },
+        "orders": {
+            "img": "1",
+            "alt": "2"
+        },
+        "selects": {},
+        "props": {
+            "boolean": {
+            },
+            "string": { 
+                "alt": ""
+            },
+            "editor": {
+            },
+            "imgs": {
+                "img": ""
+            },
+            "custom": {},
+            "selects": {},
+            "links": {
+            }
+        }
+    },
+    {
+        "name": "imgsblock",
+        "edit": false,
+        "id": "id",
+        "selects": {},
+        "placeholders": {
+            "first_alt": "Название и описание первой картинки для поисковиков",
+            "second_alt": "Название и описание второй картинки для поисковиков",
+            "third_alt": "Название и описание третьей картинки для поисковиков",
+            "first_img": "Первая картинка (если не загружать, то ничего не покажется)",
+            "second_img": "Вторая картинка (если не загружать, то ничего не покажется)",
+            "third_img": "Третья картинка (если не загружать, то ничего не покажется)"
+        },
+        "orders": {
+            "first_alt": "2",
+            "second_alt": "4",
+            "third_alt": "6",
+            "first_img": "1",
+            "second_img": "3",
+            "third_img": "5"
+        },
+        "props": {
+            "boolean": {
+            },
+            "string": { 
+                "first_alt": "",
+                "second_alt": "",
+                "third_alt": ""
+            },
+            "editor": {
+            },
+            "imgs": {
+                "first_img": "",
+                "second_img": "",
+                "third_img": ""
+            },
+            "custom": {},
+            "selects": {},
+            "links": {
+            }
+        }
+    },
+    {
+        "name": "space",
+        "edit": false,
+        "id": "id",
+        "selects": {
+            "name_class": ["large", "big", "small", "last"]
+        },
+        "placeholders": {
+            "name_class": "Высота отступа"
+        },
+        "orders": {
+            "name_class": "1"
+        },
+        "props": {
+            "boolean": {
+            },
+            "string": { 
+            },
+            "editor": {
+            },
+            "imgs": {
+            },
+            "links": {
+            },
+            "custom": {},
+            "selects": {
+                "name_class": "large"
+            }
+        }
+    },
+    {
+        "name": "title",
+        "edit": false,
+        "id": "id",
+        "selects": {},
+        "placeholders": {
+            "title": "Главный заголовок страницы (не больше одного на страницу, в html разметке выглядит как H1)"
+        },
+        "orders": {
+            "title": "1"
+        },
+        "props": {
+            "boolean": {
+            },
+            "string": { 
+                "title": "H1 заголовок"
+            },
+            "editor": {
+            },
+            "imgs": {
+            },
+            "custom": {},
+            "selects": {},
+            "links": {
+            }
+        }
+    },
+    {
+        "name": "editor",
+        "edit": false,
+        "id": "id",
+        "selects": {},
+        "placeholders": {
+            "texts": "Большой текст со стилизацией"
+        },
+        "orders": {
+            "texts": "1"
+        },
+        "props": {
+            "boolean": {
+            },
+            "string": {
+            },
+            "editor": {
+                "texts": "..."
+            },
+            "imgs": {
+            },
+            "custom": {},
+            "selects": {},
+            "links": {
+            }
+        }
+    },
+    {
+        "name": "contactus",
+        "edit": false,
+        "id": "id",
+        "selects": {},
+        "placeholders": {
+            "texts": "вкл - темный фон, выкл - светлый фон"
+        },
+        "orders": {
+            "texts": "1"
+        },
+        "props": {
+            "boolean": {
+                "pageBlock": true
+            },
+            "string": {
+            },
+            "editor": {
+            },
+            "imgs": {
+            },
+            "custom": {},
+            "selects": {},
+            "links": {
+            }
+        }
+    }
+]
