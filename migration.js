@@ -43,7 +43,7 @@ function migration(lang, type) {
         })
         if (!outPage.hasOwnProperty('needTranslate')) outPage.needTranslate = false
         if (!outPage.hasOwnProperty('lock')) outPage.lock = false
-        if (!outPage.hasOwnProperty('tags')) outPage.tags = {}
+        if (!outPage.hasOwnProperty('tags')) outPage.tags = []
         console.log(outPage)
 
         db.collection('bmv').doc(''+lang).collection(''+type).doc(''+outPage.id).set(outPage).then(() => {
