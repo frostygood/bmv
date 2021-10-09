@@ -67,8 +67,6 @@
 				outline: none;
 			}
 		}
-
-		ul,
 		ol {
 			margin-bottom: 40px;
 

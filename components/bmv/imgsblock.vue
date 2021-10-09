@@ -57,7 +57,8 @@
 
 <style lang="scss" scoped>
 .block_imgs img {
-	height: 230px;
+	max-height: 230px;
 	display: inline-block;  
+	max-width: 100%;
 }
 </style>

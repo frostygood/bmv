@@ -25,7 +25,8 @@
 
 <style lang="scss" scoped>
 .big_img {
-	height: 400px;
-	display: block;  
+	max-height: 400px;
+	display: block;
+	max-width: 100%;
 }
 </style>
