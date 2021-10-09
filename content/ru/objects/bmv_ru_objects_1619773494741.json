@@ -1,32 +1,64 @@
 {
+    "active": true,
     "description": "Проводимые нами работы - монтаж системы холодоснабжения.",
     "id": "bmv_ru_objects_1619773494741",
     "img": "bmv_ru_objects_1619773494741_1619773554836_europa-centralpark.jpg",
+    "lock": false,
+    "needTranslate": false,
     "page": [
         {
             "id": "title1618326385916",
             "name": "title",
+            "orders": {
+                "title": "1"
+            },
+            "placeholders": {
+                "title": "Главный заголовок страницы (не больше одного на страницу, в html разметке выглядит как H1)"
+            },
+            "preview": "",
             "props": [
                 {
                     "title": "ТЦ “CENTRAL PARK”"
                 }
-            ]
+            ],
+            "selects": {}
         },
         {
             "id": "space1618326407520",
             "name": "space",
+            "orders": {
+                "name_class": "1"
+            },
+            "placeholders": {
+                "name_class": "Высота отступа"
+            },
+            "preview": "",
             "props": [
                 {
-                    "note": false
-                },
-                {
-                    "name_class": "small"
+                    "name_class": "large"
                 }
-            ]
+            ],
+            "selects": {
+                "name_class": [
+                    "large",
+                    "big",
+                    "small",
+                    "last"
+                ]
+            }
         },
         {
             "id": "bigimg1618326495390",
             "name": "bigimg",
+            "orders": {
+                "alt": "2",
+                "img": "1"
+            },
+            "placeholders": {
+                "alt": "Название и описание картинки для поисковиков",
+                "img": "Загрузка основной картинки"
+            },
+            "preview": "",
             "props": [
                 {
                     "alt": ""
@@ -34,32 +66,70 @@
                 {
                     "img": "/_vue_builder/bmv_ru_objects_1619773494741_1619773586573_europa-centralpark.jpg"
                 }
-            ]
+            ],
+            "selects": {}
         },
         {
             "id": "editor1618326421393",
             "name": "editor",
+            "orders": {
+                "texts": "1"
+            },
+            "placeholders": {
+                "texts": "Большой текст со стилизацией"
+            },
+            "preview": "",
             "props": [
                 {
                     "texts": "<h3>Проводимые нами работы:</h3><ul><li><p>монтаж системы холодоснабжения.</p></li></ul>"
                 }
-            ]
+            ],
+            "selects": {}
         },
         {
             "id": "space1618326521821",
             "name": "space",
+            "orders": {
+                "name_class": "1"
+            },
+            "placeholders": {
+                "name_class": "Высота отступа"
+            },
+            "preview": "",
             "props": [
                 {
-                    "note": false
-                },
-                {
-                    "name_class": "small"
+                    "name_class": "large"
                 }
-            ]
+            ],
+            "selects": {
+                "name_class": [
+                    "large",
+                    "big",
+                    "small",
+                    "last"
+                ]
+            }
         },
         {
             "id": "imgsblock1618326537543",
             "name": "imgsblock",
+            "orders": {
+                "first_alt": "2",
+                "first_img": "1",
+                "second_alt": "4",
+                "second_img": "3",
+                "third_alt": "6",
+                "third_img": "5"
+            },
+            "placeholders": {
+                "first_alt": "Название и описание первой картинки для поисковиков",
+                "first_img": "Первая картинка (если не загружать, то ничего не покажется)",
+                "second_alt": "Название и описание второй картинки для поисковиков",
+                "second_img": "Вторая картинка (если не загружать, то ничего не покажется)",
+                "third_alt": "Название и описание третьей картинки для поисковиков",
+                "third_img": "Третья картинка (если не загружать, то ничего не покажется)"
+            },
+            "preview": "",
             "props": [
                 {
                     "first_alt": ""
@@ -79,40 +149,70 @@
                 {
                     "third_img": "/_vue_builder/bmv_ru_objects_1619773494741_1619773695521_europa-centralpark_3.jpg"
                 }
-            ]
+            ],
+            "selects": {}
         },
         {
             "id": "space1618326683423",
             "name": "space",
+            "orders": {
+                "name_class": "1"
+            },
+            "placeholders": {
+                "name_class": "Высота отступа"
+            },
+            "preview": "",
             "props": [
                 {
-                    "note": false
-                },
-                {
-                    "name_class": "small"
+                    "name_class": "large"
                 }
-            ]
+            ],
+            "selects": {
+                "name_class": [
+                    "large",
+                    "big",
+                    "small",
+                    "last"
+                ]
+            }
         },
         {
             "id": "editor1618326704778",
             "name": "editor",
+            "orders": {
+                "texts": "1"
+            },
+            "placeholders": {
+                "texts": "Большой текст со стилизацией"
+            },
+            "preview": "",
             "props": [
                 {
                     "texts": "<p>Самым масштабным проектом компании «Промресурс» стал Central Park. Его открыли в декабре 2017 года.</p><p>Жемчужиной центра стал парк аттракционов Play Ventura. Это один из крупнейших в России комплексов развлечений площадью 20000 кв.м. В парке Play Ventura есть американские и водные горки, легендарный аттракцион «Дом с привидениями», арена для лазертага и много других развлечений для всей семьи.</p><p>Впервые в Курске в Central Park открылась эксплуатируемая кровля с панорамным видом на город, бассейном летом и катком зимой, с зелёными зонами отдыха, ресторанами и кафе. Здесь есть бесплатная смотровая площадка с биноклями и табличками, которые рассказывают об исторических зданиях Курска.</p><p>Central Park на RCSC Awards-2017 признан абсолютным победителем в престижной номинации «Проект на стадии реализации. Суперрегиональный ТЦ». Проект также получил престижную премию «100 лучших торговых и офисных центров России» и «Золотой кирпич» премии PROESTATE &amp; CRE FEDERAL AWARDS 2018 в номинации «Торговая недвижимость», в категории «Крупный ТЦ».</p><h3>Работы выполнялись в 2017, 2018 годах.</h3>"
                 }
-            ]
+            ],
+            "selects": {}
         },
         {
             "id": "editor1618326467179",
             "name": "editor",
+            "orders": {
+                "texts": "1"
+            },
+            "placeholders": {
+                "texts": "Большой текст со стилизацией"
+            },
+            "preview": "",
             "props": [
                 {
                     "texts": "<p>tags:</p><p>- Cold</p>"
                 }
-            ]
+            ],
+            "selects": {}
         }
     ],
     "path": "europa_centralpark",
+    "tags": [],
     "title": "ТЦ “CENTRAL PARK”",
     "path_nuxt": "europa_centralpark"
 }

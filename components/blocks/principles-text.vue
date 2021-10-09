@@ -6,7 +6,7 @@
 		</div>
 		<button type="button" class="principles__item-button" @click="toggleIsOpened">
 			подробнее
-			<img src="/img/arrow.svg" :class="[isOpened ? 'opened' : '']" alt="" />
+			<img src="/img/arrow.svg" loading="lazy" :class="[isOpened ? 'opened' : '']" alt="" />
 		</button>
 	</div>
 </template>

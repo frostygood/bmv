@@ -1,0 +1,1129 @@
+[
+    {
+        "file": "./static/favicon-32x32.png",
+        "size": 3295,
+        "size_tiny": 1711,
+        "tiny": true,
+        "type": "png"
+    },
+    {
+        "file": "./static/img/call-bg.png",
+        "size": 163524,
+        "size_tiny": 42445,
+        "tiny": true,
+        "type": "png"
+    },
+    {
+        "file": "./static/img/company-info-img.png",
+        "size": 395234,
+        "size_tiny": 337694,
+        "tiny": true,
+        "type": "png"
+    },
+    {
+        "file": "./static/img/footer-bg.png",
+        "size": 189506,
+        "size_tiny": 54422,
+        "tiny": true,
+        "type": "png"
+    },
+    {
+        "file": "./static/img/footer-logo.png",
+        "size": 23624,
+        "size_tiny": 6387,
+        "tiny": true,
+        "type": "png"
+    },
+    {
+        "file": "./static/img/logo.png",
+        "size": 43948,
+        "size_tiny": 9549,
+        "tiny": true,
+        "type": "png"
+    },
+    {
+        "file": "./static/img/main-bg.png",
+        "size": 492078,
+        "size_tiny": 354996,
+        "tiny": true,
+        "type": "png"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_articles_1616684670521_1618069015780_article-kak_schitat_mochnost.jpeg",
+        "size": 160581,
+        "size_tiny": 62587,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_articles_1616684670521_1618309866254_bmv_ru_articles_1616684670521_1618069015780_article-kak_schitat_mochnost.jpeg",
+        "size": 160581,
+        "size_tiny": 62587,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_articles_1616684670521_1618310723019_bmv_ru_articles_1616684670521_1618069015780_article-kak_schitat_mochnost.jpeg",
+        "size": 160581,
+        "size_tiny": 62587,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_articles_1616684670521_1632746851068_google-pagespeed-insights.jpg",
+        "size": 24379,
+        "size_tiny": 24379,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1618326207965_1618326340716_arena-kursk.jpg",
+        "size": 283057,
+        "size_tiny": 137095,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1618326207965_1618326509644_arena-kursk.jpg",
+        "size": 283057,
+        "size_tiny": 137095,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1618326207965_1618326551743_arena-kursk_1.jpg",
+        "size": 72512,
+        "size_tiny": 42884,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1618326207965_1618326562011_arena-kursk_2.jpg",
+        "size": 75728,
+        "size_tiny": 43610,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1618326207965_1618326571297_arena-kursk_3.jpg",
+        "size": 272523,
+        "size_tiny": 118211,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1618326207965_1621346917978_arena-kursk.jpg",
+        "size": 283057,
+        "size_tiny": 137095,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619449717078_1619449774057_asko-center.jpg",
+        "size": 240900,
+        "size_tiny": 171667,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619449717078_1619449882059_asko-center_1.jpg",
+        "size": 288662,
+        "size_tiny": 270698,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619449717078_1619449892030_asko-center_2.jpg",
+        "size": 285047,
+        "size_tiny": 206054,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619593816002_1619593836017_boulanger.jpg",
+        "size": 285807,
+        "size_tiny": 220501,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619593816002_1619593948453_boulanger_1.jpg",
+        "size": 220883,
+        "size_tiny": 127640,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619593816002_1619593959132_boulanger_2.jpg",
+        "size": 208918,
+        "size_tiny": 156840,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619593816002_1619593969144_boulanger_3.jpg",
+        "size": 290254,
+        "size_tiny": 229976,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619593816002_1619594072529_boulanger.jpg",
+        "size": 285807,
+        "size_tiny": 220501,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619593816002_1619594351561_boulanger.jpg",
+        "size": 285807,
+        "size_tiny": 220501,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619680749481_1619680811328_bsmp-kursk.jpg",
+        "size": 227598,
+        "size_tiny": 156423,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619680749481_1619680854696_bsmp-kursk.jpg",
+        "size": 227598,
+        "size_tiny": 156423,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619680749481_1619680967684_bsmp-kursk_1.jpg",
+        "size": 257725,
+        "size_tiny": 180781,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619680749481_1619680980371_bsmp-kursk_2.jpg",
+        "size": 221522,
+        "size_tiny": 155794,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619680749481_1619680990074_boulanger_3.jpg",
+        "size": 290254,
+        "size_tiny": 229976,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619680749481_1619681032934_bsmp-kursk_3.jpg",
+        "size": 182716,
+        "size_tiny": 142797,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619767631102_1619767732887_ckk-kursk.jpg",
+        "size": 283873,
+        "size_tiny": 234586,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619767631102_1619767776531_ckk-kursk.jpg",
+        "size": 283873,
+        "size_tiny": 234586,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619767883561_1619767912664_cnii-mo-rf.jpg",
+        "size": 264267,
+        "size_tiny": 197560,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619767883561_1619768001817_cnii-mo-rf.jpg",
+        "size": 264267,
+        "size_tiny": 197560,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619767883561_1619768071654_cnii-mo-rf_1.jpg",
+        "size": 219078,
+        "size_tiny": 187115,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619767883561_1619768106364_cnii-mo-rf_1.jpg",
+        "size": 219078,
+        "size_tiny": 187115,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619767883561_1619768547927_cnii-mo-rf.jpg",
+        "size": 264267,
+        "size_tiny": 197560,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619768327177_1619768421422_composit.jpg",
+        "size": 213686,
+        "size_tiny": 147796,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619768327177_1619768440511_composit_1.jpg",
+        "size": 269476,
+        "size_tiny": 210398,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619768327177_1619768451595_composit_2.jpg",
+        "size": 245641,
+        "size_tiny": 174136,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619768327177_1619768460789_composit_3.jpg",
+        "size": 284168,
+        "size_tiny": 168390,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619768327177_1619768514593_composit.jpg",
+        "size": 213686,
+        "size_tiny": 147796,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619772630467_1619772709753_elista.jpg",
+        "size": 283553,
+        "size_tiny": 193292,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619772630467_1619772728292_elista.jpg",
+        "size": 283553,
+        "size_tiny": 193292,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619772630467_1619772771704_elista_1.jpg",
+        "size": 280465,
+        "size_tiny": 171209,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619772630467_1619772783075_elista_2.jpg",
+        "size": 261464,
+        "size_tiny": 190369,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619773494741_1619773554836_europa-centralpark.jpg",
+        "size": 247318,
+        "size_tiny": 247318,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619773494741_1619773586573_europa-centralpark.jpg",
+        "size": 247318,
+        "size_tiny": 247318,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619773494741_1619773675534_europa-centralpark_1.jpg",
+        "size": 276895,
+        "size_tiny": 207567,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619773494741_1619773686658_europa-centralpark_2.jpg",
+        "size": 223727,
+        "size_tiny": 143488,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619773494741_1619773695521_europa-centralpark_3.jpg",
+        "size": 217304,
+        "size_tiny": 88970,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619774671009_1619774761408_fe46.jpg",
+        "size": 140888,
+        "size_tiny": 120650,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619774671009_1619774784058_fe46_1.jpg",
+        "size": 221892,
+        "size_tiny": 148919,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619774671009_1619774794457_fe46_2.jpg",
+        "size": 275295,
+        "size_tiny": 194548,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619774671009_1619774822427_fe46.jpg",
+        "size": 140888,
+        "size_tiny": 120650,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619774973189_1619775078680_goapi.jpg",
+        "size": 286869,
+        "size_tiny": 209352,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619774973189_1619775109024_goapi_1.jpg",
+        "size": 227254,
+        "size_tiny": 181704,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619774973189_1619775120202_goapi_2.jpg",
+        "size": 272830,
+        "size_tiny": 162384,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619774973189_1619775130694_goapi_3.jpg",
+        "size": 279387,
+        "size_tiny": 139156,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619774973189_1619775171370_goapi.jpg",
+        "size": 286869,
+        "size_tiny": 209352,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619876184777_1619876268297_gribnaya-raduga.jpg",
+        "size": 243881,
+        "size_tiny": 184584,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619876184777_1619876303558_gribnaya-raduga.jpg",
+        "size": 243881,
+        "size_tiny": 184584,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619876184777_1619876347324_gribnaya-raduga_1.jpg",
+        "size": 275595,
+        "size_tiny": 161679,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619876184777_1619876358897_gribnaya-raduga_2.jpg",
+        "size": 273950,
+        "size_tiny": 177969,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619876184777_1619876368391_gribnaya-raduga_3.jpg",
+        "size": 233474,
+        "size_tiny": 112584,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619876959538_1619876991890_grinn-corp.jpg",
+        "size": 291250,
+        "size_tiny": 223117,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619876959538_1619877034733_grinn-corp.jpg",
+        "size": 291250,
+        "size_tiny": 223117,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619876959538_1619877080956_grinn-corp_1.jpg",
+        "size": 229817,
+        "size_tiny": 110456,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619876959538_1619877092350_grinn-corp_2.jpg",
+        "size": 239844,
+        "size_tiny": 159729,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619876959538_1619877103258_grinn-corp_3.jpg",
+        "size": 286070,
+        "size_tiny": 203824,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619877297563_1619877336599_hotelkursk.jpg",
+        "size": 241582,
+        "size_tiny": 164507,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619877297563_1619877376172_hotelkursk.jpg",
+        "size": 241582,
+        "size_tiny": 164507,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619877297563_1619877416218_hotelkursk_1.jpg",
+        "size": 185176,
+        "size_tiny": 148064,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619877297563_1619877426253_hotelkursk_2.jpg",
+        "size": 271943,
+        "size_tiny": 159216,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619877297563_1619877437340_hotelkursk_3.jpg",
+        "size": 263802,
+        "size_tiny": 145656,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619878254246_1619878301656_konti.jpg",
+        "size": 72874,
+        "size_tiny": 63104,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619878254246_1619878359876_konti.jpg",
+        "size": 72874,
+        "size_tiny": 63104,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619878254246_1619878396160_konti_1.jpg",
+        "size": 243861,
+        "size_tiny": 152265,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619878254246_1619878406853_konti_2.jpg",
+        "size": 220118,
+        "size_tiny": 218807,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619878254246_1619878418399_konti_3.jpg",
+        "size": 293168,
+        "size_tiny": 214829,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619879055720_1619879101249_kurskokb.jpg",
+        "size": 272502,
+        "size_tiny": 187950,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619879055720_1619879153816_kurskokb.jpg",
+        "size": 272502,
+        "size_tiny": 187950,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619879055720_1619879198215_kurskokb_1.jpg",
+        "size": 296233,
+        "size_tiny": 209317,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619879055720_1619879228226_kurskokb_1.jpg",
+        "size": 296233,
+        "size_tiny": 209317,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619879055720_1619879244966_kurskokb_2.jpg",
+        "size": 240726,
+        "size_tiny": 165351,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619880286683_1619880329287_medassist-k.jpg",
+        "size": 165749,
+        "size_tiny": 113932,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619880286683_1619880375675_medassist-k.jpg",
+        "size": 165749,
+        "size_tiny": 113932,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619880286683_1619880454725_medassist-k_1.jpg",
+        "size": 292830,
+        "size_tiny": 197736,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619881009133_1619881045920_odmkursk.jpg",
+        "size": 276499,
+        "size_tiny": 158778,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619881009133_1619881148455_odmkursk.jpg",
+        "size": 276499,
+        "size_tiny": 158778,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619881009133_1619881184452_odmkursk_1.jpg",
+        "size": 261273,
+        "size_tiny": 162841,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619881009133_1619881196999_odmkursk_2.jpg",
+        "size": 111018,
+        "size_tiny": 95727,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1619881009133_1619881210251_odmkursk_3.jpg",
+        "size": 250948,
+        "size_tiny": 141439,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620743876884_1620743977168_ooo-kurskij-molochnyj-kombinat.jpg",
+        "size": 283545,
+        "size_tiny": 181543,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620743876884_1620744016494_ooo-kurskij-molochnyj-kombinat.jpg",
+        "size": 283545,
+        "size_tiny": 181543,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620743876884_1620744042480_ooo-kurskij-molochnyj-kombinat_1.jpg",
+        "size": 284996,
+        "size_tiny": 184740,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620743876884_1620744050184_ooo-kurskij-molochnyj-kombinat_2.jpg",
+        "size": 281168,
+        "size_tiny": 182655,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620743876884_1620744057964_ooo-kurskij-molochnyj-kombinat_3.jpg",
+        "size": 274854,
+        "size_tiny": 162746,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620744995124_1620745066163_panorama.jpg",
+        "size": 238935,
+        "size_tiny": 164768,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620744995124_1620745100470_panorama_1.jpg",
+        "size": 280849,
+        "size_tiny": 203992,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620744995124_1620745108642_panorama_2.jpg",
+        "size": 237090,
+        "size_tiny": 169281,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620744995124_1620745121260_panorama_3.jpg",
+        "size": 183989,
+        "size_tiny": 109427,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620744995124_1620745165029_panorama.jpg",
+        "size": 238935,
+        "size_tiny": 164768,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620745713035_1620745762703_pharmstd.jpg",
+        "size": 296958,
+        "size_tiny": 190677,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620745713035_1620745785067_pharmstd.jpg",
+        "size": 296958,
+        "size_tiny": 190677,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620745713035_1620745836402_pharmstd_1.jpg",
+        "size": 159342,
+        "size_tiny": 113520,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620745713035_1620745846615_pharmstd_2.jpg",
+        "size": 270478,
+        "size_tiny": 128441,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620745713035_1620745859313_pharmstd_3.jpg",
+        "size": 258432,
+        "size_tiny": 118708,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620745965475_1620746005324_povorot.jpg",
+        "size": 251266,
+        "size_tiny": 154056,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620745965475_1620746030976_povorot_1.jpg",
+        "size": 255819,
+        "size_tiny": 150489,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620745965475_1620746049070_povorot_3.jpg",
+        "size": 261867,
+        "size_tiny": 172453,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620745965475_1620746099633_povorot.jpg",
+        "size": 251266,
+        "size_tiny": 154056,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620746427690_1620746441301_restorator.jpg",
+        "size": 195247,
+        "size_tiny": 119196,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620746427690_1620746462724_restorator_1.jpg",
+        "size": 207324,
+        "size_tiny": 145331,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620746427690_1620746470672_restorator_2.jpg",
+        "size": 230541,
+        "size_tiny": 218717,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620746427690_1620746479118_restorator_3.jpg",
+        "size": 282132,
+        "size_tiny": 163823,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620746427690_1620746544846_restorator.jpg",
+        "size": 195247,
+        "size_tiny": 119196,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620746665641_1620746726606_rosselhoz.jpg",
+        "size": 290138,
+        "size_tiny": 198254,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620746665641_1620746753663_rosselhoz_1.jpg",
+        "size": 271041,
+        "size_tiny": 200540,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620746665641_1620746763915_rosselhoz_2.jpg",
+        "size": 211121,
+        "size_tiny": 174638,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620746665641_1620746779368_rosselhoz_3.jpg",
+        "size": 292205,
+        "size_tiny": 170963,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620746665641_1620746879698_rosselhoz.jpg",
+        "size": 290138,
+        "size_tiny": 198254,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620746996610_1620747011103_severniy-rinok.jpg",
+        "size": 162138,
+        "size_tiny": 133927,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620746996610_1620747098510_severniy-rinok.jpg",
+        "size": 162138,
+        "size_tiny": 133927,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620747456904_1620747477312_shop-ccc.jpg",
+        "size": 121435,
+        "size_tiny": 94427,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620747456904_1620747510280_shop-ccc.jpg",
+        "size": 121435,
+        "size_tiny": 94427,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620747456904_1620747563833_shop-ccc_1.jpg",
+        "size": 260961,
+        "size_tiny": 173743,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620747456904_1620747573863_shop-ccc_2.jpg",
+        "size": 289325,
+        "size_tiny": 177438,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620747456904_1620747581534_shop-ccc_3.jpg",
+        "size": 285138,
+        "size_tiny": 185234,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620754713421_1620754740741_stroygigant.jpg",
+        "size": 268410,
+        "size_tiny": 186668,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620754713421_1620754778113_stroygigant_1.jpg",
+        "size": 295390,
+        "size_tiny": 202235,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620754713421_1620754787781_stroygigant_2.jpg",
+        "size": 212209,
+        "size_tiny": 155106,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620754713421_1620754800797_stroygigant_3.jpg",
+        "size": 277034,
+        "size_tiny": 208531,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620754713421_1620754869552_stroygigant.jpg",
+        "size": 268410,
+        "size_tiny": 186668,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620755164684_1620755215338_sudzha-arena.jpg",
+        "size": 251490,
+        "size_tiny": 172419,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620755164684_1620755344762_sudzha-arena_1.jpg",
+        "size": 255450,
+        "size_tiny": 172913,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620755164684_1620755354720_sudzha-arena_2.jpg",
+        "size": 281281,
+        "size_tiny": 193718,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620755164684_1620755365757_sudzha-arena_3.jpg",
+        "size": 283900,
+        "size_tiny": 164181,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620755164684_1620755430343_sudzha-arena.jpg",
+        "size": 251490,
+        "size_tiny": 172419,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620755760684_1620755772082_urozhay.jpg",
+        "size": 292926,
+        "size_tiny": 233927,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620755760684_1620755824476_urozhay_1.jpg",
+        "size": 294329,
+        "size_tiny": 161177,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620755760684_1620755834343_urozhay_2.jpg",
+        "size": 285204,
+        "size_tiny": 169682,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620755760684_1620755843584_urozhay_3.jpg",
+        "size": 293621,
+        "size_tiny": 152456,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620755760684_1620755888955_urozhay.jpg",
+        "size": 292926,
+        "size_tiny": 233927,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620756220788_1620756250683_vostok-russian-space.jpg",
+        "size": 277614,
+        "size_tiny": 204913,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620756220788_1620756330723_vostok-russian-space_1.jpg",
+        "size": 270489,
+        "size_tiny": 149097,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620756220788_1620756356041_vostok-russian-space_2.jpg",
+        "size": 273838,
+        "size_tiny": 185362,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620756220788_1620756364642_vostok-russian-space_3.jpg",
+        "size": 253119,
+        "size_tiny": 143382,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620756220788_1620756394158_vostok-russian-space.jpg",
+        "size": 277614,
+        "size_tiny": 204913,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620756508164_1620756528927_zharpizza.jpg",
+        "size": 188238,
+        "size_tiny": 109461,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620756508164_1620756575807_zharpizza_1.jpg",
+        "size": 283087,
+        "size_tiny": 179381,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620756508164_1620756587109_zharpizza_2.jpg",
+        "size": 256290,
+        "size_tiny": 190397,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620756508164_1620756594783_zharpizza_3.jpg",
+        "size": 263313,
+        "size_tiny": 194733,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620756508164_1620756647932_zharpizza.jpg",
+        "size": 188238,
+        "size_tiny": 109461,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620756890997_1620756919338_keaz.jpg",
+        "size": 268562,
+        "size_tiny": 213507,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620756890997_1620756947649_keaz_1.jpg",
+        "size": 292198,
+        "size_tiny": 292084,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620756890997_1620756956828_keaz_2.jpg",
+        "size": 236663,
+        "size_tiny": 118088,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620756890997_1620756965366_keaz_3.jpg",
+        "size": 242761,
+        "size_tiny": 107376,
+        "tiny": true,
+        "type": "jpeg"
+    },
+    {
+        "file": "./static/_vue_builder/bmv_ru_objects_1620756890997_1620757018002_keaz.jpg",
+        "size": 268562,
+        "size_tiny": 213507,
+        "tiny": true,
+        "type": "jpeg"
+    }
+]

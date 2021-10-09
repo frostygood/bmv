@@ -1,5 +1,5 @@
 <template>
-	<img class="big_img" v-if="img" decoding="async" loading="lazy"  :src="img" :alt="alt">
+	<img class="big_img" v-if="img" decoding="async" loading="lazy" :src="img" :alt="alt">
 </template>
 
 <script>

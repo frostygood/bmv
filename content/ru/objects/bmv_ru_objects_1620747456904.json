@@ -1,32 +1,64 @@
 {
+    "active": true,
     "description": "Проводимые нами работы - монтаж системы вентиляции и перекладку (выравнивание) трубопроводов холодоснабжения и дренажа, демонтажа/монтажа фанкойлов в «Помещение №72 в ТРЦ «Европа» по адресу: 305004, г. Курск ул. К.Маркса д.6.",
     "id": "bmv_ru_objects_1620747456904",
     "img": "bmv_ru_objects_1620747456904_1620747510280_shop-ccc.jpg",
+    "lock": false,
+    "needTranslate": false,
     "page": [
         {
             "id": "title1618326385916",
             "name": "title",
+            "orders": {
+                "title": "1"
+            },
+            "placeholders": {
+                "title": "Главный заголовок страницы (не больше одного на страницу, в html разметке выглядит как H1)"
+            },
+            "preview": "",
             "props": [
                 {
                     "title": "МАГАЗИН ССС"
                 }
-            ]
+            ],
+            "selects": {}
         },
         {
             "id": "space1618326407520",
             "name": "space",
+            "orders": {
+                "name_class": "1"
+            },
+            "placeholders": {
+                "name_class": "Высота отступа"
+            },
+            "preview": "",
             "props": [
                 {
-                    "note": false
-                },
-                {
-                    "name_class": "small"
+                    "name_class": "large"
                 }
-            ]
+            ],
+            "selects": {
+                "name_class": [
+                    "large",
+                    "big",
+                    "small",
+                    "last"
+                ]
+            }
         },
         {
             "id": "bigimg1618326495390",
             "name": "bigimg",
+            "orders": {
+                "alt": "2",
+                "img": "1"
+            },
+            "placeholders": {
+                "alt": "Название и описание картинки для поисковиков",
+                "img": "Загрузка основной картинки"
+            },
+            "preview": "",
             "props": [
                 {
                     "alt": ""
@@ -34,32 +66,70 @@
                 {
                     "img": "/_vue_builder/bmv_ru_objects_1620747456904_1620747477312_shop-ccc.jpg"
                 }
-            ]
+            ],
+            "selects": {}
         },
         {
             "id": "editor1618326421393",
             "name": "editor",
+            "orders": {
+                "texts": "1"
+            },
+            "placeholders": {
+                "texts": "Большой текст со стилизацией"
+            },
+            "preview": "",
             "props": [
                 {
                     "texts": "<h3>Проводимые нами работы:</h3><ul><li><p>монтаж системы вентиляции и перекладку (выравнивание) трубопроводов холодоснабжения и дренажа, демонтажа/монтажа фанкойлов в «Помещение №72 в ТРЦ «Европа» по адресу: 305004, г. Курск ул. К.Маркса д.6.</p></li></ul>"
                 }
-            ]
+            ],
+            "selects": {}
         },
         {
             "id": "space1618326521821",
             "name": "space",
+            "orders": {
+                "name_class": "1"
+            },
+            "placeholders": {
+                "name_class": "Высота отступа"
+            },
+            "preview": "",
             "props": [
                 {
-                    "note": false
-                },
-                {
-                    "name_class": "small"
+                    "name_class": "large"
                 }
-            ]
+            ],
+            "selects": {
+                "name_class": [
+                    "large",
+                    "big",
+                    "small",
+                    "last"
+                ]
+            }
         },
         {
             "id": "imgsblock1618326537543",
             "name": "imgsblock",
+            "orders": {
+                "first_alt": "2",
+                "first_img": "1",
+                "second_alt": "4",
+                "second_img": "3",
+                "third_alt": "6",
+                "third_img": "5"
+            },
+            "placeholders": {
+                "first_alt": "Название и описание первой картинки для поисковиков",
+                "first_img": "Первая картинка (если не загружать, то ничего не покажется)",
+                "second_alt": "Название и описание второй картинки для поисковиков",
+                "second_img": "Вторая картинка (если не загружать, то ничего не покажется)",
+                "third_alt": "Название и описание третьей картинки для поисковиков",
+                "third_img": "Третья картинка (если не загружать, то ничего не покажется)"
+            },
+            "preview": "",
             "props": [
                 {
                     "first_alt": ""
@@ -79,40 +149,70 @@
                 {
                     "third_img": "/_vue_builder/bmv_ru_objects_1620747456904_1620747581534_shop-ccc_3.jpg"
                 }
-            ]
+            ],
+            "selects": {}
         },
         {
             "id": "space1618326683423",
             "name": "space",
+            "orders": {
+                "name_class": "1"
+            },
+            "placeholders": {
+                "name_class": "Высота отступа"
+            },
+            "preview": "",
             "props": [
                 {
-                    "note": false
-                },
-                {
-                    "name_class": "small"
+                    "name_class": "large"
                 }
-            ]
+            ],
+            "selects": {
+                "name_class": [
+                    "large",
+                    "big",
+                    "small",
+                    "last"
+                ]
+            }
         },
         {
             "id": "editor1618326704778",
             "name": "editor",
+            "orders": {
+                "texts": "1"
+            },
+            "placeholders": {
+                "texts": "Большой текст со стилизацией"
+            },
+            "preview": "",
             "props": [
                 {
                     "texts": "<p>ССС - модная обувь по доступной цене!</p><p>Одна из крупнейших обувных сетей из Европы!</p><p>Более 1200 магазинов в 25 странах.</p><p>ССС - женская, мужская, детская обувь, сумки и аксессуары по доступным ценам.</p><h3>Работы выполнялись в 2018 году</h3>"
                 }
-            ]
+            ],
+            "selects": {}
         },
         {
             "id": "editor1618326467179",
             "name": "editor",
+            "orders": {
+                "texts": "1"
+            },
+            "placeholders": {
+                "texts": "Большой текст со стилизацией"
+            },
+            "preview": "",
             "props": [
                 {
                     "texts": "<p>tags:</p><p>&nbsp;&nbsp;-&nbsp;Vent</p><p>&nbsp;&nbsp;-&nbsp;Cold</p><p>&nbsp;&nbsp;-&nbsp;Сlimate</p>"
                 }
-            ]
+            ],
+            "selects": {}
         }
     ],
     "path": "shop_ccc",
+    "tags": [],
     "title": "МАГАЗИН ССС",
     "path_nuxt": "shop_ccc"
 }

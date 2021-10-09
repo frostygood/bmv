@@ -16,7 +16,8 @@ const generateRoutes = async () => {
 }
 
 export default {
-  mode: 'universal',
+  //mode: 'universal',
+  target: 'static',
 	components: true,
   router: {
     extendRoutes(routes, resolve) {
@@ -99,6 +100,7 @@ export default {
   axios: {
   },
   generate: {
+    cache: false,
     routes: generateRoutes
   },
   build: {

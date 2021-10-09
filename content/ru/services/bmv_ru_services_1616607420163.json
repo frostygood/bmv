@@ -1,94 +1,178 @@
 {
+    "active": true,
     "description": "«BMV Engineering» профессионально спроектируют и смонтируют холодильное оборудование на любом объекте, от бытовых помещений до промышленных предприятий.",
     "id": "bmv_ru_services_1616607420163",
     "img": "",
+    "lock": false,
+    "needTranslate": false,
     "page": [
         {
             "id": "title1618321618422",
             "name": "title",
+            "orders": {
+                "title": "1"
+            },
+            "placeholders": {
+                "title": "Главный заголовок страницы (не больше одного на страницу, в html разметке выглядит как H1)"
+            },
+            "preview": "",
             "props": [
                 {
                     "title": "Холодильное оборудование"
                 }
-            ]
+            ],
+            "selects": {}
         },
         {
             "id": "space1618321627384",
             "name": "space",
+            "orders": {
+                "name_class": "1"
+            },
+            "placeholders": {
+                "name_class": "Высота отступа"
+            },
+            "preview": "",
             "props": [
                 {
-                    "note": false
-                },
-                {
-                    "name_class": "big"
+                    "name_class": "large"
                 }
-            ]
+            ],
+            "selects": {
+                "name_class": [
+                    "large",
+                    "big",
+                    "small",
+                    "last"
+                ]
+            }
         },
         {
             "id": "editor1616342394590",
             "name": "editor",
+            "orders": {
+                "texts": "1"
+            },
+            "placeholders": {
+                "texts": "Большой текст со стилизацией"
+            },
+            "preview": "",
             "props": [
                 {
                     "texts": "<p>Холодильное оборудование используется во многих видах деятельности. Например, в супермаркетах, на пивоваренных заводах и мясокомбинатах, на химических комбинатах, сыродельнях и молокозаводах.</p>"
                 }
-            ]
+            ],
+            "selects": {}
         },
         {
             "id": "space1616343397427",
             "name": "space",
+            "orders": {
+                "name_class": "1"
+            },
+            "placeholders": {
+                "name_class": "Высота отступа"
+            },
+            "preview": "",
             "props": [
                 {
-                    "note": false
-                },
-                {
-                    "name_class": "small"
+                    "name_class": "large"
                 }
-            ]
+            ],
+            "selects": {
+                "name_class": [
+                    "large",
+                    "big",
+                    "small",
+                    "last"
+                ]
+            }
         },
         {
             "id": "contactus1616342330875",
             "name": "contactus",
+            "orders": {
+                "texts": "1"
+            },
+            "placeholders": {
+                "texts": "вкл - темный фон, выкл - светлый фон"
+            },
+            "preview": "",
             "props": [
                 {
                     "pageBlock": true
                 }
-            ]
+            ],
+            "selects": {}
         },
         {
             "id": "space1616342992364",
             "name": "space",
+            "orders": {
+                "name_class": "1"
+            },
+            "placeholders": {
+                "name_class": "Высота отступа"
+            },
+            "preview": "",
             "props": [
                 {
-                    "note": false
-                },
-                {
-                    "name_class": "small"
+                    "name_class": "large"
                 }
-            ]
+            ],
+            "selects": {
+                "name_class": [
+                    "large",
+                    "big",
+                    "small",
+                    "last"
+                ]
+            }
         },
         {
             "id": "editor1616343007249",
             "name": "editor",
+            "orders": {
+                "texts": "1"
+            },
+            "placeholders": {
+                "texts": "Большой текст со стилизацией"
+            },
+            "preview": "",
             "props": [
                 {
                     "texts": "<p>Наша компания занимается централизованным холодоснабжением торговых комплексов, а также продажей и установкой:</p><ul><li><p>холодильной арматуры</p></li><li><p>холодильных и морозильных складов</p></li><li><p>холодильных компрессоров</p></li><li><p>электрооборудования</p></li><li><p>автоматики и мн. др.</p></li></ul><p>Также мы занимаемся ремонтом и техническим обслуживанием холодильного оборудования.</p>"
                 }
-            ]
+            ],
+            "selects": {}
         },
         {
             "id": "space1616343414067",
             "name": "space",
+            "orders": {
+                "name_class": "1"
+            },
+            "placeholders": {
+                "name_class": "Высота отступа"
+            },
+            "preview": "",
             "props": [
                 {
-                    "note": false
-                },
-                {
-                    "name_class": "small"
+                    "name_class": "large"
                 }
-            ]
+            ],
+            "selects": {
+                "name_class": [
+                    "large",
+                    "big",
+                    "small",
+                    "last"
+                ]
+            }
         }
     ],
     "path": "cool",
+    "tags": [],
     "title": "Холодильное оборудование в Курске",
     "path_nuxt": "cool"
 }

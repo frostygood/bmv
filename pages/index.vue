@@ -47,7 +47,7 @@
 				</div>
 				<div class="company-info__row">
 					<div class="left">
-						<img src="/img/company-info-img.png" class="company-info__img" alt="" />
+						<img src="/img/company-info-img.png"  loading="lazy" class="company-info__img" alt="" />
 					</div>
 					<div class="right">
 						<div class="company-info__today">СЕГОДНЯ</div>

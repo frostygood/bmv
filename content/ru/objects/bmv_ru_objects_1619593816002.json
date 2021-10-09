@@ -1,32 +1,64 @@
 {
+    "active": true,
     "description": "Проводимые нами работы - поставка и монтаж систем вентиляции, обследование и ремонт систем вентиляции.",
     "id": "bmv_ru_objects_1619593816002",
     "img": "bmv_ru_objects_1619593816002_1619594351561_boulanger.jpg",
+    "lock": false,
+    "needTranslate": false,
     "page": [
         {
             "id": "title1618326385916",
             "name": "title",
+            "orders": {
+                "title": "1"
+            },
+            "placeholders": {
+                "title": "Главный заголовок страницы (не больше одного на страницу, в html разметке выглядит как H1)"
+            },
+            "preview": "",
             "props": [
                 {
                     "title": "БУЛАНЖЕ"
                 }
-            ]
+            ],
+            "selects": {}
         },
         {
             "id": "space1618326407520",
             "name": "space",
+            "orders": {
+                "name_class": "1"
+            },
+            "placeholders": {
+                "name_class": "Высота отступа"
+            },
+            "preview": "",
             "props": [
                 {
-                    "note": false
-                },
-                {
-                    "name_class": "small"
+                    "name_class": "large"
                 }
-            ]
+            ],
+            "selects": {
+                "name_class": [
+                    "large",
+                    "big",
+                    "small",
+                    "last"
+                ]
+            }
         },
         {
             "id": "bigimg1618326495390",
             "name": "bigimg",
+            "orders": {
+                "alt": "2",
+                "img": "1"
+            },
+            "placeholders": {
+                "alt": "Название и описание картинки для поисковиков",
+                "img": "Загрузка основной картинки"
+            },
+            "preview": "",
             "props": [
                 {
                     "alt": ""
@@ -34,32 +66,70 @@
                 {
                     "img": "/_vue_builder/bmv_ru_objects_1619593816002_1619593836017_boulanger.jpg"
                 }
-            ]
+            ],
+            "selects": {}
         },
         {
             "id": "editor1618326421393",
             "name": "editor",
+            "orders": {
+                "texts": "1"
+            },
+            "placeholders": {
+                "texts": "Большой текст со стилизацией"
+            },
+            "preview": "",
             "props": [
                 {
                     "texts": "<h3>Проводимые нами работы:</h3><ul><li><p>поставка и монтаж систем вентиляции;</p></li><li><p>обследование и ремонт систем вентиляции.</p></li></ul>"
                 }
-            ]
+            ],
+            "selects": {}
         },
         {
             "id": "space1618326521821",
             "name": "space",
+            "orders": {
+                "name_class": "1"
+            },
+            "placeholders": {
+                "name_class": "Высота отступа"
+            },
+            "preview": "",
             "props": [
                 {
-                    "note": false
-                },
-                {
-                    "name_class": "small"
+                    "name_class": "large"
                 }
-            ]
+            ],
+            "selects": {
+                "name_class": [
+                    "large",
+                    "big",
+                    "small",
+                    "last"
+                ]
+            }
         },
         {
             "id": "imgsblock1619593936653",
             "name": "imgsblock",
+            "orders": {
+                "first_alt": "2",
+                "first_img": "1",
+                "second_alt": "4",
+                "second_img": "3",
+                "third_alt": "6",
+                "third_img": "5"
+            },
+            "placeholders": {
+                "first_alt": "Название и описание первой картинки для поисковиков",
+                "first_img": "Первая картинка (если не загружать, то ничего не покажется)",
+                "second_alt": "Название и описание второй картинки для поисковиков",
+                "second_img": "Вторая картинка (если не загружать, то ничего не покажется)",
+                "third_alt": "Название и описание третьей картинки для поисковиков",
+                "third_img": "Третья картинка (если не загружать, то ничего не покажется)"
+            },
+            "preview": "",
             "props": [
                 {
                     "first_alt": ""
@@ -79,40 +149,70 @@
                 {
                     "third_img": "/_vue_builder/bmv_ru_objects_1619593816002_1619593969144_boulanger_3.jpg"
                 }
-            ]
+            ],
+            "selects": {}
         },
         {
             "id": "space1618326683423",
             "name": "space",
+            "orders": {
+                "name_class": "1"
+            },
+            "placeholders": {
+                "name_class": "Высота отступа"
+            },
+            "preview": "",
             "props": [
                 {
-                    "note": false
-                },
-                {
-                    "name_class": "small"
+                    "name_class": "large"
                 }
-            ]
+            ],
+            "selects": {
+                "name_class": [
+                    "large",
+                    "big",
+                    "small",
+                    "last"
+                ]
+            }
         },
         {
             "id": "editor1618326704778",
             "name": "editor",
+            "orders": {
+                "texts": "1"
+            },
+            "placeholders": {
+                "texts": "Большой текст со стилизацией"
+            },
+            "preview": "",
             "props": [
                 {
                     "texts": "<p>«Буланже» — кофейня, которая всегда рада гостям.</p><p>Здесь вы найдете кофе, сваренный из лучших зерен собственной обжарки, авторские напитки и обширное меню блюд и десертов, созданных поварами «Буланже» исключительно из натуральных продуктов. Вкуснейшие завтраки и десерты по доступным ценам и, конечно же, легендарный горячий шоколад и Тирамису.</p><p>«Буланже» — это и место для встречи с друзьями, и кафе, где удобно обсудить самое важное с бизнес-партнерами, и конечно же, это теплые ужины в кругу семьи.</p><h3>Работы проводились в 2018 году.</h3>"
                 }
-            ]
+            ],
+            "selects": {}
         },
         {
             "id": "editor1618326467179",
             "name": "editor",
+            "orders": {
+                "texts": "1"
+            },
+            "placeholders": {
+                "texts": "Большой текст со стилизацией"
+            },
+            "preview": "",
             "props": [
                 {
                     "texts": "<p>- Vent</p>"
                 }
-            ]
+            ],
+            "selects": {}
         }
     ],
     "path": "boulanger",
+    "tags": [],
     "title": "БУЛАНЖЕ",
     "path_nuxt": "boulanger"
 }
