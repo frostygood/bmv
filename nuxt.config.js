@@ -55,21 +55,21 @@ export default {
     '@nuxt/content',
     '@nuxtjs/sitemap',
     '@nuxtjs/robots',
-    '@nuxtjs/yandex-metrika',
-    '@nuxtjs/google-gtag',
+    // '@nuxtjs/yandex-metrika',
+    // '@nuxtjs/google-gtag',
   ],
   content: {
     liveEdit: false,
-    fullTextSearchFields: ['title']
+    fullTextSearchFields: ['title', 'path_nuxt', 'path']
   },  
-  yandexMetrika: {
-    id: config.metrica,
-    webvisor: true,
-    clickmap:true,
-    useCDN:true,
-    trackLinks:true,
-    accurateTrackBounce:true,
-  },
+  // yandexMetrika: {
+  //   id: config.metrica,
+  //   webvisor: true,
+  //   clickmap:true,
+  //   useCDN:true,
+  //   trackLinks:true,
+  //   accurateTrackBounce:true,
+  // },
   robots: [
     {
 			UserAgent: '*',
@@ -101,16 +101,16 @@ export default {
   },
   axios: {
   },
-  "google-gtag": {
-		id: 'G-DRS0Y64P6W',
-		config: {
-			'accept_incoming': true,
-			'decorate_forms': true,
-			'send_page_view': false,
-			'cookie_domain': 'auto'
-		},
-		debug: !isDev,
-	},
+  // "google-gtag": {
+	// 	id: 'G-DRS0Y64P6W',
+	// 	config: {
+	// 		'accept_incoming': true,
+	// 		'decorate_forms': true,
+	// 		'send_page_view': false,
+	// 		'cookie_domain': 'auto'
+	// 	},
+	// 	debug: !isDev,
+	// },
   generate: {
     cache: false,
     routes: generateRoutes

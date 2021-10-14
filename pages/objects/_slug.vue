@@ -17,8 +17,6 @@ export default {
 		await $content('ru', 'objects').fetch().then((docs) => {
 				let err = true
 				docs.forEach(element => {
-				console.log(element.path_nuxt)
-				console.log(params.slug)
 					if (element.path_nuxt == params.slug) {
 						err = false
 						page = element

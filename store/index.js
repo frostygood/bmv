@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import geoIp from './modules/geoip.js';
+//import geoIp from './modules/geoip.js';
 
 Vue.use(Vuex);
 
@@ -30,9 +30,9 @@ const store = () => new Vuex.Store({
   getters: {
 
   },
-  modules: {
-    geo: geoIp,
-  },
+  // modules: {
+  //   geo: geoIp,
+  // },
 });
 
 export default store

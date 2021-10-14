@@ -116,7 +116,7 @@ export default {
 		return {page: datapage};
 	},
 	created() {
-		this.getServices()
+		  this.getServices()
 	},
 	data: function () {
 		return {

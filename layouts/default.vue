@@ -28,7 +28,7 @@ export default {
   },
   data() {
 		return {
-			windowWidth: process.browser ? window.innerWidth : "0",
+			//windowWidth: process.browser ? window.innerWidth : "0",
 		};
 	},
 }

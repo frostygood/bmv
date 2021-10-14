@@ -19,7 +19,7 @@
 		margin-bottom: 80px;
 
 		h3 {
-			font-family: "Inter", Roboto, Arial, sans-serif;
+			font-family: Roboto, Arial, sans-serif;
 			font-style: normal;
 			font-weight: 600;
 			font-size: 32px;
@@ -37,7 +37,7 @@
 		}
 
 		p {
-			font-family: "Inter", Roboto, Arial, sans-serif;
+			font-family: Roboto, Arial, sans-serif;
 			font-style: normal;
 			font-weight: 400;
 			font-size: 18px;

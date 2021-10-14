@@ -18,22 +18,13 @@ import conf from '~/json/config.json'
 export default {
   async asyncData ({ $content, params, error }) {
     let page
-		await $content('ru', 'articles').fetch().then((docs) => {
-				let err = true
-				docs.forEach(element => {
-				console.log(element.path_nuxt)
-				console.log(params.slug)
-					if (element.path_nuxt == params.slug) {
-						err = false
-						page = element
-					}
-				});
-				if (err) return error({ statusCode: 404, message: 'LP not found'})
-			}).catch((err) => {
-				return error({ statusCode: 404, message: 'LP not found - ' + err})
-		})
+	try {
+			page = await $content('ru', 'articles').search(params.slug).limit(1).fetch();
+		} catch (e) {
+			error({ statusCode: 404, message: 'Article not found'})
+		}
 		return {
-			page: page,
+			page: page[0],
 			url: params.slug
 		}
   },

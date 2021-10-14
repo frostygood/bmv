@@ -28,5 +28,6 @@
 	max-height: 400px;
 	display: block;
 	max-width: 100%;
+	min-height: 180px;
 }
 </style>
