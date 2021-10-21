@@ -8,6 +8,9 @@
 
 <script>
 	export default {
+		preview: "",
+        category: "For Pictures",
+		name: "imgsblock",
 		props: {
 			first_img: {
 				type: String,

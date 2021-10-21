@@ -19,6 +19,9 @@
 <script>
 import Axios from 'axios'
 export default {
+	preview: "",
+	category: "Blocks of page",
+	name: "contactus",
 	props: {
 		pageBlock: {
 			type: Boolean,

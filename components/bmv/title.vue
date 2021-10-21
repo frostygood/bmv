@@ -10,6 +10,9 @@
 
 <script>
 	export default {
+		preview: "",
+        category: "Blocks of page",
+		name: "title",
 		props: {
 			title: {
 				type: String,

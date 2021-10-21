@@ -4,6 +4,9 @@
 
 <script>
 	export default {
+		preview: "",
+        category: "For Pictures",
+		name: "bigimg",
 		props: {
 			img: {
 				type: String,
