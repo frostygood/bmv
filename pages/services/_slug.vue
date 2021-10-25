@@ -70,7 +70,7 @@ export default {
 			this.page.title, 
 			this.page.description, 
 			'/img/footer-logo.png', 
-			conf.url + this.$route.path
+			conf.url + this.$route.path + '/'
 		)
 	},
 };

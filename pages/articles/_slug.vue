@@ -56,7 +56,7 @@ export default {
 			this.page.title, 
 			this.page.description, 
 			this.page.img, 
-			conf.url + this.$route.path
+			conf.url + this.$route.path + '/'
 		)
 	},
 }

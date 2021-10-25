@@ -55,7 +55,7 @@ export default {
 			'Контакты - БМВ Курск - BMV Engineering', 
 			this.config.phone + ' - ' + this.config.address, 
 			'/img/footer-logo.png', 
-			conf.url + '/' + this.$route.name
+			conf.url + '/' + this.$route.name + '/'
 		)
   },
 }

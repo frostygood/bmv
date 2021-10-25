@@ -60,7 +60,7 @@ export default {
 			'Сданные объекты компанией BMV', 
 			'Кондиционер, чиллер, фанкойл, фэнкойл, холодильное оборудование, вентиляция, воздуховод,  тепловое оборудование, автоматика,  видеонаблюдение, General, Fujitsu, McQuay, Sanyo, Mitsubishi Heavy, Курск', 
 			'/img/footer-logo.png', 
-			conf.url + '/' + this.$route.name 
+			conf.url + '/' + this.$route.name  + '/'
 		)
   },
 }

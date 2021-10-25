@@ -59,7 +59,7 @@ export default {
 			this.article.title, 
 			this.article.description, 
 			this.article.imgUrl, 
-			conf.url + this.article.path
+			conf.url + this.article.path + '/'
 		)
   },
 }
